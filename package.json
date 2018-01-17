@@ -68,11 +68,11 @@
     "CouchDB 2.0",
     "CouchDB 2.1"
   ],
-  "homepage": "https://github.com/starmobiledevelopers/OnSiteConsoleX/",
+  "homepage": "https://github.com/chorpler/OnSiteConsoleX/",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/starmobiledevelopers/OnSiteConsoleX.git#electron"
+    "url": "git+https://github.com/chorpler/OnSiteConsoleX.git"
   },
   "main": "electron/electron.js",
   "config": {
@@ -96,8 +96,7 @@
   "build": {
     "publish": [
       {
-        "provider": "github",
-        "private": true
+        "provider": "github"
       },
       {
         "provider": "generic",
@@ -240,7 +239,7 @@
     "@types/json5": "0.0.29",
     "@types/webpack": "^3.0.9",
     "electron": "^1.7.9",
-    "electron-builder": "^19.47.1",
+    "electron-builder": "19.47.1",
     "electron-packager": "^10.1.0",
     "foreman": "^2.0.0",
     "ionic": "3.19.0",

@@ -83,37 +83,37 @@ function createDefaultWindow() {
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
 app.on('ready', () => {
-  console.log("Electron: got app ready event!");
+  log.info("Electron: got app ready event!");
   if(!win) {
     createWindow();
   }
   if(!winUpdate) {
     createDefaultWindow();
   }
-  autoUpdater.checkForUpdates();
+  autoUpdater.checkForUpdatesAndNotify();
   // createWindow();
 });
 
-autoUpdater.on('checking-for-update', () => {
-  console.log(`autoUpdater(): received event 'checking-for-update'.`);
+autoUpdater.on('checking-for-update', (res) => {
+  log.info(`autoUpdater(): received event 'checking-for-update'.\n`, res);
   sendStatusToWindow('Checking for update...');
 });
 autoUpdater.on('update-available', (ev, info) => {
-  console.log(`autoUpdater(): received event 'update-available':\n`, ev, `\n`, info);
+  log.info(`autoUpdater(): received event 'update-available':\n`, ev, `\n`, info);
   sendStatusToWindow('Update available.');
 });
 autoUpdater.on('error', (ev, err) => {
-  console.log(`autoUpdater(): received event 'error':\n`, err);
+  log.info(`autoUpdater(): received event 'error':\n`, err);
   sendStatusToWindow('Error in auto-updater.');
   createWindow();
 });
 autoUpdater.on('download-progress', (ev, progressObj) => {
-  console.log(`autoUpdater(): received event 'progress':\n`, progressObj);
+  log.info(`autoUpdater(): received event 'progress':\n`, progressObj);
   sendStatusToWindow('Download progress...');
 });
 
 autoUpdater.on('update-downloaded', (ev, info) => {
-  console.log(`autoUpdater(): received event 'update-downloaded':\n`, ev, `\n`, info);
+  log.info(`autoUpdater(): received event 'update-downloaded':\n`, ev, `\n`, info);
   // Wait 5 seconds, then quit and install
   // In your application, you don't need to wait 5 seconds.
   // You could call autoUpdater.quitAndInstall(); immediately
@@ -133,7 +133,7 @@ autoUpdater.on('update-downloaded', (ev, info) => {
 });
 
 autoUpdater.on('update-not-available', (ev, info) => {
-  console.log(`autoUpdater(): received event 'update-not-available':\n`, ev, `\n`, info);
+  log.info(`autoUpdater(): received event 'update-not-available':\n`, ev, `\n`, info);
   sendStatusToWindow('Update not available.');
   createWindow();
 });
