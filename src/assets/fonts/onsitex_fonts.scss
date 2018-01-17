@@ -1,0 +1,561 @@
+/* IcoMoon custom OnSiteX font */
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?d2joxm');
+  src:  url('../fonts/icomoon.eot?d2joxm#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?d2joxm') format('truetype'),
+    url('../fonts/icomoon.woff?d2joxm') format('woff'),
+    url('../fonts/icomoon.svg?d2joxm#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-globe:before {
+  content: "\e992";
+}
+.icomoon-globe-wireframe:before {
+  content: "\e993";
+}
+.icomoon-data-refresh:before {
+  content: "\e98c";
+}
+.icomoon-data-refresh-2 .path1:before {
+  content: "\e98d";
+  color: rgb(255, 255, 255);
+}
+.icomoon-data-refresh-2 .path2:before {
+  content: "\e98e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-data-refresh-2 .path3:before {
+  content: "\e98f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-data-refresh-2 .path4:before {
+  content: "\e990";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icomoon-data-refresh-2 .path5:before {
+  content: "\e991";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icomoon-add:before {
+  content: "\e901";
+}
+.icomoon-add-circle-outline:before {
+  content: "\e902";
+}
+.icomoon-albums-outline:before {
+  content: "\e903";
+}
+.icomoon-alert-outline:before {
+  content: "\e904";
+}
+.icomoon-analytics-outline:before {
+  content: "\e905";
+}
+.icomoon-android:before {
+  content: "\e906";
+}
+.icomoon-apple:before {
+  content: "\e907";
+}
+.icomoon-apps-outline:before {
+  content: "\e908";
+}
+.icomoon-archive-outline:before {
+  content: "\e909";
+}
+.icomoon-arrow-back:before {
+  content: "\e90a";
+}
+.icomoon-arrow-down:before {
+  content: "\e90b";
+}
+.icomoon-arrow-forward:before {
+  content: "\e90c";
+}
+.icomoon-arrow-up:before {
+  content: "\e90d";
+}
+.icomoon-authenticate:before {
+  content: "\e989";
+}
+.icomoon-briefcase-outline:before {
+  content: "\e90e";
+}
+.icomoon-browsers-outline:before {
+  content: "\e90f";
+}
+.icomoon-calculator-outline:before {
+  content: "\e910";
+}
+.icomoon-calendar-outline:before {
+  content: "\e911";
+}
+.icomoon-call-outline:before {
+  content: "\e912";
+}
+.icomoon-chatboxes-outline:before {
+  content: "\e913";
+}
+.icomoon-chatbubbles-outline:before {
+  content: "\e914";
+}
+.icomoon-clipboard-outline:before {
+  content: "\e915";
+}
+.icomoon-close:before {
+  content: "\e916";
+}
+.icomoon-close-circle-outline:before {
+  content: "\e917";
+}
+.icomoon-compass-outline:before {
+  content: "\e918";
+}
+.icomoon-contact-outline:before {
+  content: "\e919";
+}
+.icomoon-contacts-outline:before {
+  content: "\e91a";
+}
+.icomoon-copy-form .path1:before {
+  content: "\e91b";
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-form .path2:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icomoon-copy-form .path3:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-form .path4:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icomoon-copy-form .path5:before {
+  content: "\e91f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-form .path6:before {
+  content: "\e920";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-list .path1:before {
+  content: "\e921";
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-list .path2:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icomoon-copy-list .path3:before {
+  content: "\e923";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-list .path4:before {
+  content: "\e924";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icomoon-copy-list .path5:before {
+  content: "\e925";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-list .path6:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-list .path7:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-list .path8:before {
+  content: "\e928";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-list .path9:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-outline:before {
+  content: "\e92a";
+}
+.icomoon-copy-table .path1:before {
+  content: "\e92b";
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-table .path2:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icomoon-copy-table .path3:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-copy-table .path4:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icomoon-create-outline:before {
+  content: "\e92f";
+}
+.icomoon-developer:before {
+  content: "\e98a";
+}
+.icomoon-document-outline:before {
+  content: "\e930";
+}
+.icomoon-download-outline:before {
+  content: "\e931";
+}
+.icomoon-dps:before {
+  content: "\e932";
+}
+.icomoon-dps-2:before {
+  content: "\e933";
+}
+.icomoon-exit-outline:before {
+  content: "\e934";
+}
+.icomoon-eye-off-outline:before {
+  content: "\e935";
+}
+.icomoon-eye-outline:before {
+  content: "\e936";
+}
+.icomoon-filing-outline:before {
+  content: "\e937";
+}
+.icomoon-flag-outline:before {
+  content: "\e938";
+}
+.icomoon-folder-open-outline:before {
+  content: "\e939";
+}
+.icomoon-folder-outline:before {
+  content: "\e93a";
+}
+.icomoon-globe-outline:before {
+  content: "\e93b";
+}
+.icomoon-help-circle-outline:before {
+  content: "\e93c";
+}
+.icomoon-home-outline:before {
+  content: "\e93d";
+}
+.icomoon-image-outline:before {
+  content: "\e93e";
+}
+.icomoon-images-outline:before {
+  content: "\e93f";
+}
+.icomoon-information-circle-outline:before {
+  content: "\e940";
+}
+.icomoon-invoice:before {
+  content: "\e941";
+}
+.icomoon-keypad-outline:before {
+  content: "\e942";
+}
+.icomoon-list-box-outline:before {
+  content: "\e943";
+}
+.icomoon-llocation-outline:before {
+  content: "\e944";
+}
+.icomoon-locate-outline:before {
+  content: "\e945";
+}
+.icomoon-log-in:before {
+  content: "\e946";
+}
+.icomoon-log-out:before {
+  content: "\e947";
+}
+.icomoon-map-outline:before {
+  content: "\e948";
+}
+.icomoon-medal-outline:before {
+  content: "\e949";
+}
+.icomoon-menu:before {
+  content: "\e94a";
+}
+.icomoon-more-outline:before {
+  content: "\e94b";
+}
+.icomoon-navigate-outline:before {
+  content: "\e94c";
+}
+.icomoon-oil-location:before {
+  content: "\e94d";
+}
+.icomoon-open-outline:before {
+  content: "\e94e";
+}
+.icomoon-options-outline:before {
+  content: "\e94f";
+}
+.icomoon-paper-outline:before {
+  content: "\e950";
+}
+.icomoon-payroll:before {
+  content: "\e951";
+}
+.icomoon-people-outline:before {
+  content: "\e952";
+}
+.icomoon-person-add-outline:before {
+  content: "\e953";
+}
+.icomoon-person-outline:before {
+  content: "\e954";
+}
+.icomoon-phone-landscape:before {
+  content: "\e955";
+}
+.icomoon-phone-portrait:before {
+  content: "\e956";
+}
+.icomoon-photos-outline:before {
+  content: "\e957";
+}
+.icomoon-pie-outline:before {
+  content: "\e958";
+}
+.icomoon-print-outline:before {
+  content: "\e959";
+}
+.icomoon-pulse:before {
+  content: "\e95a";
+}
+.icomoon-pulse-outline:before {
+  content: "\e95b";
+}
+.icomoon-refresh:before {
+  content: "\e95c";
+}
+.icomoon-refresh-circle-outline:before {
+  content: "\e95d";
+}
+.icomoon-refresh-form:before {
+  content: "\e95e";
+}
+.icomoon-remove-circle-outline:before {
+  content: "\e95f";
+}
+.icomoon-reorder:before {
+  content: "\e960";
+}
+.icomoon-repeat:before {
+  content: "\e961";
+}
+.icomoon-reports .path1:before {
+  content: "\e962";
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports .path2:before {
+  content: "\e963";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports .path3:before {
+  content: "\e964";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports .path4:before {
+  content: "\e965";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports .path5:before {
+  content: "\e966";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports .path6:before {
+  content: "\e967";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icomoon-reports .path7:before {
+  content: "\e968";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports .path8:before {
+  content: "\e969";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports .path9:before {
+  content: "\e96a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports .path10:before {
+  content: "\e96b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports .path11:before {
+  content: "\e96c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports-flagged:before {
+  content: "\e96d";
+}
+.icomoon-reports-flagged-red .path1:before {
+  content: "\e96e";
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports-flagged-red .path2:before {
+  content: "\e96f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports-flagged-red .path3:before {
+  content: "\e970";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports-flagged-red .path4:before {
+  content: "\e971";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports-flagged-red .path5:before {
+  content: "\e972";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports-flagged-red .path6:before {
+  content: "\e973";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports-flagged-red .path7:before {
+  content: "\e974";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports-flagged-red .path8:before {
+  content: "\e975";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports-flagged-red .path9:before {
+  content: "\e976";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-reports-flagged-red .path10:before {
+  content: "\e977";
+  margin-left: -1em;
+  color: rgb(153, 0, 0);
+}
+.icomoon-reset:before {
+  content: "\e978";
+}
+.icomoon-reset-form .path1:before {
+  content: "\e979";
+  color: rgb(0, 0, 0);
+}
+.icomoon-reset-form .path2:before {
+  content: "\e97a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icomoon-reset-form .path3:before {
+  content: "\e97b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icomoon-resize:before {
+  content: "\e97c";
+}
+.icomoon-schedule:before {
+  content: "\e97d";
+}
+.icomoon-search-outline:before {
+  content: "\e97e";
+}
+.icomoon-settings-outline:before {
+  content: "\e97f";
+}
+.icomoon-share-outline:before {
+  content: "\e980";
+}
+.icomoon-split:before {
+  content: "\e900";
+}
+.icomoon-square-outline:before {
+  content: "\e981";
+}
+.icomoon-stats-outline:before {
+  content: "\e982";
+}
+.icomoon-swap:before {
+  content: "\e983";
+}
+.icomoon-switch-outline:before {
+  content: "\e984";
+}
+.icomoon-sync:before {
+  content: "\e985";
+}
+.icomoon-tablet-landscape:before {
+  content: "\e986";
+}
+.icomoon-tablet-portrait:before {
+  content: "\e987";
+}
+.icomoon-trash-outline:before {
+  content: "\e988";
+}
+.icomoon-developer-head:before {
+  content: "\e98b";
+}

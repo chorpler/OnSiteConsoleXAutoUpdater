@@ -1,0 +1,104 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button menuToggle *ngIf="mode !== 'modal'">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{title}}</ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only (click)="toggleShowAllEmployees()" title="Toggle Show All Employees">
+        <ion-icon *ngIf="showAllEmployees" class="schedule-list-options-button" name="md-eye"></ion-icon>
+        <ion-icon *ngIf="!showAllEmployees" class="schedule-list-options-button" name="md-eye-off"></ion-icon>
+      </button>
+      <button class="employees-buttons employees-csv-export" [class.highlighted]="editMode" ion-button icon-only (click)="toggleEditMode()" title="Toggle Edit Mode">
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+      </button>
+      <button class="employees-buttons employees-csv-export" ion-button icon-only (click)="dt.exportCSV()" title="Export CSV">
+        <i class="fa fa-table" aria-hidden="true"></i>
+      </button>
+      <button class="employees-buttons employees-add-button" ion-button icon-only (click)="addEmployee()" title="Add Employee">
+        <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="employees-data-table-wrapper" *ngIf="dataReady && data.ready()">
+    <div class="employees-search-header">
+      <div class="employees-search-header-item">
+        <!-- <p-multiSelect class="primeng-employees-multiselect" [options]="colOpts" [(ngModel)]="selectedColumns" (onChange)="selectionChanged(selectedColumns)"></p-multiSelect> -->
+        <p-multiSelect class="primeng-employees-multiselect" [options]="colOpts" [(ngModel)]="selectedColumns" (onChange)="selectionChanged()"></p-multiSelect>
+      </div>
+      <div class="employees-search-header-item">
+        <ion-icon name="search"></ion-icon>
+        <input class="employees-search-input" #globalSearch pInputText type="text" placeholder="Global search" />
+      </div>
+      <!-- <div class="employees-search-header-item">
+        <div class="employees-search-header-items">
+          <span class="employees-search-username-label">Show Username</span>
+          <span class="employees-search-username-item"><ion-toggle class="employees-search-username-toggle" [(ngModel)]="showUsername" (ngModelChange)="columnsChanged()"></ion-toggle></span>
+        </div>
+        <div class="employees-search-header-items">
+          <span class="employees-search-username-label">Show All Employees</span>
+          <span class="employees-search-username-item"><ion-toggle class="employees-search-username-toggle" [(ngModel)]="showAllEmployees" (ngModelChange)="toggleShowAllEmployees()"></ion-toggle></span>
+        </div>
+      </div> -->
+    </div>
+    <!-- <p-dataTable #dt [immutable]="false" [value]="displayEmployees" [resizableColumns]="true" columnResizeMode="expand" [editable]="true" [globalFilter]="globalSearch" [(rows)]="rowCount" [paginator]="true" [pageLinks]="3" [rowsPerPageOptions]="[30,50,100,150,500,1000]" selectionMode="single" [(selection)]="selectedEmployee" (onRowSelect)="onRowSelect($event)" *ngIf="dataReady && employees && employees.length > 0"> -->
+    <p-dataTable #dt [immutable]="false" [value]="displayEmployees" [globalFilter]="globalSearch" [(rows)]="rowCount" [paginator]="true" [pageLinks]="3" [rowsPerPageOptions]="[30,50,100,150,500,1000]" *ngIf="dataReady && employees && employees.length > 0 && !editMode">
+      <p-column [style]="styleColEdit">
+        <ng-template pTemplate="header">--</ng-template>
+        <ng-template let-employee="rowData" pTemplate="body">
+          <!-- <button type="button" pButton (click)="editEmployee(employee)" icon="fa-pencil-square-o"></button> -->
+          <button class="employees-edit-button" ion-button icon-only (click)="editEmployee(employee, $event)">
+            <ion-icon class="employees-edit-button-icon" name="ios-create-outline"></ion-icon>
+          </button>
+        </ng-template>
+      </p-column>
+      <p-column [style]="styleColIndex" field="_id" header="#">
+        <ng-template pTemplate="body" let-col let-ri="rowIndex">{{ri+1}}</ng-template>
+      </p-column>
+            <!-- <p-column *ngFor="let col of displayColumns; let i=index" [field]="col.field" [header]="col.header" [sortable]="true" [filter]="col.filter" [filterPlaceholder]="col.filterPlaceholder"> -->
+        <!-- <p-column *ngFor="let col of cols; let i=index" [field]="col.field" [header]="col.header" [sortable]="true"> -->
+      <p-column *ngFor="let col of cols; let i=index" class="dt-column column-{{i}}" [field]="col.field" [header]="col.header" [sortable]="true" [filter]="col.filter" [filterPlaceholder]="col.filterPlaceholder">
+        <!-- <ng-template let-col let-tech="rowData" pTemplate="body"> -->
+          <!-- <span [style.color]="tech[col.field]"> -->
+            <!-- {{tech[col.field]}} -->
+          <!-- </span> -->
+        <!-- </ng-template> -->
+      </p-column>
+    </p-dataTable>
+
+    <p-dataTable #dt [immutable]="false" [value]="displayEmployees" [editable]="true" [globalFilter]="globalSearch" [(rows)]="rowCount" [paginator]="true" [pageLinks]="3" [rowsPerPageOptions]="[30,50,100,150,500,1000]" *ngIf="dataReady && employees && employees.length > 0 && editMode">
+      <p-column [style]="styleColEdit">
+        <ng-template pTemplate="header">--</ng-template>
+        <ng-template let-employee="rowData" pTemplate="body">
+          <!-- <button type="button" pButton (click)="editEmployee(employee)" icon="fa-pencil-square-o"></button> -->
+          <button class="employees-edit-button" ion-button icon-only (click)="editEmployee(employee)">
+            <ion-icon class="employees-edit-button-icon" name="ios-create-outline"></ion-icon>
+          </button>
+        </ng-template>
+      </p-column>
+      <p-column [style]="styleColIndex" field="_id" header="#">
+        <ng-template pTemplate="body" let-col let-ri="rowIndex">{{ri+1}}</ng-template>
+      </p-column>
+          <!-- <p-column *ngFor="let col of displayColumns; let i=index" [field]="col.field" [header]="col.header" [sortable]="true" [filter]="col.filter" [filterPlaceholder]="col.filterPlaceholder"> -->
+        <!-- <p-column *ngFor="let col of cols; let i=index" [field]="col.field" [header]="col.header" [sortable]="true"> -->
+      <p-column *ngFor="let col of cols; let i=index" class="column-{{i}}" [editable]="true" [field]="col.field" [header]="col.header" [sortable]="true" [filter]="col.filter" [filterPlaceholder]="col.filterPlaceholder">
+        <!-- <ng-template let-col let-tech="rowData" pTemplate="body"> -->
+          <!-- <span [style.color]="tech[col.field]"> -->
+            <!-- {{tech[col.field]}} -->
+          <!-- </span> -->
+        <!-- </ng-template> -->
+      </p-column>
+    </p-dataTable>
+  </div>
+  <!-- <p-contextMenu #cm [model]="ctxItems"></p-contextMenu> -->
+
+  <!-- <p-dialog class="primeng-employees-dialog" header="Fields" [(visible)]="fieldsDialogVisible" [contentStyle]="{'overflow':'visible'}"> -->
+      <!-- <p-multiSelect class="primeng-employees-multiselect" [options]="colOpts" [(ngModel)]="cols" (onChange)="columnsChanged()"></p-multiSelect>     -->
+    <!-- <p-multiSelect class="primeng-employees-multiselect" [options]="colOpts" [(ngModel)]="cols"></p-multiSelect> -->
+  <!-- </p-dialog> -->
+</ion-content>

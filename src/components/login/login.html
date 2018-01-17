@@ -1,0 +1,65 @@
+<span class="login-component">
+  <!-- <p-panel header="Login"> -->
+    <!-- <table class="login-list-table">
+      <tr class="login-list-table-row">
+        <td class="table-col col-00">Username</td>
+        <td class="table-col col-01"><input type="text" pInputText placeholder="Username" [(ngModel)]="username"></td>
+      </tr>
+      <tr class="login-list-table-row">
+        <td class="table-col col-00">Password</td>
+        <td class="table-col col-01"><input type="password" pInputText placeholder="Password" [(ngModel)]="password"></td>
+      </tr>
+    </table> -->
+  <form class="login-component-form" (ngSubmit)="onSubmit()">
+    <span class="login-input-wrapper">
+      <span class="login-input-and-error-wrapper">
+        <span class="login-error login-invalid-input" [ngClass]="{'hide': !errorBlankUsername}">Username can't be left blank.</span>
+        <div class="ui-inputgroup login-username">
+          <span class="ui-inputgroup-addon"><i class="fa fa-user"></i></span>
+          <input type="text" pInputText placeholder="Username" name="username" [(ngModel)]="username" autocomplete="username" (ngModelChange)="checkUsername()">
+        </div>
+      </span>
+
+      <span class="login-input-and-error-wrapper">
+        <span class="login-error login-invalid-input" [ngClass]="{'hide': !errorBlankPassword}">Password can't be left blank.</span>
+        <div class="ui-inputgroup login-password">
+          <span class="ui-inputgroup-addon"><i class="fa fa-key"></i></span>
+          <input type="password" pInputText placeholder="Password" name="password" [(ngModel)]="password" autocomplete="current-password" (ngModelChange)="checkPassword()">
+        </div>
+      </span>
+      <span class="login-error login-problem" [ngClass]="{'hide': !loginError}">Error logging in.</span>
+    </span>
+    <!-- </p-panel> -->
+    <span class="login-button-wrapper">
+      <!-- <button class="ui-button-danger login-button cancel" pButton type="button" (click)="cancel()" label="Cancel"></button> -->
+      <button class="ui-button-success login-button login" pButton type="submit" (click)="loginClicked()"   label="Login"></button>
+    </span>
+  </form>
+</span>
+
+
+<!-- <ion-content padding class="login-modal-content">
+  <form [formGroup]="LoginForm" (ngSubmit)="onSubmit()">
+    <ion-list>
+      <ion-item *ngIf="loginError" color="danger">
+        <span class="center error">Username or password incorrect!</span>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text" autocapitalize=off name="id" formControlName="formUser" [class.invalid]="!LoginForm.controls.formUser.valid && (LoginForm.controls.formUser.dirty || submitAttempt)" autocomplete="username"></ion-input>
+      </ion-item>
+      <ion-item *ngIf="(!LoginForm.controls.formUser.valid && (LoginForm.controls.formUser.dirty || submitAttempt))">
+        <p>Please enter a valid username.</p>
+      </ion-item>
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" name="password" formControlName="formPass" [class.invalid]="!LoginForm.controls.formPass.valid && (LoginForm.controls.formPass.dirty || submitAttempt)" autocomplete="current-password"></ion-input>
+      </ion-item>
+      <ion-item *ngIf="(!LoginForm.controls.formPass.valid && (LoginForm.controls.formPass.dirty || submitAttempt))">
+        <p>Please enter a valid password.</p>
+      </ion-item>
+      <div padding></div>
+      <button ion-button color="primary" block color="favorite" [disabled]="(!LoginForm.controls.formUser.valid && (LoginForm.controls.formUser.dirty || submitAttempt)) || (!LoginForm.controls.formPass.valid && (LoginForm.controls.formPass.dirty || submitAttempt))">Sign In</button>
+    </ion-list>
+  </form>
+</ion-content> -->

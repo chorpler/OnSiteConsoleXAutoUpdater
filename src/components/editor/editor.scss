@@ -1,0 +1,15 @@
+monaco-editor {
+  :host {
+    display: block;
+    height: 100px;
+  }
+
+  .editorContainer {
+    // width: calc(100% - 5px);
+    // height: calc(100vh - 100px);
+    width: 100% !important;
+    height: 100px;
+    min-height: 100px;
+  }
+
+}

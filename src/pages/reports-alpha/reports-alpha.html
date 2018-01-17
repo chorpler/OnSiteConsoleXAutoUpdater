@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{title}}</ion-title>
+    <ion-buttons right>
+      <button class="employees-buttons" [class.highlighted]="editMode" ion-button icon-only (click)="toggleEditMode()" title="Toggle Edit Mode">
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+      </button>
+      <!-- <button ion-button icon-only (click)="toggleShowAllEmployees()" title="Toggle Show All Employees">
+        <ion-icon *ngIf="showAllEmployees" class="schedule-list-options-button" name="md-eye"></ion-icon>
+        <ion-icon *ngIf="!showAllEmployees" class="schedule-list-options-button" name="md-eye-off"></ion-icon>
+      </button>
+      <button class="employees-buttons employees-csv-export" [class.highlighted]="editMode" ion-button icon-only (click)="toggleEditMode()" title="Toggle Edit Mode">
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+      </button>
+      <button class="employees-buttons employees-csv-export" ion-button icon-only (click)="dt.exportCSV()" title="Export CSV">
+        <i class="fa fa-table" aria-hidden="true"></i>
+      </button>
+      <button class="employees-buttons employees-add-button" ion-button icon-only (click)="addEmployee()" title="Add Employee">
+        <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+      </button> -->
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<!-- <div class="report-datagrid-wrapper" *ngIf="dataReady && data.ready()"> -->
+<!-- <p-panel [class.report-datagrid-panel]="true" header="Work Reports" [toggleable]="true" *ngIf="dataReady && data.ready()"> -->
+<ion-content *ngIf="!(dataReady && data.ready())">
+  <div class="background-spinner">
+    <div class="spinner-graphic"></div>
+    <div class="spinner-caption">Loading reports...</div>
+  </div>
+</ion-content>
+<ion-content padding *ngIf="dataReady && data.ready()">
+  <datagrid #reportGrid [grid]="reportData" [options]="reportGridOptions" (rowClick)="rowClick($event)"></datagrid>
+</ion-content>
+<!-- </p-panel> -->
+<!-- </div> -->
+
+<!-- <div class="other-datagrid-wrapper" *ngIf="dataReady && data.ready()"> -->
+<!-- <p-panel [class.other-datagrid-panel]="true" header="Misc Reports" [toggleable]="true" *ngIf="dataReady && data.ready()">
+  <datagrid #otherGrid [grid]="otherData" [options]="otherGridOptions" (rowClick)="rowClickOther($event)"></datagrid>
+</p-panel> -->
+<!-- </div> -->
+
+<div #reportViewTarget class="report-view-target"></div>
+<p-dialog #reportViewDialog styleClass="report-view-dialog" [header]="reportViewTitle" [(visible)]="reportViewVisible" [modal]="false" [responsive]="true" [draggable]="true" [resizable]="true" *ngIf="reportViewVisible" attachTo="reportViewTarget">
+  <report-view [report]="report" [reports]="reports" [tech]="tech" [site]="site" [sites]="sites" (finished)="updateReport($event)" (reportChange)="changeReport($event)"></report-view>
+</p-dialog>
+<p-dialog #otherViewDialog styleClass="other-view-dialog" [header]="otherViewTitle" [(visible)]="otherViewVisible" [modal]="false" [responsive]="true" [draggable]="true" [resizable]="true" *ngIf="otherViewVisible" attachTo="reportViewTarget">
+  <report-other-view [other]="other" [others]="others" [tech]="tech" [site]="site" [sites]="sites" (finished)="updateReportOther($event)" (reportChange)="changeReportOther($event)"></report-other-view>
+</p-dialog>
+
+<!-- <div #reportViewTarget class="report-view-target"></div> -->

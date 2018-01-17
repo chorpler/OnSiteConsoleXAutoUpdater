@@ -1,0 +1,123 @@
+<p-dialog #employeeViewDialog class="employee-view-dialog" [header]="employeeHeader" [visible]="true" [draggable]="true" [resizable]="true" [responsive]="true" [contentStyle]="{'overflow':'visible'}" (onHide)="cancel($event)">
+  <div class="employee-view-wrapper">
+    <!-- <table class="employee-view-table" *ngIf="dataReady && data.ready()"> -->
+    <table class="button-table top">
+      <tr class="button-row">
+        <td class="cell-button-like" (click)="deleteEmployee(employee, $event)" title="Delete Employee">
+          <i class="fa fa-trash-o icon-button-like"></i>
+        </td>
+        <td class="cell-button-like" (click)="saveNoExit(employee, $event)" title="Save, don't exit">
+          <i class="fa fa-save icon-button-like"></i>
+        </td>
+        <div *ngIf="idx > 0; then previousAvailable; else previousUnavailable"></div>
+        <div *ngIf="idx+1 < count; then nextAvailable; else nextUnavailable"></div>
+        <ng-template #previousAvailable>
+          <td class="cell-button-like" (click)="previous($event)" title="Previous work report">
+            <i class="icon-button-like fa fa-chevron-circle-left"></i>
+          </td>
+        </ng-template>
+        <ng-template #previousUnavailable>
+          <td class="cell-button-disabled" title="No previous work reports">
+            <i class="fa fa-chevron-circle-left icon-greyed-out"></i>
+          </td>
+        </ng-template>
+        <ng-template #nextAvailable>
+          <td class="cell-button-like" (click)="next($event)" title="Next work report">
+            <i class="icon-button-like fa fa-chevron-circle-right"></i>
+          </td>
+        </ng-template>
+        <ng-template #nextUnavailable>
+          <td class="cell-button-disabled" title="No next work report">
+            <i class="fa fa-chevron-circle-right icon-greyed-out"></i>
+          </td>
+        </ng-template>
+      </tr>
+    </table>
+    <table class="employee-view-table">
+      <tbody class="employee-view-body">
+        <tr class="body-row">
+          <td class="label">Prefix</td><td class="data"><p-dropdown [options]="prefixList" [(ngModel)]="employee.prefix"> [placeholder]=""</p-dropdown></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">First Name</td><td class="data"><input [(ngModel)]="employee.firstName" /></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Middle Name</td><td class="data"><input [(ngModel)]="employee.middleName" /></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Last Name</td><td class="data"><input [(ngModel)]="employee.lastName" /></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Suffix</td><td class="data"><p-dropdown [options]="suffixList" [(ngModel)]="employee.suffix" [placeholder]="strBlank"></p-dropdown></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label" [class.error]="errors.username">Username <i class="fa fa-envelope-o icon-button-like" title="Create E-mail Address" (click)="createEmail($event)"></i></td><td class="data"><input #avatarName [(ngModel)]="employee.avatarName" (ngModelChange)="setError('username', false)"/></td>
+        </tr>
+        <!-- <tr class="body-row">
+          <td class="label">Avatar Name as User</td><td class="data"><p-checkbox [(ngModel)]="employee.avtrNameAsUser" binary="true"></p-checkbox></td>
+        </tr> -->
+        <tr class="body-row">
+          <!-- <td class="label">User Class (monaco)</td><td class="data"><monaco-editor [options]="editorOptions" [(ngModel)]="userClass"></monaco-editor></td> -->
+          <td class="label">User Class</td><td class="data"><textarea [(ngModel)]="userClass" (func)="updateUserClass(userClass)" debounce delay="750"></textarea></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Work Site</td><td class="data"><p-dropdown [options]="jobsiteList" [(ngModel)]="jobsite" (onChange)="updateEmployee('jobsite', jobsite)"></p-dropdown></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Shift</td><td class="data"><p-dropdown [options]="shiftList" [(ngModel)]="shift" (onChange)="updateEmployee('shift', shift)"></p-dropdown></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Shift Length</td><td class="data"><p-dropdown [options]="shiftLengthList" [(ngModel)]="shiftLength" (onChange)="updateEmployee('shiftLength', shiftLength)"></p-dropdown></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Shift Start Time</td><td class="data"><p-dropdown [options]="shiftStartList" [(ngModel)]="shiftStartTime" (onChange)="updateEmployee('shiftStart', shiftStartTime)"></p-dropdown></td>
+        </tr>
+        <tr class="body-row">
+          <!-- <td class="label">E-mail</td><td class="data"><monaco-editor [options]="editorOptions" [(ngModel)]="userEmail"></monaco-editor></td> -->
+          <td class="label">E-mail</td><td class="data"><textarea #emailTextArea [(ngModel)]="userEmail" (func)="updateUserEmail(userEmail)" debounce delay="750"></textarea></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Phone <i class="fa fa-arrow-circle-o-down icon-button-like" title="Copy to Cell" (click)="copyPhone('phone', 'cell')"></i></td><td class="data"><input [(ngModel)]="employee.phone" (keyup)="checkKeyUp('phone', $event)" /></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Cell <i class="fa fa-arrow-circle-o-up icon-button-like" title="Copy to Phone" (click)="copyPhone('cell', 'phone')"></i></td><td class="data"><input [(ngModel)]="employee.cell" (keyup)="checkKeyUp('cell', $event)" /></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Address</td><td class="data"><input [(ngModel)]="employee.address.street.street1" /></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">City</td><td class="data"><input [(ngModel)]="employee.address.city" /></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">State</td><td class="data"><input [(ngModel)]="employee.address.state" /></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">ZIP</td><td class="data"><input [(ngModel)]="employee.address.zipcode" /></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Rate</td><td class="data"><input type="number" step="0.01" [(ngModel)]="employee.payRate" /></td>
+        </tr>
+        <tr class="body-row">
+          <td class="label">Active</td><td class="data"><p-checkbox [(ngModel)]="employee.active" binary="true"></p-checkbox></td>
+        </tr>
+        <tr class="body-row" *ngIf="developerMode">
+          <td class="label">Rotation</td><td class="data"><input [(ngModel)]="employee.rotation" /></td>
+        </tr>
+      </tbody>
+    </table>
+    <table class="button-table bottom">
+      <tr class="button-row">
+        <td class="cell-button-like" (click)="cancel($event)" title="Cancel">
+          <i class="fa fa-times icon-button-like"></i>
+        </td>
+        <td class="cell-button-like" (click)="onSubmit($event)" title="Save and Close Window">
+          <i class="fa fa-check icon-button-like"></i>
+        </td>
+      </tr>
+    </table>
+    <!-- <span class="button-wrapper">
+      <button class="ui-button-danger  cancel" pButton type="button" (click)="cancel($event)"   label="Cancel"></button>
+      <button class="ui-button-success save  " pButton type="button" (click)="onSubmit($event)" label="Save"></button>
+    </span> -->
+  </div>
+</p-dialog>

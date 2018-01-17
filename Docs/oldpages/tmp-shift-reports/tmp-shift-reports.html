@@ -1,0 +1,123 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{title}}</ion-title>
+    <ion-buttons right>
+      <span class="menubar-right-wrapper">
+        <button class="menubar-button" ion-button icon-only (click)="generateDropdownMenus()" title="Reset menus">
+          <i class="fa fa-refresh" aria-hidden="true"></i>
+        </button>
+        <span class="menubar-wrapper" *ngIf="dataReady && data.ready()">
+          <span class="menubar-flexbox">
+            <span class="menubar-dropdown-label">Shift</span>
+            <span class="menubar-dropdown-menu">
+              <p-dropdown #periodDropdown [class.dropdown-menubar]="true" [options]="shiftMenu" [(ngModel)]="selectedDate" (onChange)="updateShift(selectedDate)"></p-dropdown>
+              <!-- <p-multiSelect #periodDropdown [class.dropdown-menubar]="true" [options]="shiftMenu" [(ngModel)]="selectedDate" (onChange)="updateShift(selectedDate)"></p-dropdown> -->
+            </span>
+          </span>
+          <span class="menubar-flexbox">
+            <span class="menubar-dropdown-label">Technician</span>
+            <span class="menubar-dropdown-menu">
+              <!-- <p-dropdown #techDropdown [class.dropdown-menubar]="true" [options]="techMenu" [(ngModel)]="tech" (onChange)="updateTech(tech)"></p-dropdown> -->
+              <p-multiSelect #techDropdown [class.dropdown-menubar]="true" [options]="techMenu" [(ngModel)]="selectedTechs" (onChange)="updateTechs(selectedTechs)"></p-multiSelect>
+            </span>
+          </span>
+          <span class="menubar-flexbox">
+            <span class="menubar-dropdown-label">Work Site</span>
+            <span class="menubar-dropdown-menu">
+              <p-dropdown #siteDropdown [class.dropdown-menubar]="true" [options]="siteMenu" [(ngModel)]="site" (onChange)="updateSite(site)"></p-dropdown>
+              <!-- <p-multiSelect #siteDropdown [class.dropdown-menubar]="true" [options]="siteMenu" [(ngModel)]="site" (onChange)="updateSite(site)"></p-multiSelect> -->
+            </span>
+          </span>
+        </span>
+        <button class="menubar-button" ion-button icon-only (click)="clearReports()" title="Clear reports">
+          <i class="fa fa-trash-o"></i>
+        </button>
+        <button class="menubar-button" ion-button icon-only (click)="generateSelectedReports()" title="Generate selected shift report(s)">
+          <i class="fa fa-file-text-o"></i>
+        </button>
+        <button class="menubar-button" ion-button icon-only (click)="printReports()" title="Print shift report(s)">
+          <i class="fa fa-print"></i>
+        </button>
+      </span>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding *ngIf="!(dataReady && data.ready())">
+  <div class="background-spinner"></div>
+</ion-content>
+<ion-content padding *ngIf="dataReady && data.ready()">
+  <div #printArea class="shift-reports-wrapper print-area">
+    <div class="shift-report-wrapper" *ngFor="let shiftreport of shiftreports; let i=index">
+      <table #preauthTable class="shift-reports-table print-area">
+        <thead class="shift-reports-header">
+          <tr class="header-row">
+            <th class="label date">Date</th>
+            <th class="data date">{{shiftreport.date}}</th>
+            <th class="title">Technician Shift Report</th>
+            <th class="label hours">Hours</th>
+            <th class="data hours" colspan="2">{{shiftreport.total_hours | number:'1.1-1'}}</th>
+          </tr>
+        </thead>
+        <tbody class="shift-reports-body">
+          <tr class="subheader-row">
+            <td class="label" colspan="2">Company:</td>
+            <td class="data" colspan="4">
+              <span class="input-like">{{shiftreport.site.client.name}} {{shiftreport.site.location.name}} {{shiftreport.site.locID.name}}</span>
+            </td>
+          </tr>
+          <tr class="subheader-row">
+            <td class="label" colspan="2">Technician:</td>
+            <td class="data" colspan="4">
+              <span class="input-like">{{shiftreport.tech.getTechName()}}</span>
+            </td>
+          </tr>
+          <tr class="dataheader">
+            <td class="col-unit">Unit No.</td>
+            <td class="col-order">Order No.</td>
+            <td class="col-notes">Notes</td>
+            <td class="col-start">Start</td>
+            <td class="col-end">End</td>
+            <td class="col-hours">Hrs</td>
+          </tr>
+          <div *ngIf="shiftreport && shiftreport.grid && shiftreport.grid.length; then showGrid; else emptyGrid"></div>
+          <ng-template #showGrid>
+            <tr class="databody" *ngFor="let row of shiftreport.grid">
+              <td class="col-unit">
+                <span class="text-cell">{{row[0]}}</span>
+              </td>
+              <td class="col-order">
+                <span class="text-cell">{{row[1]}}</span>
+              </td>
+              <td class="col-notes">
+                <span class="text-cell">{{row[2]}}</span>
+              </td>
+              <td class="col-start">{{row[3]}}</td>
+              <td class="col-end">{{row[4]}}</td>
+              <td class="col-hours" *ngIf="row[5]===''">{{row[5]}}</td>
+              <td class="col-hours" *ngIf="row[5]!==''">{{row[5] | number:'1.1-1'}}</td>
+            </tr>
+          </ng-template>
+          <ng-template #emptyGrid>
+            <tr class="databody">
+              <td class="col-unit">&mdash;</td>
+              <td class="col-order">&mdash;</td>
+              <td class="col-notes">&mdash;</td>
+              <td class="col-start">&mdash;</td>
+              <td class="col-end">&mdash;</td>
+              <td class="col-hours">&mdash;</td>
+            </tr>
+          </ng-template>
+          <tr class="sesa-fleet-services-row">
+            <td class="company-info" colspan="6">SESA Fleet Services LLC, 2801 Corporate Dr. Weslaco TX 78599</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</ion-content>

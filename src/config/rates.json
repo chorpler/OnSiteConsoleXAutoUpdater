@@ -1,0 +1,451 @@
+{
+  "docs": [{
+      "rate": "13",
+      "technician": "Alaniz, Juan"
+    },
+    {
+      "rate": "12",
+      "technician": "Andrade, Jesus"
+    },
+    {
+      "rate": "15",
+      "technician": "Benavides, Jesus"
+    },
+    {
+      "rate": "12",
+      "technician": "Cabrera, Sergio"
+    },
+    {
+      "rate": "17",
+      "technician": "Camarillo, Marco"
+    },
+    {
+      "rate": "12",
+      "technician": "Cantu, Daniel"
+    },
+    {
+      "rate": "12",
+      "technician": "Careaga, Luis"
+    },
+    {
+      "rate": "12",
+      "technician": "Cepeda, René"
+    },
+    {
+      "rate": "13",
+      "technician": "Chavez, Javier"
+    },
+    {
+      "rate": "14",
+      "technician": "Contreras Sr., Oscar"
+    },
+    {
+      "rate": "15",
+      "technician": "De la Garza, Oscar"
+    },
+    {
+      "rate": "15",
+      "technician": "De La Rosa, Irvin"
+    },
+    {
+      "rate": "14",
+      "technician": "De León, Ricardo"
+    },
+    {
+      "rate": "13",
+      "technician": "Elizondo, Andres"
+    },
+    {
+      "rate": "12",
+      "technician": "Elizondo, George"
+    },
+    {
+      "rate": "17",
+      "technician": "Escobar, Horacio"
+    },
+    {
+      "rate": "12",
+      "technician": "Escobedo, Arnoldo"
+    },
+    {
+      "rate": "15",
+      "technician": "Estrada, Erick"
+    },
+    {
+      "rate": "12",
+      "technician": "Estrada, Iovani"
+    },
+    {
+      "rate": "17",
+      "technician": "Flores, Eric"
+    },
+    {
+      "rate": "12",
+      "technician": "Flores, Javier"
+    },
+    {
+      "rate": "12",
+      "technician": "Galvan, Juan"
+    },
+    {
+      "rate": "12",
+      "technician": "Galvan, Rogelio"
+    },
+    {
+      "rate": "12",
+      "technician": "Gaona, Daniel"
+    },
+    {
+      "rate": "14",
+      "technician": "Garcia, Fernando"
+    },
+    {
+      "rate": "14",
+      "technician": "Garcia, Gerardo"
+    },
+    {
+      "rate": "22.5",
+      "technician": "Garcia, Louis"
+    },
+    {
+      "rate": "13",
+      "technician": "Garza, Jesus"
+    },
+    {
+      "rate": "13",
+      "technician": "Garza, Sergio"
+    },
+    {
+      "rate": "14",
+      "technician": "González, Irving"
+    },
+    {
+      "rate": "0",
+      "technician": "Gonzalez, Joel"
+    },
+    {
+      "rate": "13",
+      "technician": "González, Justin"
+    },
+    {
+      "rate": "14",
+      "technician": "González, Kevin"
+    },
+    {
+      "rate": "12",
+      "technician": "Guerrero, Miguel"
+    },
+    {
+      "rate": "13",
+      "technician": "Gutiérrez, Enrique"
+    },
+    {
+      "rate": "0",
+      "technician": "Gutierrez, Noel"
+    },
+    {
+      "rate": "14",
+      "technician": "Hernandez, Cesar"
+    },
+    {
+      "rate": "12",
+      "technician": "Hernandez, Frank"
+    },
+    {
+      "rate": "13",
+      "technician": "Hernandez, Ivan"
+    },
+    {
+      "rate": "15",
+      "technician": "Herrera, Abraham"
+    },
+    {
+      "rate": "12",
+      "technician": "Herrera, Edgar"
+    },
+    {
+      "rate": "12",
+      "technician": "Hisiquio, Isai"
+    },
+    {
+      "rate": "13",
+      "technician": "Hisiquio, Sixto"
+    },
+    {
+      "rate": "14",
+      "technician": "Iracheta, Eduardo"
+    },
+    {
+      "rate": "0",
+      "technician": "Johnson, Andrew"
+    },
+    {
+      "rate": "12",
+      "technician": "Klimp, Billy"
+    },
+    {
+      "rate": "20",
+      "technician": "Leal, Sergio"
+    },
+    {
+      "rate": "15",
+      "technician": "Lopez, Raul"
+    },
+    {
+      "rate": "0",
+      "technician": "Lozano, Bonifacio"
+    },
+    {
+      "rate": "19",
+      "technician": "Marquez, Lucio"
+    },
+    {
+      "rate": "12",
+      "technician": "Marquez, Xavier Dominique"
+    },
+    {
+      "rate": "15",
+      "technician": "Marroquin, José Luis"
+    },
+    {
+      "rate": "13",
+      "technician": "Martinez, Gabriel"
+    },
+    {
+      "rate": "19",
+      "technician": "Martinez, Humberto"
+    },
+    {
+      "rate": "12",
+      "technician": "Martinez, Juan Carlos"
+    },
+    {
+      "rate": "15",
+      "technician": "Martinez, Julio"
+    },
+    {
+      "rate": "14",
+      "technician": "Martinez, Kevin"
+    },
+    {
+      "rate": "12",
+      "technician": "Martinez, Vicente"
+    },
+    {
+      "rate": "14",
+      "technician": "Medina, Adan"
+    },
+    {
+      "rate": "12",
+      "technician": "Medina, Calixto"
+    },
+    {
+      "rate": "12",
+      "technician": "Medina, Daniel"
+    },
+    {
+      "rate": "12",
+      "technician": "Medina, Francisco"
+    },
+    {
+      "rate": "17",
+      "technician": "Medina, Miguel"
+    },
+    {
+      "rate": "18",
+      "technician": "Mendez, José Luis"
+    },
+    {
+      "rate": "16",
+      "technician": "Montes, Carlos"
+    },
+    {
+      "rate": "12",
+      "technician": "Montoya, Mauricio"
+    },
+    {
+      "rate": "17",
+      "technician": "Ocañas, Elias"
+    },
+    {
+      "rate": "12",
+      "technician": "Ochoa, Adrian"
+    },
+    {
+      "rate": "13",
+      "technician": "Ochoa, Armando"
+    },
+    {
+      "rate": "21",
+      "technician": "Ochoa, Joel"
+    },
+    {
+      "rate": "18",
+      "technician": "Osuna, José"
+    },
+    {
+      "rate": "13",
+      "technician": "Oyervides, Arturo"
+    },
+    {
+      "rate": "12",
+      "technician": "Palacios, Edwin"
+    },
+    {
+      "rate": "12",
+      "technician": "Pedroza, Cristobal"
+    },
+    {
+      "rate": "15",
+      "technician": "Peña, Advento"
+    },
+    {
+      "rate": "14",
+      "technician": "Perales, Juan"
+    },
+    {
+      "rate": "13.5",
+      "technician": "Piñon, Lauro"
+    },
+    {
+      "rate": "12",
+      "technician": "Ramirez, Ovidio"
+    },
+    {
+      "rate": "14",
+      "technician": "Retana, José"
+    },
+    {
+      "rate": "12",
+      "technician": "Reyes, Gabino"
+    },
+    {
+      "rate": "12",
+      "technician": "Reyes, Juan Manuel"
+    },
+    {
+      "rate": "14",
+      "technician": "Rico, José"
+    },
+    {
+      "rate": "14",
+      "technician": "Rivera, Raul"
+    },
+    {
+      "rate": "12",
+      "technician": "Rivera, Raul Jr."
+    },
+    {
+      "rate": "12",
+      "technician": "Rodriguez, Antonio"
+    },
+    {
+      "rate": "12",
+      "technician": "Rodriguez, John"
+    },
+    {
+      "rate": "12",
+      "technician": "Rodriguez, Julio"
+    },
+    {
+      "rate": "12",
+      "technician": "Rodriguez, Max"
+    },
+    {
+      "rate": "0",
+      "technician": "Ruiz, Bernandino"
+    },
+    {
+      "rate": "13",
+      "technician": "Saldaña, Jorge"
+    },
+    {
+      "rate": "15",
+      "technician": "Salinas, Aaron"
+    },
+    {
+      "rate": "12",
+      "technician": "Salinas, Jesus"
+    },
+    {
+      "rate": "12",
+      "technician": "Salinas, Saul"
+    },
+    {
+      "rate": "12",
+      "technician": "Sanchez, Daniel"
+    },
+    {
+      "rate": "12",
+      "technician": "Segura, Roberto"
+    },
+    {
+      "rate": "15.5",
+      "technician": "Serna, Gonzalo"
+    },
+    {
+      "rate": "14",
+      "technician": "Teniente, Juan"
+    },
+    {
+      "rate": "18",
+      "technician": "Tijerina, René"
+    },
+    {
+      "rate": "15",
+      "technician": "Torres, Alex"
+    },
+    {
+      "rate": "12",
+      "technician": "Tovar, David"
+    },
+    {
+      "rate": "15",
+      "technician": "Tovar, Eduardo"
+    },
+    {
+      "rate": "12",
+      "technician": "Tovar, Luis"
+    },
+    {
+      "rate": "10",
+      "technician": "Tovar, Roel"
+    },
+    {
+      "rate": "22.5",
+      "technician": "Treviño, Pete"
+    },
+    {
+      "rate": "15",
+      "technician": "Vela, Ediberto"
+    },
+    {
+      "rate": "24",
+      "technician": "Vela, José F."
+    },
+    {
+      "rate": "12",
+      "technician": "Venegas, Gerardo"
+    },
+    {
+      "rate": "20",
+      "technician": "Verduzco, Javier"
+    },
+    {
+      "rate": "12",
+      "technician": "Villareal, Leonel"
+    },
+    {
+      "rate": "15",
+      "technician": "Yunes, Juan Pablo"
+    },
+    {
+      "rate": "12",
+      "technician": "Zaragoza, Juan"
+    },
+    {
+      "rate": "12",
+      "technician": "Zuñiga, José Luis"
+    }
+  ]
+}

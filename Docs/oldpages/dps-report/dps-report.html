@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle *ngIf="mode !== 'modal'">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid>
+    <ion-row *ngFor="let site of sites">
+      <ion-col>{{site.getScheduleName()}}</ion-col>
+      <ion-col>{{site.lodging_rate}}</ion-col>
+    </ion-row>
+  </ion-grid>
+  <!-- <button ion-button color="primary" (tap)="toggleShowChart()">Chart: {{dataReady}}</button> -->
+  <!-- <div class="dps-report-chart-container" *ngIf="dataReady"> -->
+    <!-- <google-chart class="dps-report-google-chart" #googleChart [pieChartData]="chart_data" [pieChartOptions]="chart_options"></google-chart> -->
+    <!-- <div id="pie_chart" [chartData]="chart_data" [chartOptions]="chart_options" chartType="PieChart" GoogleChart></div> -->
+    <!-- <pie-chart></pie-chart> -->
+  <!-- </div> -->
+</ion-content>

@@ -1,0 +1,3 @@
+echo Removing www and starting ionic serve...
+rm -recurse www
+ionic serve

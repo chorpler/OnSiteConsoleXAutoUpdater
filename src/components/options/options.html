@@ -1,0 +1,65 @@
+<div class="options-wrapper">
+  <div class="options-main" *ngIf="type==='global'">
+    <span class="options-sectiontitle">General</span>
+    <span class="options-section">
+      <span class="options-item-wrapper" title="Load work reports automatically when app starts?">
+        <span class="options-label">Startup Work Reports</span>
+        <p-checkbox [class.options-checkbox]="true" [(ngModel)]="prefs.CONSOLE.global.loadReports" binary="true"></p-checkbox>
+      </span>
+      <span class="options-item-wrapper" title="How many payroll periods to load">
+        <span class="options-label">Payroll Periods</span>
+        <p-dropdown [class.options-periods-dropdown]="true" [options]="payPeriodsSelect" [(ngModel)]="prefs.USER.payroll_periods" (ngModelChange)="changePayrollPeriods($event)"></p-dropdown>
+      </span>
+    </span>
+    <span class="options-sectiontitle">Scheduling</span>
+    <span class="options-section">
+      <span class="options-item-wrapper" title="What weekday should the Schedule-choosing calendar start on?">
+        <span class="options-label">Calendar Start Day</span>
+        <span class="options-label">(to {{firstPeriodDate.format("DD MMM YYYY")}})</span>
+        <!-- <input [class.options-input]="true" type="number" min="0" max="6" step="1" [(ngModel)]="prefs.CONSOLE.global.weekStartDay" /> -->
+        <p-dropdown [class.options-dropdown]="true" [options]="weekdayMenu" [(ngModel)]="prefs.CONSOLE.global.weekStartDay"></p-dropdown>
+      </span>
+    </span>
+    <span class="options-sectiontitle">Invoices</span>
+    <span class="options-section">
+      <span class="options-item-wrapper" title="Current invoice number for Keane invoices">
+        <span class="options-label">Keane Invoice Number</span>
+        <input class="options-input" type="number" min="0" step="1" [(ngModel)]="keaneInvoiceNumber" />
+        <i class="fa fa-check-circle-o options-button save-button" aria-hidden="true" title="Save to server" (click)="saveKeaneInvoiceNumber($event)"></i>
+        <i class="fa fa-refresh options-button refresh-button" aria-hidden="true" [class.spin-icon]="spinnerOn" [class.stop-icon]="!spinnerOn" title="Refresh from server" (click)="refreshKeaneInvoiceNumber($event)"></i>
+      </span>
+    </span>
+    <span class="options-sectiontitle">Data Tables</span>
+    <span class="options-section">
+      <span class="options-item-wrapper" title="Default number of employees shown on each page">
+        <span class="options-label">Employees / Page</span>
+        <input class="options-input" type="number" min="1" step="1" [(ngModel)]="prefs.CONSOLE.pages.employees" />
+      </span>
+      <span class="options-item-wrapper" title="Default number of work reports shown on each page">
+        <span class="options-label">Work Reports / Page</span>
+        <input class="options-input" type="number" min="1" step="1" [(ngModel)]="prefs.CONSOLE.pages.reports" />
+      </span>
+      <span class="options-item-wrapper" title="Default number of non-work reports shown on each page">
+        <span class="options-label">Misc Reports / Page</span>
+        <input class="options-input" type="number" min="1" step="1" [(ngModel)]="prefs.CONSOLE.pages.reports_other" />
+      </span>
+      <span class="options-item-wrapper" title="Default number of work sites shown on each page">
+        <span class="options-label">Work Sites / Page</span>
+        <input class="options-input" type="number" min="1" step="1" [(ngModel)]="prefs.CONSOLE.pages.jobsites" />
+      </span>
+    </span>
+  </div>
+  <div class="options-main" *ngIf="type==='advanced'">
+    <span class="options-sectiontitle">Databases</span>
+    <span class="options-section">
+      <span class="options-item-wrapper" *ngFor="let key of getDBKeys()">
+        <span class="advanced-label">{{key}}</span>
+        <input class="advanced-input" [(ngModel)]="prefs.DB[key]" />
+      </span>
+    </span>
+  </div>
+  <div class="options-buttons">
+    <button class="ui-button-danger  cancel" pButton type="button" (click)="cancel($event)"   label="Cancel"></button>
+    <button class="ui-button-success save  " pButton type="button" (click)="save($event)"     label="Save"  ></button>
+  </div>
+</div>

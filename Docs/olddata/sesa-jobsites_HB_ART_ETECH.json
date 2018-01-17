@@ -1,0 +1,190 @@
+{
+  "_id": "HB_ART_ETECH",
+  "_rev": "17-59436a3be801fd0d67f740c45ded1b7f",
+  "billing_address": {
+    "street": {
+      "street1": "2311 S. First St.",
+      "street2": ""
+    },
+    "city": "Artesia",
+    "state": "NM",
+    "country": "USA",
+    "zipcode": "88210"
+  },
+  "requires_preauth": false,
+  "requires_preauth_pertech": false,
+  "requires_invoice_woreports": false,
+  "account_or_contract": "Contract",
+  "billing_rate": 65,
+  "site_active": true,
+  "has_standby": false,
+  "shift_start_times": {
+    "AM": "06:00",
+    "PM": "18:00"
+  },
+  "client": {
+    "fullName": "Halliburton",
+    "name": "HB"
+  },
+  "location": {
+    "name": "ART",
+    "fullName": "Artesia"
+  },
+  "locID": {
+    "name": "E-TECH",
+    "fullName": "E-Tech"
+  },
+  "loc2nd": {
+    "name": "NA",
+    "fullName": "N/A"
+  },
+  "address": {
+    "street": {
+      "street1": "2311 S. First St.",
+      "street2": ""
+    },
+    "city": "Artesia",
+    "state": "NM",
+    "country": "USA",
+    "zipcode": "88210"
+  },
+  "latitude": 32.814942,
+  "longitude": -104.394715,
+  "within": 500,
+  "account_number": "4600660971",
+  "travel_time": 8,
+  "per_diem_rate": 40,
+  "lodging_rate": 55,
+  "divisions": {},
+  "shiftRotations": [
+    {
+      "name": "FIRST WEEK",
+      "fullName": "First Week"
+    },
+    {
+      "name": "CONTN WEEK",
+      "fullName": "Continuing Week"
+    },
+    {
+      "name": "FINAL WEEK",
+      "fullName": "Final Week"
+    },
+    {
+      "name": "DAYS OFF",
+      "fullName": "Days Off"
+    },
+    {
+      "name": "VACATION",
+      "fullName": "Vacation"
+    }
+  ],
+  "hoursList": {
+    "FIRST WEEK": {
+      "AM": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+      ],
+      "PM": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+      ]
+    },
+    "CONTN WEEK": {
+      "AM": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+      ],
+      "PM": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12"
+      ]
+    },
+    "FINAL WEEK": {
+      "AM": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "OFF"
+      ],
+      "PM": [
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "12",
+        "OFF"
+      ]
+    },
+    "DAYS OFF": {
+      "AM": [
+        "OFF",
+        "OFF",
+        "OFF",
+        "OFF",
+        "OFF",
+        "M",
+        "12"
+      ],
+      "PM": [
+        "OFF",
+        "OFF",
+        "OFF",
+        "OFF",
+        "OFF",
+        "M",
+        "12"
+      ]
+    },
+    "VACATION": {
+      "AM": [
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V"
+      ],
+      "PM": [
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V",
+        "V"
+      ]
+    }
+  },
+  "techShifts": [
+    "AM",
+    "PM"
+  ],
+  "schedule_name": "ARTESIA E-TECH",
+  "sort_number": 9,
+  "site_number": 1076
+}

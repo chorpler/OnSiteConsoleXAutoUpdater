@@ -1,0 +1,5801 @@
+{
+    "docs": [
+        {
+            "_id": "BE_MDL_MNSHOP",
+            "uid": 501587,
+            "client": {
+                "id": 50,
+                "capsName": "BASIC ENERGY",
+                "fullName": "Basic Energy",
+                "code": "BE",
+                "name": "BASIC ENERGY"
+            },
+            "location": {
+                "id": 15,
+                "capsName": "MIDLAND",
+                "fullName": "Midland",
+                "code": "MDL",
+                "name": "MIDLAND"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "1110 West County Rd 114",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Midland",
+                "state": "TX",
+                "zipcode": "79706",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "07:00",
+                "PM": "19:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "1110 West County Rd 114",
+                    "street2": ""
+                },
+                "city": "Midland",
+                "state": "TX",
+                "zipcode": "79706"
+            },
+            "latitude": 31.965759,
+            "longitude": -102.075224,
+            "within": 500,
+            "account_number": null,
+            "travel_time": 6,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17"
+                    ],
+                    "PM": [
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17"
+                    ],
+                    "PM": [
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17"
+                    ],
+                    "PM": [
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17",
+                        "17"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "BASIC ENERGY MIDLAND",
+            "sort_number": 19,
+            "site_number": 501587
+        },
+        {
+            "_id": "HB_ART_E-TECH",
+            "uid": 511080,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 10,
+                "capsName": "ARTESIA",
+                "fullName": "Artesia",
+                "code": "ART",
+                "name": "ARTESIA"
+            },
+            "locID": {
+                "id": 80,
+                "capsName": "ELECTRONIC DIAGNOSTICS SHOP",
+                "fullName": "Electronic Diagnostics Shop",
+                "code": "E-TECH",
+                "name": "E-TECH",
+                "techClass": "E-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "2311 S. First St.",
+                    "street2": ""
+                },
+                "city": "Artesia",
+                "state": "NM",
+                "zipcode": "88210"
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "2311 S. First St.",
+                    "street2": ""
+                },
+                "city": "Artesia",
+                "state": "NM",
+                "zipcode": "88210"
+            },
+            "latitude": 32.814942,
+            "longitude": -104.394715,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 8,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "ARTESIA E-TECH",
+            "sort_number": 8,
+            "site_number": 511080
+        },
+        {
+            "_id": "HB_ART_PMPSHP",
+            "uid": 511088,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 10,
+                "capsName": "ARTESIA",
+                "fullName": "Artesia",
+                "code": "ART",
+                "name": "ARTESIA"
+            },
+            "locID": {
+                "id": 88,
+                "capsName": "PUMP SHOP",
+                "fullName": "Pump Shop",
+                "code": "PMPSHP",
+                "name": "PMPSHP",
+                "techClass": "P-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "2311 S. First St.",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Artesia",
+                "state": "NM",
+                "zipcode": "88210",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "2311 S. First St.",
+                    "street2": ""
+                },
+                "city": "Artesia",
+                "state": "NM",
+                "zipcode": "88210"
+            },
+            "latitude": 32.814942,
+            "longitude": -104.394715,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 8,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "ARTESIA PUMPSHOP",
+            "sort_number": 10,
+            "site_number": 511088
+        },
+        {
+            "_id": "HB_ART_MNSHOP",
+            "uid": 511087,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 10,
+                "capsName": "ARTESIA",
+                "fullName": "Artesia",
+                "code": "ART",
+                "name": "ARTESIA"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "2311 S. First St.",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Artesia",
+                "state": "NM",
+                "zipcode": "88210",
+                "_$visited": true
+            },
+            "requires_preauth": true,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": true,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "2311 S. First St.",
+                    "street2": ""
+                },
+                "city": "Artesia",
+                "state": "NM",
+                "zipcode": "88210"
+            },
+            "latitude": 32.814942,
+            "longitude": -104.394715,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 8,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "ARTESIA MAINTENANCE",
+            "sort_number": 9,
+            "site_number": 511087
+        },
+        {
+            "_id": "HB_BRN_E-TECH",
+            "uid": 511180,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 11,
+                "capsName": "BROWNFIELD",
+                "fullName": "Brownfield",
+                "code": "BRN",
+                "name": "BROWNFIELD"
+            },
+            "locID": {
+                "id": 80,
+                "capsName": "ELECTRONIC DIAGNOSTICS SHOP",
+                "fullName": "Electronic Diagnostics Shop",
+                "code": "E-TECH",
+                "name": "E-TECH",
+                "techClass": "E-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "1301 W. Webb St.",
+                    "street2": ""
+                },
+                "city": "Brownfield",
+                "state": "TX",
+                "zipcode": "78586"
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": false,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "1301 W. Webb St.",
+                    "street2": ""
+                },
+                "city": "Brownfield",
+                "state": "TX",
+                "zipcode": "78586"
+            },
+            "latitude": 33.166237,
+            "longitude": -102.289671,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 8,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "BROWNFIELD E-TECH",
+            "sort_number": 7,
+            "site_number": 511180
+        },
+        {
+            "_id": "HB_BRN_MNSHOP",
+            "uid": 511187,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 11,
+                "capsName": "BROWNFIELD",
+                "fullName": "Brownfield",
+                "code": "BRN",
+                "name": "BROWNFIELD"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "1301 W. Webb St",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Brownfield",
+                "state": "TX",
+                "zipcode": "78586",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "1301 W. Webb St",
+                    "street2": ""
+                },
+                "city": "Brownfield",
+                "state": "TX",
+                "zipcode": "78586"
+            },
+            "latitude": 33.166237,
+            "longitude": -102.289671,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 8,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "PM": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "BROWNFIELD",
+            "sort_number": 5,
+            "site_number": 511187
+        },
+        {
+            "_id": "HB_BRN_PMPSHP",
+            "uid": 511188,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 11,
+                "capsName": "BROWNFIELD",
+                "fullName": "Brownfield",
+                "code": "BRN",
+                "name": "BROWNFIELD"
+            },
+            "locID": {
+                "id": 88,
+                "capsName": "PUMP SHOP",
+                "fullName": "Pump Shop",
+                "code": "PMPSHP",
+                "name": "PMPSHP",
+                "techClass": "P-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "1301 W. Webb St.",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Brownfield",
+                "state": "TX",
+                "zipcode": "78586",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "1301 W. Webb St.",
+                    "street2": ""
+                },
+                "city": "Brownfield",
+                "state": "TX",
+                "zipcode": "78586"
+            },
+            "latitude": 33.166237,
+            "longitude": -102.289671,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 8,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "BROWNFIELD PUMP SHOP",
+            "sort_number": 6,
+            "site_number": 511188
+        },
+        {
+            "_id": "HB_DCN_MFGCTR",
+            "uid": 511385,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 13,
+                "capsName": "DUNCAN",
+                "fullName": "Duncan",
+                "code": "DCN",
+                "name": "DUNCAN"
+            },
+            "locID": {
+                "id": 85,
+                "capsName": "MANUFACTURING CENTER",
+                "fullName": "Manufacturing Center",
+                "code": "MFGCTR",
+                "name": "MFGCTR",
+                "techClass": "G-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "100 East Halliburton Blvd",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Duncan",
+                "state": "OK",
+                "zipcode": "73533",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "100 East Halliburton Blvd",
+                    "street2": ""
+                },
+                "city": "Duncan",
+                "state": "OK",
+                "zipcode": "73533"
+            },
+            "latitude": 34.487586,
+            "longitude": -97.943195,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 8,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "DUNCAN MAINTENANCE",
+            "sort_number": 12,
+            "site_number": 511385
+        },
+        {
+            "_id": "HB_DCN_PMPSHP",
+            "uid": 511388,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 13,
+                "capsName": "DUNCAN",
+                "fullName": "Duncan",
+                "code": "DCN",
+                "name": "DUNCAN"
+            },
+            "locID": {
+                "id": 88,
+                "capsName": "PUMP SHOP",
+                "fullName": "Pump Shop",
+                "code": "PMPSHP",
+                "name": "PMPSHP",
+                "techClass": "P-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "100 East Halliburton Blvd",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Duncan",
+                "state": "OK",
+                "zipcode": "73533",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "100 East Halliburton Blvd",
+                    "street2": ""
+                },
+                "city": "Duncan",
+                "state": "OK",
+                "zipcode": "73533"
+            },
+            "latitude": 34.489623,
+            "longitude": -97.943195,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 8,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "DUNCAN PUMP SHOP",
+            "sort_number": 13,
+            "site_number": 511388
+        },
+        {
+            "_id": "HB_DCN_MNSHOP",
+            "uid": 511387,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 13,
+                "capsName": "DUNCAN",
+                "fullName": "Duncan",
+                "code": "DCN",
+                "name": "DUNCAN"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "215 W. Bois D'Arc Ave.",
+                    "street2": ""
+                },
+                "city": "Duncan",
+                "state": "OK",
+                "zipcode": "73533"
+            },
+            "requires_preauth": true,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": true,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": false,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "215 W. Bois D'Arc Ave.",
+                    "street2": ""
+                },
+                "city": "Duncan",
+                "state": "OK",
+                "zipcode": "73533"
+            },
+            "latitude": 34.4805,
+            "longitude": -97.945,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 8,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "S",
+                        "S",
+                        "10",
+                        "10"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "DUNCAN MAINTENANCE SHOP",
+            "sort_number": 11,
+            "site_number": 511387
+        },
+        {
+            "_id": "HB_DKN_MNSHOP",
+            "uid": 511287,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 12,
+                "capsName": "DICKINSON",
+                "fullName": "Dickinson",
+                "code": "DKN",
+                "name": "DICKINSON"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "270 34th St. W",
+                    "street2": ""
+                },
+                "city": "Dickinson",
+                "state": "ND",
+                "zipcode": "58601"
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": false,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "270 34th St. W",
+                    "street2": ""
+                },
+                "city": "Dickinson",
+                "state": "ND",
+                "zipcode": "58601"
+            },
+            "latitude": 46.916473,
+            "longitude": -102.784013,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 24,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "DICKINSON",
+            "sort_number": 18,
+            "site_number": 511287
+        },
+        {
+            "_id": "HB_FTL_E-TECH",
+            "uid": 511480,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 14,
+                "capsName": "FORT LUPTON",
+                "fullName": "Fort Lupton",
+                "code": "FTL",
+                "name": "FORT LUPTON"
+            },
+            "locID": {
+                "id": 80,
+                "capsName": "ELECTRONIC DIAGNOSTICS SHOP",
+                "fullName": "Electronic Diagnostics Shop",
+                "code": "E-TECH",
+                "name": "E-TECH",
+                "techClass": "E-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "13100 County Road 8",
+                    "street2": ""
+                },
+                "city": "Fort Lupton",
+                "state": "CO",
+                "zipcode": "80621"
+            },
+            "requires_preauth": true,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": true,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "04:00",
+                "PM": "16:00",
+                "_$visited": true
+            },
+            "address": {
+                "street": {
+                    "street1": "13100 County Road 8",
+                    "street2": ""
+                },
+                "city": "Fort Lupton",
+                "state": "CO",
+                "zipcode": "80621"
+            },
+            "latitude": 40.042112,
+            "longitude": -104.806359,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 14,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "HB FORT LUPTON E-TECH",
+            "sort_number": 16,
+            "site_number": 511480
+        },
+        {
+            "_id": "HB_FTL_MNSHOP",
+            "uid": 511487,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 14,
+                "capsName": "FORT LUPTON",
+                "fullName": "Fort Lupton",
+                "code": "FTL",
+                "name": "FORT LUPTON"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "13100 County Road 8",
+                    "street2": ""
+                },
+                "city": "Fort Lupton",
+                "state": "CO",
+                "zipcode": "80621"
+            },
+            "requires_preauth": true,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": true,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "13100 County Road 8",
+                    "street2": ""
+                },
+                "city": "Fort Lupton",
+                "state": "CO",
+                "zipcode": "80621"
+            },
+            "latitude": 40.042112,
+            "longitude": -104.806359,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 14,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "HB FORT LUPTON MNSHOP",
+            "sort_number": 15,
+            "site_number": 511487
+        },
+        {
+            "_id": "HB_MIS_MNSHOP",
+            "uid": 511787,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 17,
+                "capsName": "MISSION",
+                "fullName": "Mission",
+                "code": "MIS",
+                "name": "MISSION"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "735 N INSPIRATION RD",
+                    "street2": ""
+                },
+                "city": "Mission",
+                "state": "TX",
+                "zipcode": "78572"
+            },
+            "requires_preauth": true,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": true,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": false,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "735 N INSPIRATION RD",
+                    "street2": ""
+                },
+                "city": "Mission",
+                "state": "TX",
+                "zipcode": "78572"
+            },
+            "latitude": 26.215687,
+            "longitude": -98.351662,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 0,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "MISSION",
+            "sort_number": 1,
+            "site_number": 511787
+        },
+        {
+            "_id": "HB_ODS_E-TECH",
+            "uid": 511880,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 18,
+                "capsName": "ODESSA",
+                "fullName": "Odessa",
+                "code": "ODS",
+                "name": "ODESSA"
+            },
+            "locID": {
+                "id": 80,
+                "capsName": "ELECTRONIC DIAGNOSTICS SHOP",
+                "fullName": "Electronic Diagnostics Shop",
+                "code": "E-TECH",
+                "name": "E-TECH",
+                "techClass": "E-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "6155 W Murphy St.",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Odessa",
+                "state": "TX",
+                "zipcode": "79763",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": false,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "6155 W Murphy St.",
+                    "street2": ""
+                },
+                "city": "Odessa",
+                "state": "TX",
+                "zipcode": "79763"
+            },
+            "latitude": 31.803422,
+            "longitude": -102.437881,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 6,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "0",
+                        "M",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "0",
+                        "M",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "ODESSA E-TECH",
+            "sort_number": 4,
+            "site_number": 511880
+        },
+        {
+            "_id": "HB_ODS_MNSHOP",
+            "uid": 511887,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 18,
+                "capsName": "ODESSA",
+                "fullName": "Odessa",
+                "code": "ODS",
+                "name": "ODESSA"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "6155 W Murphy St.",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Odessa",
+                "state": "TX",
+                "zipcode": "79763",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "6155 W Murphy St.",
+                    "street2": ""
+                },
+                "city": "Odessa",
+                "state": "TX",
+                "zipcode": "79763"
+            },
+            "latitude": 31.803422,
+            "longitude": -102.437881,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 6,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "M",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "M",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ],
+                    "PM": [
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12",
+                        "12"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "12",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "12",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "ODESSA",
+            "sort_number": 3,
+            "site_number": 511887
+        },
+        {
+            "_id": "HB_RSP_MNSHOP",
+            "uid": 511987,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 19,
+                "capsName": "ROCK SPRINGS",
+                "fullName": "Rock Springs",
+                "code": "RSP",
+                "name": "ROCK SPRINGS"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "1801 Blairtown Connector Rd",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Rock Springs",
+                "state": "WY",
+                "zipcode": "82901",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "1801 Blairtown Connector Rd",
+                    "street2": ""
+                },
+                "city": "Rock Springs",
+                "state": "WY",
+                "zipcode": "82901"
+            },
+            "latitude": 41.56829,
+            "longitude": -109.24981,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 20,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5"
+                    ],
+                    "PM": [
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5"
+                    ],
+                    "PM": [
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5"
+                    ],
+                    "PM": [
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5",
+                        "11.5"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ],
+                    "PM": [
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "ROCK SPRINGS WY",
+            "sort_number": 14,
+            "site_number": 511987
+        },
+        {
+            "_id": "HB_SAN_MNSHOP",
+            "uid": 512087,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 20,
+                "capsName": "SAN ANTONIO",
+                "fullName": "San Antonio",
+                "code": "SAN",
+                "name": "SAN ANTONIO"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "4375 S. Loop 1604 E",
+                    "street2": ""
+                },
+                "city": "Elmendorf",
+                "state": "TX",
+                "zipcode": "78112"
+            },
+            "requires_preauth": true,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": true,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "07:00",
+                "PM": "19:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "4375 S. Loop 1604 E",
+                    "street2": ""
+                },
+                "city": "Elmendorf",
+                "state": "TX",
+                "zipcode": "78112"
+            },
+            "latitude": 29.221577,
+            "longitude": -98.405809,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 0,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10"
+                    ],
+                    "PM": [
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10",
+                        "10"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "SAN ANTONIO",
+            "sort_number": 2,
+            "site_number": 512087
+        },
+        {
+            "_id": "HB_WIL_MNSHOP",
+            "uid": 512387,
+            "client": {
+                "id": 51,
+                "capsName": "HALLIBURTON",
+                "fullName": "Halliburton",
+                "code": "HB",
+                "name": "HALLIBURTON"
+            },
+            "location": {
+                "id": 24,
+                "capsName": "WILLISTON",
+                "fullName": "Williston",
+                "code": "WIL",
+                "name": "WILLISTON"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "420 Halliburton Drive",
+                    "street2": ""
+                },
+                "city": "Williston",
+                "state": "ND",
+                "zipcode": "58801"
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "420 Halliburton Drive",
+                    "street2": ""
+                },
+                "city": "Williston",
+                "state": "ND",
+                "zipcode": "58801"
+            },
+            "latitude": 48.148836,
+            "longitude": -103.581071,
+            "within": 500,
+            "account_number": 4600660971,
+            "travel_time": 24,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13"
+                    ],
+                    "PM": [
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13"
+                    ],
+                    "PM": [
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13"
+                    ],
+                    "PM": [
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13",
+                        "13"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "WILLISTON",
+            "sort_number": 17,
+            "site_number": 512387
+        },
+        {
+            "_id": "KN_MHL_MNSHOP",
+            "uid": 521687,
+            "client": {
+                "id": 52,
+                "capsName": "KEANE",
+                "fullName": "Keane",
+                "code": "KN",
+                "name": "KEANE"
+            },
+            "location": {
+                "id": 16,
+                "capsName": "MILL HALL",
+                "fullName": "Mill Hall",
+                "code": "MHL",
+                "name": "MILL HALL"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "120 Airstrip Drive",
+                    "street2": ""
+                },
+                "city": "Mill Hall",
+                "state": "PA",
+                "zipcode": "17751"
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 70,
+            "site_active": false,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "120 Airstrip Drive",
+                    "street2": ""
+                },
+                "city": "Mill Hall",
+                "state": "PA",
+                "zipcode": "17751"
+            },
+            "latitude": 41.062439,
+            "longitude": -77.443244,
+            "within": 500,
+            "account_number": null,
+            "travel_time": 24,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "KEANE MILL HALL",
+            "sort_number": 24,
+            "site_number": 521687
+        },
+        {
+            "_id": "KN_ODS_MNSHOP",
+            "uid": 521887,
+            "client": {
+                "id": 52,
+                "capsName": "KEANE",
+                "fullName": "Keane",
+                "code": "KN",
+                "name": "KEANE"
+            },
+            "location": {
+                "id": 18,
+                "capsName": "ODESSA",
+                "fullName": "Odessa",
+                "code": "ODS",
+                "name": "ODESSA"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "8200 E Interstate 20",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Odessa",
+                "state": "TX",
+                "zipcode": "79765",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "8200 E Interstate 20",
+                    "street2": ""
+                },
+                "city": "Odessa",
+                "state": "TX",
+                "zipcode": "79765"
+            },
+            "latitude": 31.884046,
+            "longitude": -102.26282,
+            "within": 500,
+            "account_number": null,
+            "travel_time": 6,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "KEANE ODESSA",
+            "sort_number": 20,
+            "site_number": 521887
+        },
+        {
+            "_id": "KN_SHN_MNSHOP",
+            "uid": 522187,
+            "client": {
+                "id": 52,
+                "capsName": "KEANE",
+                "fullName": "Keane",
+                "code": "KN",
+                "name": "KEANE"
+            },
+            "location": {
+                "id": 21,
+                "capsName": "SHAWNEE",
+                "fullName": "Shawnee",
+                "code": "SHN",
+                "name": "SHAWNEE"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "41500 Wolverine Rd",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Shawnee",
+                "state": "OK",
+                "zipcode": "74804",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": false,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "41500 Wolverine Rd",
+                    "street2": ""
+                },
+                "city": "Shawnee",
+                "state": "OK",
+                "zipcode": "74804"
+            },
+            "latitude": 35.425225,
+            "longitude": -96.917376,
+            "within": 500,
+            "account_number": null,
+            "travel_time": 8,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "KEANE SHAWNEE",
+            "sort_number": 21,
+            "site_number": 522187
+        },
+        {
+            "_id": "KN_SPR_E-TECH",
+            "uid": 522280,
+            "client": {
+                "id": 52,
+                "capsName": "KEANE",
+                "fullName": "Keane",
+                "code": "KN",
+                "name": "KEANE"
+            },
+            "location": {
+                "id": 22,
+                "capsName": "SPRINGTOWN",
+                "fullName": "Springtown",
+                "code": "SPR",
+                "name": "SPRINGTOWN"
+            },
+            "locID": {
+                "id": 80,
+                "capsName": "ELECTRONIC DIAGNOSTICS SHOP",
+                "fullName": "Electronic Diagnostics Shop",
+                "code": "E-TECH",
+                "name": "E-TECH",
+                "techClass": "E-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "354 W. Bradshaw Rd",
+                    "street2": ""
+                },
+                "city": "Springtown",
+                "state": "TX",
+                "zipcode": "76082"
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": false,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "354 W. Bradshaw Rd",
+                    "street2": ""
+                },
+                "city": "Springtown",
+                "state": "TX",
+                "zipcode": "76082"
+            },
+            "latitude": 32.943867,
+            "longitude": -97.698508,
+            "within": 300,
+            "account_number": null,
+            "travel_time": 6,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "KEANE SPRINGTOWN E-TECH",
+            "sort_number": 23,
+            "site_number": 522280
+        },
+        {
+            "_id": "KN_SPR_MNSHOP",
+            "uid": 522287,
+            "client": {
+                "id": 52,
+                "capsName": "KEANE",
+                "fullName": "Keane",
+                "code": "KN",
+                "name": "KEANE"
+            },
+            "location": {
+                "id": 22,
+                "capsName": "SPRINGTOWN",
+                "fullName": "Springtown",
+                "code": "SPR",
+                "name": "SPRINGTOWN"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "354 W. Bradshaw Rd",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Springtown",
+                "state": "TX",
+                "zipcode": "76082",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 65,
+            "site_active": false,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "354 W. Bradshaw Rd",
+                    "street2": ""
+                },
+                "city": "Springtown",
+                "state": "TX",
+                "zipcode": "76082"
+            },
+            "latitude": 32.943867,
+            "longitude": -97.698508,
+            "within": 300,
+            "account_number": null,
+            "travel_time": 6,
+            "per_diem_rate": 40,
+            "lodging_rate": 55,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ],
+                    "PM": [
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11",
+                        "11"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "M"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "KEANE SPRINGTOWN",
+            "sort_number": 22,
+            "site_number": 522287
+        },
+        {
+            "_id": "SE_WES_MNSHOP",
+            "uid": 989887,
+            "client": {
+                "id": 98,
+                "capsName": "SESA",
+                "fullName": "SESA",
+                "code": "SE",
+                "name": "SESA"
+            },
+            "location": {
+                "id": 98,
+                "capsName": "WESLACO",
+                "fullName": "Weslaco",
+                "code": "WES",
+                "name": "WESLACO"
+            },
+            "locID": {
+                "id": 87,
+                "capsName": "MAINTENANCE SHOP",
+                "fullName": "Maintenance Shop",
+                "code": "MNSHOP",
+                "name": "MNSHOP",
+                "techClass": "M-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "2801 Corporate Drive",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Weslaco",
+                "state": "TX",
+                "zipcode": "78599",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 0,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "08:00",
+                "PM": "17:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "2801 Corporate Drive",
+                    "street2": ""
+                },
+                "city": "Weslaco",
+                "state": "TX",
+                "zipcode": "78599"
+            },
+            "latitude": 26.17726,
+            "longitude": -97.964594,
+            "within": 500,
+            "account_number": null,
+            "travel_time": 0,
+            "per_diem_rate": 0,
+            "lodging_rate": 0,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ],
+                    "PM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ],
+                    "PM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ],
+                    "PM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "SESA HQ MECHANICS",
+            "sort_number": 25,
+            "site_number": 989887
+        },
+        {
+            "_id": "SE_WES_E-TECH",
+            "uid": 989880,
+            "client": {
+                "id": 98,
+                "capsName": "SESA",
+                "fullName": "SESA",
+                "code": "SE",
+                "name": "SESA"
+            },
+            "location": {
+                "id": 98,
+                "capsName": "WESLACO",
+                "fullName": "Weslaco",
+                "code": "WES",
+                "name": "WESLACO"
+            },
+            "locID": {
+                "id": 80,
+                "capsName": "ELECTRONIC DIAGNOSTICS SHOP",
+                "fullName": "Electronic Diagnostics Shop",
+                "code": "E-TECH",
+                "name": "E-TECH",
+                "techClass": "E-TECH"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "2801 Corporate Drive",
+                    "street2": ""
+                },
+                "city": "Weslaco",
+                "state": "TX",
+                "zipcode": "78599"
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 0,
+            "site_active": false,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "08:00",
+                "PM": "17:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "2801 Corporate Drive",
+                    "street2": ""
+                },
+                "city": "Weslaco",
+                "state": "TX",
+                "zipcode": "78599"
+            },
+            "latitude": 26.17726,
+            "longitude": -97.964594,
+            "within": 500,
+            "account_number": null,
+            "travel_time": 0,
+            "per_diem_rate": 0,
+            "lodging_rate": 0,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ],
+                    "PM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ],
+                    "PM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ],
+                    "PM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "SESA HQ E-TECHS",
+            "sort_number": 26,
+            "site_number": 989880
+        },
+        {
+            "_id": "SE_WES_OFFICE",
+            "uid": 989898,
+            "client": {
+                "id": 98,
+                "capsName": "SESA",
+                "fullName": "SESA",
+                "code": "SE",
+                "name": "SESA"
+            },
+            "location": {
+                "id": 98,
+                "capsName": "WESLACO",
+                "fullName": "Weslaco",
+                "code": "WES",
+                "name": "WESLACO"
+            },
+            "locID": {
+                "id": 98,
+                "capsName": "OFFICE",
+                "fullName": "Office",
+                "code": "OFFICE",
+                "name": "OFFICE",
+                "techClass": "OFFICE"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "2801 Corporate Drive",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Weslaco",
+                "state": "TX",
+                "zipcode": "78599",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 0,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "08:00",
+                "PM": "17:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "2801 Corporate Drive",
+                    "street2": ""
+                },
+                "city": "Weslaco",
+                "state": "TX",
+                "zipcode": "78599"
+            },
+            "latitude": 26.17726,
+            "longitude": -97.964594,
+            "within": 500,
+            "account_number": null,
+            "travel_time": 0,
+            "per_diem_rate": 0,
+            "lodging_rate": 0,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ],
+                    "PM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ],
+                    "PM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ],
+                    "PM": [
+                        "8",
+                        "8",
+                        "8",
+                        "0",
+                        "0",
+                        "8",
+                        "8"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "OFFICE PERSONNEL",
+            "sort_number": 27,
+            "site_number": 989898
+        },
+        {
+            "_id": "XX_XXX_UNASGN",
+            "uid": 999999,
+            "client": {
+                "id": 99,
+                "capsName": "UNASSIGNED",
+                "fullName": "Unassigned",
+                "code": "XX",
+                "name": "UNASSIGNED"
+            },
+            "location": {
+                "id": 99,
+                "capsName": "UNASSIGNED",
+                "fullName": "Unassigned",
+                "code": "XXX",
+                "name": "UNASSIGNED"
+            },
+            "locID": {
+                "id": 99,
+                "capsName": "UNASSIGNED",
+                "fullName": "Unassigned",
+                "code": "UNASGN",
+                "name": "UNASGN",
+                "techClass": "UNASGN"
+            },
+            "billing_address": {
+                "street": {
+                    "street1": "Unassigned",
+                    "street2": "",
+                    "_$visited": true
+                },
+                "city": "Unassigned",
+                "state": "",
+                "zipcode": "",
+                "_$visited": true
+            },
+            "requires_preauth": false,
+            "requires_preauth_pertech": false,
+            "requires_invoice_woreports": false,
+            "account_or_contract": "Contract",
+            "billing_rate": 0,
+            "site_active": true,
+            "has_standby": true,
+            "shift_start_times": {
+                "AM": "06:00",
+                "PM": "18:00"
+            },
+            "address": {
+                "street": {
+                    "street1": "Unassigned",
+                    "street2": ""
+                },
+                "city": "Unassigned",
+                "state": "",
+                "zipcode": ""
+            },
+            "latitude": 26.17726,
+            "longitude": -97.964594,
+            "within": 500,
+            "account_number": null,
+            "travel_time": 0,
+            "per_diem_rate": 0,
+            "lodging_rate": 0,
+            "shiftRotations": [
+                {
+                    "name": "FIRST WEEK",
+                    "fullName": "First Week"
+                },
+                {
+                    "name": "CONTN WEEK",
+                    "fullName": "Continuing Week"
+                },
+                {
+                    "name": "FINAL WEEK",
+                    "fullName": "Final Week"
+                },
+                {
+                    "name": "DAYS OFF",
+                    "fullName": "Days Off"
+                },
+                {
+                    "name": "VACATION",
+                    "fullName": "Vacation"
+                }
+            ],
+            "hoursList": {
+                "FIRST WEEK": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "CONTN WEEK": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "FINAL WEEK": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "DAYS OFF": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                "VACATION": {
+                    "AM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ],
+                    "PM": [
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V",
+                        "V"
+                    ]
+                },
+                "UNASSIGNED": {
+                    "AM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ],
+                    "PM": [
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                }
+            },
+            "techShifts": [
+                "AM",
+                "PM"
+            ],
+            "schedule_name": "UNASSIGNED",
+            "sort_number": 28,
+            "site_number": 999999
+        }
+    ]
+}

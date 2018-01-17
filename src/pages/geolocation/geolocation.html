@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{title}}</ion-title>
+    <!-- <ion-buttons right>
+      <button ion-button (click)="editSiteHours($event)" title="Edit site hours" >
+        <ion-icon class="icon-normal" name="ios-clock-outline"></ion-icon>
+      </button>
+      <button ion-button (click)="addJobSite()" title="Add work site" >
+        <ion-icon class="icon-normal" name="ios-add-circle-outline"></ion-icon>
+      </button>
+      <button ion-button (click)="saveNoExit()" title="Save but don't exit page" >
+        <ion-icon class="icon-normal" name="checkmark-circle-outline"></ion-icon>
+      </button>
+      <button *ngIf="siteIndex > 1" ion-button (click)="sitePrevious()" title="Previous work site" >
+        <ion-icon class="icon-normal" name="arrow-dropleft"></ion-icon>
+      </button>
+      <button *ngIf="!(siteIndex > 1)" ion-button disabled="true" title="(No previous work site)" >
+        <ion-icon class="icon-greyedout" name="arrow-dropleft"></ion-icon>
+      </button>
+      <button *ngIf="siteIndex < siteCount" ion-button (click)="siteNext()" title="Next work site" >
+        <ion-icon class="icon-normal" name="arrow-dropright"></ion-icon>
+      </button>
+      <button *ngIf="!(siteIndex < siteCount)" ion-button disabled="true" title="(No next work site)" >
+        <ion-icon class="icon-greyedout" name="arrow-dropright"></ion-icon>
+      </button>
+    </ion-buttons> -->
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="window" *ngIf="dataReady && data.ready()">
+    <div class="add-site-right-column">
+      <div class="map-col">
+        <agm-map [latitude]="latitude" [longitude]="longitude" [mapTypeId]="mapMode" [(zoom)]="mapZoom">
+          <agm-marker [latitude]="latitude" [longitude]="longitude"></agm-marker>
+          <!-- <agm-circle [latitude]="latitude" [longitude]="longitude" [radius]="rad" [(fillColor)]="radiusColor"></agm-circle> -->
+        </agm-map>
+      </div>
+    </div>
+  </div>
+  <div #overlayTarget class="overlay-target"></div>
+</ion-content>

@@ -1,0 +1,3567 @@
+[
+    {
+        "ok": true,
+        "id": "treyes_2017-10-26_07-06-28_-0500_Thu",
+        "rev": "6-a1522fc473a0a259cfe2888346857071"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-09_06-38-29_-0500_Mon",
+        "rev": "5-4875fb84c372f59e49f6823880ef1aad"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-06_07-12-39_-0600_Mon",
+        "rev": "5-e589d0ce52bdedce24fc6a4a9cca6e5d"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-05_15-57-25_-0500_Thu",
+        "rev": "5-a216eacdd158f6f7278ca2616fa6e958"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-05_16-00-16_-0500_Thu",
+        "rev": "5-097b5be55b7bb6089ab5eda73e6e43eb"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-17_20-42-35_-0500_Tue",
+        "rev": "4-0addfd745611871d8316ecb16e265b02"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-07_23-48-17_-0500_Sat",
+        "rev": "4-08d86e2d21709658748cda6ec14e53c1"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-07_05-54-28_-0500_Sat",
+        "rev": "4-abea3ab84f9b4403724638b653eeefd6"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-11-09_21-24-58_-0600_Thu",
+        "rev": "4-2918276f74e99b64e92031ae3cff866d"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-20_17-52-08_-0500_Fri",
+        "rev": "4-1b662e297127827791463c30b90c8de5"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-11-10_07-44-50_-0600_Fri",
+        "rev": "4-d2fa55f56d730a34d1a536f4b5e285dd"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-17_19-02-05_-0500_Tue",
+        "rev": "4-98036dc50e4e88f0ea7b9cd996ca39af"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-11-10_07-45-50_-0600_Fri",
+        "rev": "3-509669858df49f38f52aae638d36fc11"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_19-03-26_-0600_Tue",
+        "rev": "3-6514b17aa3d18326badee0e80d90ee79"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-04_09-59-29_-0500_Wed",
+        "rev": "3-281d9f969ffa2a6f0eb549db0c66fdb7"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-07_18-40-59_-0500_Sat",
+        "rev": "3-7bc04b88c252dae9980cde30a59be696"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_10-09-21_-0500_Tue",
+        "rev": "3-90c6657758eb6fb6b8f0fbe7a2186d56"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-20_18-58-05_-0500_Fri",
+        "rev": "3-f40330adf8cc7497f73b95886372f0ae"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-09_07-05-21_-0600_Thu",
+        "rev": "3-d0e2410f2908e8cccc3046ecc0848992"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-06_07-56-39_-0600_Mon",
+        "rev": "3-6d85be725f76ee6132b7aaefc8faf274"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-08_07-08-41_-0600_Wed",
+        "rev": "3-b7d4459a64bf0a26868c457025b02f00"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-03_19-01-09_-0500_Fri",
+        "rev": "3-b099ae904ae72e7875ea3e7bb3883c43"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-35-50_-0600_Wed",
+        "rev": "3-a06d10b6b8eca53870d8cfad2e6b22ff"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-07_07-18-32_-0600_Tue",
+        "rev": "3-dbce118d4ca0d5147d5e37ecce0ea171"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-03_20-41-49_-0500_Tue",
+        "rev": "3-3f8b5f98bd242bcc2f1f1ebce21859b3"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-03_07-15-57_-0500_Fri",
+        "rev": "3-a4d259fccbff605521ae56d3a07ef7cb"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-51-11_-0500_Wed",
+        "rev": "3-990d6518e3ba2deafe8b0d15370504eb"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-07_16-14-20_-0500_Sat",
+        "rev": "3-ce265cf57dccab81ab71a0e7460ad1a9"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-00-23_-0500_Wed",
+        "rev": "3-7fa90d2356b30e21080d090ec7499d9a"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-05_20-20-16_-0600_Sun",
+        "rev": "3-5638ac273e14b3901f5c97816d806dd1"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-06_07-12-01_-0600_Mon",
+        "rev": "3-ee3136d2fe05aa7a65d8573ca4b2a33d"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-05_18-28-43_-0600_Sun",
+        "rev": "3-0598a2c1e975a9610ae9f8357c21e309"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-03_07-14-31_-0500_Tue",
+        "rev": "3-678169c980a3b61db5147016962bbdde"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-11-02_18-52-49_-0500_Thu",
+        "rev": "3-ba3c67de8cacfa0febbdfd0cf086e3ea"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-06_07-18-32_-0600_Mon",
+        "rev": "3-1131d06aadde82551c7756894f09422f"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-08_07-07-02_-0600_Wed",
+        "rev": "3-fc7588e5a38d1b3b2d828f45934ec03c"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-17_16-21-58_-0500_Tue",
+        "rev": "3-d17a2558c82e8eabd18c7a70ca710694"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-06_07-57-36_-0600_Mon",
+        "rev": "3-1dd672618cad4fb621c5f8250d0ffa19"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-05_06-44-50_-0600_Sun",
+        "rev": "3-060bd178f8674c60bb9f9361231dc469"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-23-33_-0500_Tue",
+        "rev": "3-7e75a960a5ba7b9ef00d53644d424882"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_18-59-37_-0600_Tue",
+        "rev": "3-91f22f3cb0ae2c9dfa06f3274469826b"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-16-48_-0600_Wed",
+        "rev": "3-f9fcbe63ed4545b9679072f1e068c46a"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-08_06-38-49_-0600_Wed",
+        "rev": "3-c7313ef46a101d69f32ebcc3aeb022d0"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-11_22-20-14_-0600_Sat",
+        "rev": "3-2522e165a1ab452e37a7dbf68e4c270c"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-02_19-20-39_-0500_Thu",
+        "rev": "3-3c251350541f70ce0429bff1fc17b7fc"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-17_16-10-54_-0500_Tue",
+        "rev": "3-f0cde9bcee816bc44680235bae573eb4"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-02_19-17-33_-0500_Thu",
+        "rev": "3-c2933e171378967ab38faa44db239b9d"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-11-09_16-13-55_-0600_Thu",
+        "rev": "3-158b9490f2f6632fd51d5763ba5c59ca"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-02_07-34-01_-0500_Mon",
+        "rev": "3-0597e349a5b38e6aadf424e3078fb57e"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-02_15-48-08_-0500_Thu",
+        "rev": "3-bd4d434a12c1bbd04343f15d51dc6e54"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-02_07-05-03_-0500_Thu",
+        "rev": "3-d5f468aa8883cd1b017a8f12450eae5c"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-01_18-41-42_-0500_Sun",
+        "rev": "3-664ed31b2fdb2e83fab44dbcabf15256"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-07_16-10-22_-0500_Sat",
+        "rev": "3-c50a9c1429b1c7f0074c003219cceb69"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-07_07-19-50_-0600_Tue",
+        "rev": "3-aa37c86d29f89f894a62e6e9900c6ab9"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-11-09_21-26-21_-0600_Thu",
+        "rev": "3-bb614b1cca685ab9127cb650047e7ca6"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-07_16-09-13_-0500_Sat",
+        "rev": "3-bdeca601f3a9355df4e9c0135c3023d7"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-18-52_-0500_Tue",
+        "rev": "3-bcc2aad685c0dfdc0345398b036eebc5"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_10-10-43_-0500_Tue",
+        "rev": "3-c4adba63f0364dbeaaf5a44b64520b0f"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-25_18-45-29_-0500_Wed",
+        "rev": "3-a633bff4ce75d53e1f5638a27385b9b2"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_19-08-03_-0600_Tue",
+        "rev": "3-384f3ac546b95634ef475a47b98d553a"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-27_07-16-59_-0500_Fri",
+        "rev": "3-e8cb65a1ac8bcf4b78088259226f7f2b"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-06_07-15-25_-0600_Mon",
+        "rev": "3-e8ebb5128c0719fa81279853146533b8"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-02_07-08-27_-0500_Thu",
+        "rev": "3-dbce01fb11a321d89377eba162bed8bf"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-08_05-40-05_-0600_Wed",
+        "rev": "3-2e581070ece52ff9f53b48355c054ab9"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-19_17-50-32_-0500_Thu",
+        "rev": "3-f0ad4759a0398e1daa6a271f06b4839b"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-09_07-09-02_-0600_Thu",
+        "rev": "3-03c5d12767a8aa5d0f35573509b16898"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-04_22-38-46_-0500_Sat",
+        "rev": "3-aec14d8cee67bb935f6869c1d41cb334"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-44-43_-0600_Wed",
+        "rev": "3-363bae7dfed89caf1664fed8428791dd"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-11-09_16-16-01_-0600_Thu",
+        "rev": "3-16da53f03cdff849175b4e6e5730e725"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-30_16-43-14_-0600_Mon",
+        "rev": "3-2c4452fbe6b52b64dd1bd8ee4ae35ba5"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-03_07-17-02_-0500_Tue",
+        "rev": "3-334f525c929795e4393d97f9e8fc35fa"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-24_18-34-21_-0500_Tue",
+        "rev": "3-be509704689c947d50adf92ed2f06052"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-08_05-38-36_-0600_Wed",
+        "rev": "3-953aeaa1e45bdd5945ceff2dfd9ad506"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-09_06-39-01_-0500_Mon",
+        "rev": "3-07176e0497bae447eb8e04f08e5feaaa"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-06_07-11-26_-0600_Mon",
+        "rev": "3-427039747ad028663f3a4d6cffd5002e"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-05_20-19-47_-0600_Sun",
+        "rev": "3-dcd493e5bc43792455eb7b65b3093794"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-07_06-27-07_-0600_Tue",
+        "rev": "3-3e47cc6cb10f8e817658c9ca77d4731c"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-20_19-04-08_-0500_Fri",
+        "rev": "3-2aca98b8834ccfb607fb0c7b575ec6e7"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-01_19-03-51_-0500_Wed",
+        "rev": "3-139592161cdea52d134c8d4bf166dbb9"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-02_07-07-37_-0500_Thu",
+        "rev": "3-6660d731f63a00cbd7e37df845e09716"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-44-51_-0600_Tue",
+        "rev": "3-9f5e87e9d88d635b11dcbddbc44e9421"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-05_06-46-20_-0600_Sun",
+        "rev": "3-e407995603edd916145fc314975a1877"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-38-56_-0600_Tue",
+        "rev": "3-9c723f778d50cc6d941b2f3c3613156c"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-03_07-13-12_-0500_Tue",
+        "rev": "3-2ed456e551771d239f3fbffdef2990c4"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-08_05-42-24_-0600_Wed",
+        "rev": "3-2fd210532330730fa3cf1d83ddc577d2"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-03_18-57-57_-0500_Fri",
+        "rev": "3-cba031a6adbdd98a63ea9b75fdeca48d"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-54-30_-0600_Wed",
+        "rev": "3-a2bc17e295e3e7fad8645fbfaf68fa75"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-02_15-46-59_-0500_Thu",
+        "rev": "3-bd3f0672398357b9425db59d65d5cadf"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-21-24_-0500_Tue",
+        "rev": "3-2bc4ce0f9ab2bdd3668cf71aae73aa6f"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-04_07-03-16_-0500_Wed",
+        "rev": "3-0816105593d4b5f9ed6d20853240c35d"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-06_18-46-41_-0500_Fri",
+        "rev": "3-6f83f11ed5180ccf829643d9e45e70cd"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-03_18-11-04_-0500_Tue",
+        "rev": "3-e249568cf0bd2825edc6e7ddebb140a3"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-17_18-31-20_-0500_Tue",
+        "rev": "3-589c7e432110ab04f2df08909395590a"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-04_07-01-17_-0500_Wed",
+        "rev": "3-4c9507156fa0c5f0fe0c2cd7c040dede"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-06_08-00-01_-0600_Mon",
+        "rev": "3-2ff6645c08d40bab3731b7fb7278879e"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-11-09_16-17-46_-0600_Thu",
+        "rev": "3-d6c3e04e76093a05e179c3f4e50feabc"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-06_07-56-05_-0600_Mon",
+        "rev": "3-3e9825629b6df484bfc944bf5a31017f"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-02_19-19-24_-0500_Thu",
+        "rev": "3-cec7bfeff57ef05570315e6b6278d7b7"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-17_20-43-46_-0500_Tue",
+        "rev": "3-346327260ad9c07b5621bd7f0553a559"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-18-51_-0500_Wed",
+        "rev": "3-bf99263d00c0383d1d414cea153d7942"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-08-57_-0600_Wed",
+        "rev": "3-a256e303d7299ffc0d70fc4f2c66702b"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-03_18-59-17_-0500_Fri",
+        "rev": "3-371825bae738b9ead04362ecf2ffd58a"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-04_22-36-23_-0500_Sat",
+        "rev": "3-6b269af5bfa6350e942c8fe56cf42614"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-04_07-04-21_-0500_Wed",
+        "rev": "3-f0c6dff3d96ad84cf3f842cd4ae94d7c"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-08_05-36-33_-0600_Wed",
+        "rev": "3-f976f9b715b5901dd429e41ab1931d7c"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-08_05-44-28_-0600_Wed",
+        "rev": "3-ee17bd88557a5ddaf8587b348f0bc444"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-30_17-47-59_-0500_Mon",
+        "rev": "2-6ab3b21a253ceb7f0d378a545d7f2427"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-07_21-11-02_-0500_Sat",
+        "rev": "2-c1ce9887ab78d0f1ef38be88ab649872"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-18_19-03-04_-0500_Wed",
+        "rev": "2-8d8b441f95f0e64cc22d9f85f8946f6f"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-11-01_18-55-40_-0500_Wed",
+        "rev": "2-64f9fe5c3803e94729b2f2af762d767a"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-11-10_07-47-09_-0600_Fri",
+        "rev": "2-c276b98943f85929fd14ddb1c67df9f1"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-11-01_06-20-31_-0600_Wed",
+        "rev": "2-869e897cf2ad9344989c992f011c1b3e"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-41-35_-0600_Wed",
+        "rev": "2-262e1ed2b5b9edc455ae8a640efd8803"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-07_06-27-40_-0600_Tue",
+        "rev": "2-0214e2d671cc5055efa32db36dacbe2c"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_08-09-20_-0500_Wed",
+        "rev": "2-493f3fa1df181ad7c2e2ce6a41938946"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-17_16-08-53_-0500_Tue",
+        "rev": "2-49386c480d444de6a378834e051505c1"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-11-03_18-58-10_-0500_Fri",
+        "rev": "2-1350440b853e7e1d2041f54b86e35f7e"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-11_19-01-36_-0500_Wed",
+        "rev": "2-cc9c38a0128128eff7e5f37724b55052"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-18-28_-0500_Tue",
+        "rev": "2-ce0ef11ffe778c4d58dae2d083c0b108"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-23_06-20-55_-0500_Mon",
+        "rev": "2-df0abc90294c2233f69a73842f916a12"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_19-05-25_-0600_Tue",
+        "rev": "2-70412b8c360a742c58ab1cd6d47fdb9d"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-11_19-03-43_-0500_Wed",
+        "rev": "2-c6c766504493d6b3637ed70f15d3a22e"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-22-13_-0500_Tue",
+        "rev": "2-a903e0a8867e16d218deeae8f5e174e9"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-09-54_-0500_Tue",
+        "rev": "2-006aad282e97541d833995ff3627438b"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-24_23-45-07_-0500_Tue",
+        "rev": "2-c75e0d01d9f41cd16c8617c59180eb37"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-04_06-37-12_-0500_Wed",
+        "rev": "2-8dcf54f0829f9d64cf50f0a8cf4833a2"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-26_17-48-54_-0500_Thu",
+        "rev": "2-1a8b307569093b743f28ad5567aa8012"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-49-14_-0500_Wed",
+        "rev": "2-00f82e42fab4a90cd4ea86296e86cec7"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_07-46-58_-0500_Wed",
+        "rev": "2-df6d2c3831db9a2c6588ced2bf08b268"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_07-56-33_-0500_Wed",
+        "rev": "2-d956648dbea3066a132cca8021cf87ad"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-22_06-44-48_-0500_Sun",
+        "rev": "2-241a93a200f954b5e243d8a65a60eca6"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-19-53_-0500_Wed",
+        "rev": "2-1070f9402ad02cb959d9500892280acc"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-17_19-00-13_-0500_Tue",
+        "rev": "2-f07fda73671c861d47f628f133a83c95"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-06_07-58-34_-0600_Mon",
+        "rev": "2-db9498504ebe88bf177b55bd30a10060"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-01-47_-0500_Tue",
+        "rev": "2-3465500b7134d63d5af2a1d88e7bc09d"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-19_18-56-38_-0500_Thu",
+        "rev": "2-361edf41bbc5eb67e66d0ea6ebb75e0a"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-06_07-10-47_-0600_Mon",
+        "rev": "2-7d27b9f57b37a3808c0b259a2527cd23"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-26_17-04-08_-0500_Thu",
+        "rev": "2-bab489cdc6d9c23ed65a731f8c99392a"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-16-08_-0500_Wed",
+        "rev": "2-13420e716bc0370de6fe9c2679f921c9"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-46-07_-0600_Tue",
+        "rev": "2-2037ff484e54de29a183f99ceff33f10"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-11-01_06-46-21_-0500_Wed",
+        "rev": "2-fe0c4c34c8611a8ee97985180eeb5cb3"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-01_21-12-11_-0500_Sun",
+        "rev": "2-e79193ad1258a0044279879157c65c12"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_07-46-37_-0500_Wed",
+        "rev": "2-c046183915e030f278fc47066ef233e8"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-16_18-29-45_-0500_Mon",
+        "rev": "2-fb2625b7ca6fb02c19f97dd2e00f88a8"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-17_19-05-02_-0500_Tue",
+        "rev": "2-2d30838554269a4f232f5c889230d79c"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-11-12_06-08-33_-0600_Sun",
+        "rev": "2-6f256cfbc8654a551f86db548eb5bb6e"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-30_07-33-44_-0500_Mon",
+        "rev": "2-859fea30ff0791cdb0dbf32c951ad9bc"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-23-32_-0500_Tue",
+        "rev": "2-09eb498f0a3464ca46db7bd4b4b2a2e8"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-11-11_06-10-22_-0600_Sat",
+        "rev": "2-11a48fb9d68d7bc2b9d335e01293b2f4"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-11_22-19-47_-0600_Sat",
+        "rev": "2-f9d970a0d7c9a094a47e047be636c262"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-05-15_-0500_Mon",
+        "rev": "2-ae108e52553e0a4219345842aad22ed3"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-23_06-22-23_-0500_Mon",
+        "rev": "2-5c56bd1627740e27f9c563cc44f72e48"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-03_17-11-24_-0500_Tue",
+        "rev": "2-86548854c9730ed997314bff56f02f09"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-09_19-02-47_-0500_Mon",
+        "rev": "2-2f8b8a359f80f8e8cd82dba750026d8b"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-11-12_06-34-20_-0600_Sun",
+        "rev": "2-255e83baff6f1b441847212d0fce3fa6"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-24_14-21-01_-0500_Tue",
+        "rev": "2-3acf07e526c17aad308a78515ed015ff"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-07_06-25-28_-0600_Tue",
+        "rev": "2-39d1330e46d3ceada5bbe37d0acf32e4"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-25_07-43-24_-0500_Wed",
+        "rev": "2-2f027028ba51e770238c5c10a40d4d7d"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-10_07-16-34_-0600_Fri",
+        "rev": "2-cea9e14b090958adc531a30adcefd1cf"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_16-03-10_-0500_Tue",
+        "rev": "2-a0638b98427142abf2a8750e4454c4a1"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-06-17_-0600_Wed",
+        "rev": "2-c6d28836dd8f277a9189042237ba97aa"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-02_07-09-11_-0500_Thu",
+        "rev": "2-f0c5f6d93194f0ea5471bebe92913d7f"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_19-02-29_-0600_Tue",
+        "rev": "2-44f9de98c9a214ed83a3b21b096c30c3"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-17-01_-0500_Wed",
+        "rev": "2-00c4678591b75822535892691a7b3630"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-23_06-27-06_-0500_Mon",
+        "rev": "2-92583d238580c405b4b83f0e55f973cf"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-27_06-30-34_-0500_Fri",
+        "rev": "2-3abdf35b4c95d35baa694e1fc6fbf784"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-29_06-43-28_-0500_Sun",
+        "rev": "2-59aff05f12250a5374aba2ea6179c460"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-04_18-54-32_-0500_Wed",
+        "rev": "2-87fef36ee60f666736c6d959a5f22562"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-22-38_-0500_Wed",
+        "rev": "2-2ba7874608dac5cc47f2a683c93a96a7"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-21_19-03-50_-0500_Sat",
+        "rev": "2-236b31378950b4a7c6b2b9d9e1da7c50"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-14_18-53-05_-0500_Sat",
+        "rev": "2-e8f34d712653f1fc09851427244425de"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_07-54-48_-0500_Wed",
+        "rev": "2-82525f31a4b3465adb044fe795097640"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-47-44_-0500_Wed",
+        "rev": "2-d8668ba3b30bc668b3e05b642675b972"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-16_18-25-25_-0500_Mon",
+        "rev": "2-8b16c3ee53f5fe9f0d8ae28bc2ba87a9"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-11-51_-0500_Tue",
+        "rev": "2-0f29b599e1801570fa962eec1a935c9c"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-25_17-55-32_-0500_Wed",
+        "rev": "2-1c150176ed218fd1b54cde8cee2f16cd"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-55-29_-0500_Wed",
+        "rev": "2-a5c4ee69428af650a63a227d18fa16ce"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-01_21-12-44_-0500_Sun",
+        "rev": "2-4cd6fcd345efaf865b22695a0731b192"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-03_17-09-47_-0500_Tue",
+        "rev": "2-3354d972e2f80f039a07375f09e664e5"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-11-12_05-56-46_-0600_Sun",
+        "rev": "2-693a2dbbd4f0b86b5d71ecb1b1163d27"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-39-53_-0600_Wed",
+        "rev": "2-ab65ac375ba245352fec709d91d69800"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-23_07-11-26_-0500_Mon",
+        "rev": "2-d4a5df938f299ce27aae30fccf92f9b8"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_08-03-08_-0500_Wed",
+        "rev": "2-3dfc55e03185dff7f51086114aba775c"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_07-51-22_-0500_Wed",
+        "rev": "2-2e6b0990f33e6cb6e81d43865f8b665c"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-31_19-28-22_-0500_Tue",
+        "rev": "2-d92a107d73634463dfff6b1f73f07a1c"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-19_17-42-04_-0500_Thu",
+        "rev": "2-017d0da999b8d2666d0f731a9d1cd2c4"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-08_06-37-41_-0600_Wed",
+        "rev": "2-5a4ac124d122a2ea4f639d2116124c58"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_15-34-00_-0500_Tue",
+        "rev": "2-5b12ca16b6b7c7be459bdfc5b7226d4e"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_07-01-44_-0500_Wed",
+        "rev": "2-177b6f992b4cff49c7d8682da0cfb2e1"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-06_07-54-48_-0600_Mon",
+        "rev": "2-ab2d08559432748b37922a6112b54173"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-26_07-05-03_-0500_Thu",
+        "rev": "2-477a2bd71ffbb696ca088d4548f6a4ca"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_19-06-39_-0600_Tue",
+        "rev": "2-7cc292a04f6b5762a31a4d7a18a8007d"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-36-36_-0500_Tue",
+        "rev": "2-3ffb39a5354f67eff9164f85bd14ffa0"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-27_08-18-00_-0500_Fri",
+        "rev": "2-2bd9c23a4baf711a56597d64a3fdf622"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_07-48-27_-0500_Wed",
+        "rev": "2-05768f7e4bdcbdf15baf7aa20374e58d"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_07-50-13_-0500_Wed",
+        "rev": "2-38cf35e6a046646b5ad21eba9720d6c6"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_19-04-30_-0600_Tue",
+        "rev": "2-b4d4efff4fcff96ddfd7686ab161e335"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-56-41_-0500_Wed",
+        "rev": "2-baaf87f264bae5ef3622b3698d752a39"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-03_07-14-18_-0500_Fri",
+        "rev": "2-98b0ca8c069e1fd829577584147d1001"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-27_06-53-30_-0500_Fri",
+        "rev": "2-5d161f4a8099dfa3fb99b92ac6d184a6"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-06_07-55-20_-0600_Mon",
+        "rev": "2-b9d3d94ac3907f1e5130d6306fc2fc86"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-12_07-15-44_-0600_Sun",
+        "rev": "2-6e08a66e344cce8493dd7e41946e098b"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-29_19-03-42_-0500_Sun",
+        "rev": "2-a258133418a83d367f620d54b2a09c07"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_07-49-12_-0500_Wed",
+        "rev": "2-51c8537f9d2210cc2ec70246d67b1d32"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-11-01_06-45-55_-0500_Wed",
+        "rev": "2-86f5060f82022af6bee835c43a5a91b7"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-03_18-09-55_-0500_Tue",
+        "rev": "2-d7c188da043a6bbfca44253fed812ea4"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-24-11_-0500_Wed",
+        "rev": "2-80f5ce407aebd3e0517cdf86b14764a9"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-02-43_-0500_Wed",
+        "rev": "2-e338b6590e7243e1600f6166dba7f15d"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-48-06_-0500_Tue",
+        "rev": "2-a361d0b9472b85ea05aeeccd3295beed"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-01_06-45-36_-0500_Wed",
+        "rev": "2-18ec8c1e72e3aff2fedf17e26eb279b4"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-13_18-17-55_-0500_Fri",
+        "rev": "2-b3a483bfecca5b35b6d909cf4fc5b262"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-29_07-21-43_-0500_Sun",
+        "rev": "2-018297cd43f1689c881bcabea1849628"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-03_07-13-29_-0500_Fri",
+        "rev": "2-d5616aac347ea734c73e8d9d312b6d60"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-13_19-03-17_-0500_Fri",
+        "rev": "2-e782a17963067868cff34a8991e8e438"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-11_22-18-00_-0600_Sat",
+        "rev": "2-1323871b4a4430fff8b880cf3284a25b"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-12_19-35-03_-0500_Thu",
+        "rev": "2-3e3ec85870e8e93f39efcc3a7743216e"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-03-02_-0500_Mon",
+        "rev": "2-12a19ad68e4f6259e1ff67b657de1fa6"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-24_11-12-24_-0500_Tue",
+        "rev": "2-682b5b4de5f3a1520354d7e635731224"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-47-50_-0600_Wed",
+        "rev": "2-e2aa0629d02ab6e6a0d09aff59bbf2df"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_12-08-29_-0500_Tue",
+        "rev": "2-868a111c76fae69851b7dbc482ad65e1"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-09_09-57-10_-0500_Mon",
+        "rev": "2-7c74d889ba0159cda9de00c3407ea94b"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-04-57_-0500_Wed",
+        "rev": "2-c6968f013aef87d3c11345a6caf12bfd"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-08-20_-0500_Mon",
+        "rev": "2-52ed3ee0091f244ac40052481dce718b"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-23_06-28-24_-0500_Mon",
+        "rev": "2-6b2d4e99214d26d86ff0c30e8c913f86"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-15_18-58-39_-0500_Sun",
+        "rev": "2-3ed9ffa38ff096bc9cc3338a540aec6c"
+    },
+    {
+        "id": "lcareaga_2017-11-12_05-58-19_-0600_Sun",
+        "error": "conflict",
+        "reason": "Document update conflict."
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_10-16-28_-0500_Tue",
+        "rev": "2-ff9be29e30ec35f86c0069b4fbeee225"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-04_19-57-53_-0500_Wed",
+        "rev": "2-b21716bcddf7b4c7f1cf4ba53b89b9f9"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-03_17-10-15_-0500_Tue",
+        "rev": "2-03ffb609072d8b3ecf5d15e4ac7469f7"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-03_20-44-08_-0500_Tue",
+        "rev": "2-c76ece2686bb642a2af5e237709a9ea4"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-52-36_-0500_Wed",
+        "rev": "2-9184b154dbf1defe81eb0383b65e1397"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-21-23_-0500_Wed",
+        "rev": "2-42d9abd5bd8ef5f94a526d129b1560e6"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-07_06-24-45_-0600_Tue",
+        "rev": "2-cee9a426b868198fb89dbc1fc00be28f"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-10-34_-0500_Tue",
+        "rev": "2-97ae04e380e8f713251d4d977c1eb63a"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-28_18-49-19_-0500_Sat",
+        "rev": "2-73af0908295dafbdb9848d5db9c18e0d"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-27_08-19-31_-0500_Fri",
+        "rev": "2-7f52183aa97f655024135ec29a72c346"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-00-46_-0500_Mon",
+        "rev": "2-3b44f5a417cd53fa69583051a699d265"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-12_08-21-04_-0600_Sun",
+        "rev": "2-6746c4aa6cd5bc9928556e11c17a4462"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_19-08-39_-0600_Tue",
+        "rev": "2-32c37a6d351f22e8960fb289ecbfb56c"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_08-14-50_-0500_Wed",
+        "rev": "2-f9b4c18fb2225c51bd9012e58d542c62"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_10-19-41_-0500_Tue",
+        "rev": "2-4fd4753addbb6ea49d91f467abd6e76e"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-24_14-33-52_-0500_Tue",
+        "rev": "2-28108e624e5790c79cb61552198eecac"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-03_17-08-57_-0500_Tue",
+        "rev": "2-06f2fac5855594ebd4033c088c292fc5"
+    },
+    {
+        "ok": true,
+        "id": "ltovar_Tue18Jul2017151519",
+        "rev": "2-f3833a69d5606051c4743c9e6e2bfc4a"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-08-50_-0500_Tue",
+        "rev": "2-97468245d660a94dc0057ceaa11b76c6"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_07-54-58_-0500_Wed",
+        "rev": "2-4139a812ea7c83edc7a66a51c37aff24"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-10_18-57-07_-0500_Tue",
+        "rev": "2-b17fbbb39b655fdaa2af6200f4720426"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-06_20-31-29_-0500_Fri",
+        "rev": "2-fff7fa2a4cac972957fccceec6143dd9"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-52-01_-0500_Wed",
+        "rev": "2-b220cd251cf08e6faf22cf573da30449"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-17_16-05-25_-0500_Tue",
+        "rev": "2-8c9050d72fa59be658187d31f16fb6b6"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-11-05_-0500_Wed",
+        "rev": "2-4b09b80f7e48b5e739a1e6d421ae1b4b"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-24_14-16-31_-0500_Tue",
+        "rev": "2-ad1f52dc20475f87b93f47b4f77afe1b"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_10-09-14_-0500_Tue",
+        "rev": "2-d182fdba262fc7c936d8beef761423d8"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-04_06-39-13_-0500_Wed",
+        "rev": "2-38e7c7cae43c961c58cbface64b73ace"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-28_06-48-42_-0500_Sat",
+        "rev": "2-48de553473f6649d2ab98c34f753d4b1"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-18_06-36-24_-0500_Wed",
+        "rev": "2-651199d4d82bb859254be37aa6395bdb"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-14_18-52-13_-0500_Sat",
+        "rev": "2-b7ded927c3d48ff5383e6446327c29aa"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-08_06-37-05_-0600_Wed",
+        "rev": "2-8c150d584b63fba162a220b7003a2b3e"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_07-46-46_-0500_Wed",
+        "rev": "2-9d6162b6a4ed95802216ad83cc9fc696"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-49-53_-0600_Tue",
+        "rev": "2-7d7c1eeb4527a97c609fa9b5686a2e43"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_08-13-18_-0500_Wed",
+        "rev": "2-54a08f4ad134331897579ea406e9e345"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-24_18-43-01_-0500_Tue",
+        "rev": "2-34963d3f81f2a93823256b2e549dbc46"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-05_21-30-09_-0500_Thu",
+        "rev": "2-ed39336963545ce408d58e41d4559f2f"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-27_07-19-14_-0500_Fri",
+        "rev": "2-4a5c2f021085709448c01309eb6f05ea"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_07-47-33_-0500_Wed",
+        "rev": "2-3038893925f0518fe21b378aa169438c"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-19_19-00-19_-0500_Thu",
+        "rev": "2-171ee5bfb6cf22f1c2e07752c8d434f5"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-20_07-49-58_-0500_Fri",
+        "rev": "2-f169e8c468bed132053434e2bf78d307"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-02-43_-0600_Wed",
+        "rev": "2-bedde068c35646e39ac84c684f11ea30"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-29_06-44-51_-0500_Sun",
+        "rev": "2-b15544cd1ed6761b89f8ec09f9c1b5df"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-09_15-45-35_-0500_Mon",
+        "rev": "2-dd7b0be4892cb50c9e9e0140b6585e02"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-11-01_07-10-21_-0500_Wed",
+        "rev": "2-b2addb8cdbe00f9b51310b27f0a38423"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-11-10_06-44-25_-0600_Fri",
+        "rev": "2-597aa2e44ec0ea910b93b444d1c84b17"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-08_20-23-03_-0500_Sun",
+        "rev": "2-b26a4e4b30a24c57187b8ff12e68322c"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-29_15-59-42_-0600_Sun",
+        "rev": "2-3cd97d191e0bdc79f222897d1ec1d013"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_15-55-03_-0500_Tue",
+        "rev": "2-14d2f3cc4668a5c10530748ef4e4752d"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_12-07-56_-0500_Tue",
+        "rev": "2-5a5b7935aef0db4d054be842851d7e67"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_08-07-29_-0500_Wed",
+        "rev": "2-66084e93c6aeca3afb212ab61daa4028"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-22_06-43-20_-0500_Sun",
+        "rev": "2-3d8385ed8cccf5fb3254a887ee89ec3b"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-06_08-15-02_-0500_Fri",
+        "rev": "2-eb0c7899c61d80bd8039be28e67ebfce"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-22_19-04-13_-0500_Sun",
+        "rev": "2-335d84e318254ab00d4955b6295b1093"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-11_07-02-33_-0500_Wed",
+        "rev": "2-f8cf45994ea707322c6a9d5182de5b85"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-04_19-59-11_-0500_Wed",
+        "rev": "2-8d830dcf67c2ca4f1492439808eac2da"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-17-50_-0500_Wed",
+        "rev": "2-f618c1d0493c5963ce1cba918fa8c535"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-08-12_-0500_Tue",
+        "rev": "2-49d92584a8748d6c007d6d9ca29a5915"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-08_06-36-52_-0600_Wed",
+        "rev": "2-61a282d54a73ce5d4194833ae3d4a5ce"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-07_21-12-58_-0500_Sat",
+        "rev": "2-e33a4b121cd42a1e7730fb5b1fbe2c6c"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-04_06-35-31_-0500_Wed",
+        "rev": "2-443344ba0c176e05cd5c25d63cef0bd4"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_12-12-47_-0500_Tue",
+        "rev": "2-d3a57af0467a7f3ffb7d5b957322b54e"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-11-18_-0500_Mon",
+        "rev": "2-a8f34e564c1e120b7259b15ed71e9c15"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_18-10-20_-0500_Tue",
+        "rev": "2-b2bcd72a46f8b2daf2b7e285c73129b1"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-16_18-25-49_-0500_Mon",
+        "rev": "2-fbcedd8e20bee382eeac6bbbdacd8bc2"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-11-01_18-59-32_-0500_Wed",
+        "rev": "2-26c2dab0fa2a92567d927a2c15c8a335"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-09_19-03-39_-0500_Mon",
+        "rev": "2-ac3b60027746e6d6fe4749e12c0305b2"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-36-41_-0500_Tue",
+        "rev": "2-f52fd0f759e90290e5f8a86f90043ca8"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-24_17-45-57_-0500_Tue",
+        "rev": "2-fa152215f99a924aed5c3adb4cbdcacc"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-19-56_-0600_Wed",
+        "rev": "2-322d46f37e08b6afe31dd3509e494c3d"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-12_19-32-54_-0500_Thu",
+        "rev": "2-136eb284edc0e6745cc87c8afb1cc9a5"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-25_06-51-11_-0500_Wed",
+        "rev": "2-8e8abf55286a520b9f685963c18ed3c8"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-11_07-03-39_-0500_Wed",
+        "rev": "2-f108a13ae0092a923ebfa0db893e9709"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_15-59-04_-0500_Tue",
+        "rev": "2-e1ec9413c9fd6f8627af8ad47e3804e3"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-11-09_06-38-59_-0600_Thu",
+        "rev": "2-a33cb0f4d9f0a99c6c26d7b4b941a9e7"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-24_10-11-33_-0500_Tue",
+        "rev": "2-95849d1a63129483726c2b2b26f54e1c"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-03_07-20-02_-0500_Tue",
+        "rev": "2-0cf3ca99a3d1349ff7ff882f9c37ed76"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-50-30_-0600_Wed",
+        "rev": "2-a8e7a099e01f1ae7fc6e327c9a3d7e37"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-08_18-44-46_-0500_Sun",
+        "rev": "2-1c7c11f0e9b8312b472f0ecb7964968c"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-11_22-20-49_-0600_Sat",
+        "rev": "2-e83dbcf4f2eb35f4f7afc4d4a8d597e0"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-12_18-58-59_-0500_Thu",
+        "rev": "2-8c201b9f159cf5542c145423bd586dd8"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-27_06-51-37_-0500_Fri",
+        "rev": "2-f6100ee8ab882637dcecaac1fff9fe62"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-25_07-41-17_-0500_Wed",
+        "rev": "2-415bc3ee7d5233f5bb169cd002285413"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-57-31_-0500_Wed",
+        "rev": "2-718930398cd114680d65e8d2c689939e"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-24_19-20-38_-0500_Tue",
+        "rev": "2-6b34a953bb139526dce82fe6f189a6f6"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_19-03-31_-0500_Tue",
+        "rev": "2-b51963462a1951d57a8c7a541224a8c8"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-09-28_-0500_Wed",
+        "rev": "2-ff2ad591bd43c9c2e28afd48304354f1"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-02_21-13-52_-0500_Mon",
+        "rev": "2-9329d4d76000fbdfb061dc0b3671de3b"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-27_06-25-56_-0500_Fri",
+        "rev": "2-1498c4e4fdc197a1450a8b9e7b4338bb"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-29_18-59-38_-0500_Sun",
+        "rev": "2-1cbb7448850e0f2763fbef0e77a51026"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-06-55_-0500_Tue",
+        "rev": "2-d93dc3d67076de877cfe317fdf94e677"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-37-56_-0600_Tue",
+        "rev": "2-9d9b4a1ebd7b8d14a8469cef0acd7308"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-18_18-58-10_-0500_Wed",
+        "rev": "2-5e2aca661b870b35b7262984614bea4c"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-22_19-05-03_-0500_Sun",
+        "rev": "2-f7b6c06976e6a44354bd3c33f548ff1c"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-14_18-53-53_-0500_Sat",
+        "rev": "2-ef1efebee1d83247f19f3bea2358700a"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_19-02-59_-0500_Tue",
+        "rev": "2-02cf2a5eeacc995a40b9c26be99e14a5"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-17_16-18-07_-0500_Tue",
+        "rev": "2-da42c38dc9fb2879f41d67bbe9d41131"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-31_06-58-10_-0500_Tue",
+        "rev": "2-3a2cf3b80d83a5eb91e3a8f9561286ae"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-30_06-50-38_-0500_Mon",
+        "rev": "2-36e3dbd39312c2f18695f5aa5d866cbd"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-19_14-41-40_-0500_Thu",
+        "rev": "2-1f531424467d7604b84b347761217a6e"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-11-04_22-36-13_-0500_Sat",
+        "rev": "2-e5cb67976ad1d69a66db8229ea13eba2"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-13-56_-0500_Wed",
+        "rev": "2-d759789755b34014b9b09e7be43943b1"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-01-56_-0500_Mon",
+        "rev": "2-167205844167b3bc38474e6881b72518"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_08-11-41_-0500_Wed",
+        "rev": "2-13007e3c8729e5f163ce0c4d9fc70f97"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-25_18-05-53_-0500_Wed",
+        "rev": "2-3ea342401fab2efcf5002484c7431211"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-24_18-37-09_-0500_Tue",
+        "rev": "2-9ec5442b476e8ee716549a0e7b44d6d1"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-31_06-59-10_-0500_Tue",
+        "rev": "2-035894dab41551c2e33e33c229552dfd"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_18-11-46_-0500_Tue",
+        "rev": "2-2228ac9ea98fbce673d36cfd544b4811"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-30-06_-0500_Tue",
+        "rev": "2-a4202400db4c36ee9a94e9ce6453a149"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-41-07_-0600_Tue",
+        "rev": "2-f3beab7fab2ce5c5b94670b1a5f7db2d"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-17-27_-0500_Tue",
+        "rev": "2-75f57a5a5aae8a34945e7da9be724a5d"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_16-04-54_-0500_Tue",
+        "rev": "2-e010262bc5f4ce6f63e96e461c9d8eec"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_07-50-38_-0500_Wed",
+        "rev": "2-f5255cd5e6c39ffb778895d60b341d3f"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-28_18-50-38_-0500_Sat",
+        "rev": "2-69959d8af9b01cfa451280ca8fc57fea"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_07-44-50_-0500_Wed",
+        "rev": "2-c5f5793046818aed0ff0cacbd149d6df"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-27_06-29-10_-0500_Fri",
+        "rev": "2-ea406d4b346ca265764856a9629fe68b"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-11_22-19-25_-0600_Sat",
+        "rev": "2-e18e4f94b52495a03cac2ec71d8878de"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-09_15-41-41_-0500_Mon",
+        "rev": "2-f29dfdb99f53836d3fee65153efe9de0"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-02-04_-0600_Wed",
+        "rev": "2-acbb9ee701a3236dc95764e592dbf19f"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-31_18-11-30_-0500_Tue",
+        "rev": "2-bf2bbe83a6f229f22baf5575a7fc8ab1"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-13-38_-0500_Tue",
+        "rev": "2-5fe5e184b4a85d8655f8b5b73993ff0c"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-19-31_-0500_Tue",
+        "rev": "2-ab0d054e3e79039b12db708a093e8ea7"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-16_18-24-10_-0500_Mon",
+        "rev": "2-719e66bdbddcf86ae821f6a24882be10"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-02_18-48-21_-0500_Mon",
+        "rev": "2-d16c6f447ff913f205e9c57dc28972d6"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-03_07-11-59_-0500_Fri",
+        "rev": "2-175ce1cdd1b6e3decc6e52a040dbe1bf"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-55-03_-0500_Wed",
+        "rev": "2-ddae449a961b31e96c0c9c9e50a04637"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-06_07-52-23_-0600_Mon",
+        "rev": "2-870455cb04596d524450e1959e84634b"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-04-25_-0600_Wed",
+        "rev": "2-7e4e33572df9688b4b40767bfb7265dc"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-03_20-43-24_-0500_Tue",
+        "rev": "2-5fc032ef6c4fd76abf984e5714fd0a17"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-30_06-19-44_-0500_Mon",
+        "rev": "2-8cf2004cea801f9655b46f4dae83cf49"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-29_17-55-01_-0500_Sun",
+        "rev": "2-fc215ecbec66d69b9029f0abec432926"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-11_18-45-08_-0600_Sat",
+        "rev": "2-383295cadd83c387e1518cdd8be70011"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-10_18-09-16_-0500_Tue",
+        "rev": "2-5c7a5d2efab3ed9abf0617ea8f645ca7"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-09_18-48-16_-0600_Thu",
+        "rev": "2-ebf42a6e7e08360f9c010c0815cde120"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_08-10-53_-0500_Wed",
+        "rev": "2-3e9d12d709091fd84a64e7c9e75c4d7c"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-29_19-07-54_-0500_Sun",
+        "rev": "2-434b840707dfaf6380374899d7935074"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-28_17-28-57_-0500_Sat",
+        "rev": "2-466d73cab438beddee3dc851ab3b2d61"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-19_18-58-50_-0500_Thu",
+        "rev": "2-3b57257622b6a2a1eee24cf020d0fe7a"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-10-03_-0500_Mon",
+        "rev": "2-266db46a9085c0124fe8d5c49e893668"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-24_19-17-04_-0500_Tue",
+        "rev": "2-d50327926cac27b25a37fd296ac38522"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-16_18-33-47_-0500_Mon",
+        "rev": "2-fe7c38964cc53187c183294aad57e639"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-08_18-47-03_-0500_Sun",
+        "rev": "2-53373e95c8e8ce7c0ffc012d7ce9e4ce"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-31_06-56-33_-0500_Tue",
+        "rev": "2-96f5a83cc6ac60821a8ef8912efd3140"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_08-03-05_-0500_Wed",
+        "rev": "2-0856bf636cf811848d68ba6c3fa69ff4"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-21_17-36-21_-0500_Sat",
+        "rev": "2-315ae79d79d691da386b12bc5aa5a159"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-40-19_-0600_Tue",
+        "rev": "2-e3ca84dbd566b7891ee9d281aa7775b2"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-30_06-22-17_-0500_Mon",
+        "rev": "2-2d2599aa22eebeef38b7cfbf0179b040"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-21_19-09-38_-0500_Sat",
+        "rev": "2-b6c3508d8a67c3ffa4dd957f16087c66"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-03_07-12-44_-0500_Tue",
+        "rev": "2-c51d01669c066d1bc8fef6bf6f322820"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-26-40_-0500_Wed",
+        "rev": "2-cf6522e4b5ce34d7720a7124c306314f"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-16_19-06-08_-0500_Mon",
+        "rev": "2-ff7a962849a1694b6c10a981b078f38f"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-02_21-15-16_-0500_Mon",
+        "rev": "2-75e55b43e97e0d20e6550625e2588b3a"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-04_06-34-22_-0500_Wed",
+        "rev": "2-20737311416f73de4f5e185793fdd758"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-16_18-31-26_-0500_Mon",
+        "rev": "2-5c1da9a93aa80cbe33d012e0e1e61396"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-18-29_-0500_Tue",
+        "rev": "2-eeb76154e3872564f1ba323b8b01b026"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_08-01-02_-0500_Wed",
+        "rev": "2-a65ccc4e7588226dc3b6208d2e5c4df4"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-12_19-34-17_-0500_Thu",
+        "rev": "2-c819d2d735de4d46ebf6b26bc3d3a36e"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-07-15_-0600_Wed",
+        "rev": "2-0c6efc7b5f1489342d3120d603b87ef0"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-42-00_-0500_Tue",
+        "rev": "2-b2ac33fb9e6cf3de9f33c622708b0981"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-11_18-47-44_-0600_Sat",
+        "rev": "2-59c3503e3ae4cefad0fa06d397408614"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-05_21-30-59_-0500_Thu",
+        "rev": "2-6fd097bb300679ed5bc40895a7fc565a"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-24_23-42-23_-0500_Tue",
+        "rev": "2-cc00322b27033ad9c4c0ca238cfef527"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-17_16-20-17_-0500_Tue",
+        "rev": "2-20c27a93cee0a38359a03a514d34f6c9"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-29_19-05-41_-0500_Sun",
+        "rev": "2-62956ba54fcf9b0db6e957d95a195dc6"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-12_19-33-50_-0500_Thu",
+        "rev": "2-7cac5af21781117e99470e85e314610b"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-21_06-36-42_-0500_Sat",
+        "rev": "2-2555db12fddb48524e7f0309debc0cb7"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-14_18-51-01_-0500_Sat",
+        "rev": "2-9d839743f591f52095ec116788c06559"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-11-09_06-39-28_-0600_Thu",
+        "rev": "2-67fb5f4c72433853d383627d9e526a12"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-08-49_-0500_Mon",
+        "rev": "2-146b7259332b4a09f19e6a2d32efbb2e"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_07-50-52_-0500_Wed",
+        "rev": "2-ffd719f9b2cb0acd275d85ba681a49e7"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-16-34_-0500_Tue",
+        "rev": "2-d3730e2fd550645f2eb41d03b0faeb5b"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-01-11_-0600_Wed",
+        "rev": "2-9524031b3592e9a1f8ba61234dad67be"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-18_07-01-54_-0500_Wed",
+        "rev": "2-8610df45bf486d2f0f5516ba70078fb1"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-17_08-23-45_-0500_Tue",
+        "rev": "2-dc8e5d19f076b98e21124876a4c476c1"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-32-12_-0500_Tue",
+        "rev": "2-97f528ddc7fd4284103b328815ef7c66"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-56-31_-0600_Wed",
+        "rev": "2-ae238f1b0c64cf969be997d6c0b67514"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-24_23-43-22_-0500_Tue",
+        "rev": "2-7864a1cf1cac050821e017dbb32fc0aa"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_15-33-28_-0500_Tue",
+        "rev": "2-22f14128662f845c7cccfd19eb31649c"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-04_06-33-01_-0500_Wed",
+        "rev": "2-d632274268e236175394d99754b5f33f"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-11-12_06-36-28_-0600_Sun",
+        "rev": "2-62fc972d6770b44ac421644d8f478120"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-08_06-39-31_-0600_Wed",
+        "rev": "2-a907dce736c63530e6b618090fe1085e"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_07-00-39_-0500_Wed",
+        "rev": "2-4da1780207c8cec4c1bc173b7c649777"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-26_17-44-17_-0500_Thu",
+        "rev": "2-af9546c9c1bfab2865c24ca3a92201b4"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-40-12_-0500_Tue",
+        "rev": "2-49044fc04d8128efaf149ab4033f04ef"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_08-10-21_-0500_Wed",
+        "rev": "2-d328117053975c0a309739ebef0dedc7"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-26-28_-0500_Tue",
+        "rev": "2-14d2d44218b706d329748c90f362ab91"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-05-26_-0500_Tue",
+        "rev": "2-671fec19ee0f4fe03f60b07dd1b3b4e1"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-19-06_-0500_Wed",
+        "rev": "2-d31507996ce43c28752e6a94d6bc3836"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-02-49_-0500_Tue",
+        "rev": "2-482b8b8117d0d9f99ebb4708f70839fc"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-06_07-17-17_-0600_Mon",
+        "rev": "2-11384499d84ffdb2121ff51907cc08b0"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_04-58-00_-0600_Wed",
+        "rev": "2-f198db45cb2fb6c99e49537a09edb40f"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-51-56_-0600_Wed",
+        "rev": "2-6c0c809d9921e4690999b66f00c90036"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-29_19-09-25_-0500_Sun",
+        "rev": "2-6b4ef234a68af157d4204fe9a3594bd8"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-23_07-14-26_-0500_Mon",
+        "rev": "2-0d5a49f1631b129bccfdc112bfda86c5"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-27_08-18-29_-0500_Fri",
+        "rev": "2-72c875d5038b4773f896f8d466451ded"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-50-35_-0500_Wed",
+        "rev": "2-393d867e67872f98bd5741d296545e54"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-28_06-26-03_-0500_Sat",
+        "rev": "2-ec273591ba5a5cbada630f3ffdb55a58"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_10-10-17_-0500_Tue",
+        "rev": "2-d8a72ed01092f7f6cc782e1f045948f3"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-07_07-17-13_-0600_Tue",
+        "rev": "2-7b23ed1dd2d04325a174ae20c038569a"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_07-54-25_-0500_Wed",
+        "rev": "2-b6e8729cb5a9c1537b3f76d5729992af"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-03-37_-0600_Wed",
+        "rev": "2-14ade6c757da5a99c83cd06d08aacbb9"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-11_07-23-36_-0600_Sat",
+        "rev": "2-2bd00daecf73a691796d955ae16e3e86"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-11_18-42-39_-0600_Sat",
+        "rev": "2-f08c8dff50f5e536e3c966257d29b750"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-07_21-12-26_-0500_Sat",
+        "rev": "2-07fcf348f753c1541c9cb48465f9670f"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-11-01_19-05-52_-0500_Wed",
+        "rev": "2-c4b6490a610d1df6f19808b971a55aeb"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_10-18-13_-0500_Tue",
+        "rev": "2-738242559af7e2fd9c1b28c3b663b59f"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-10_07-17-14_-0600_Fri",
+        "rev": "2-f04e9dbf6f32522d1e45fa113c557fd5"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-06_07-13-59_-0600_Mon",
+        "rev": "2-b6e8cdc4adca9108c598acd6b585450a"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_07-51-18_-0500_Wed",
+        "rev": "2-ad50d0d61708dd93790cea3e20ad66f4"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-19_06-56-27_-0500_Thu",
+        "rev": "2-76560dc19ba58459bb9468c51639ce1b"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-30_16-45-32_-0600_Mon",
+        "rev": "2-85ea7d95c616f02f016092b44d978a74"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-30_07-32-52_-0500_Mon",
+        "rev": "2-805f4ded41fef4e4affc413075771d14"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-28_18-51-44_-0500_Sat",
+        "rev": "2-8717e96292e0d1229c6acd9f7a1a4098"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-15_18-56-09_-0500_Sun",
+        "rev": "2-8bc0e814b49aba34f5416fb4f0a5281e"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-19-26_-0500_Tue",
+        "rev": "2-93edd80cd94f6f7ab3fe76eb2337f539"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-04_06-39-59_-0500_Wed",
+        "rev": "2-cd93c0d4073b68dd24fbe76862d73abf"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-12-11_-0600_Wed",
+        "rev": "2-74e73ad855ca75e2de2b190edb450bd1"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-58-39_-0500_Wed",
+        "rev": "2-2692108a89db64fbf9bcf5571e76d421"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_18-10-35_-0500_Tue",
+        "rev": "2-b1332da1845e463414049d1ab9e7cc40"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-27_06-31-42_-0500_Fri",
+        "rev": "2-2c4562605445e1ebd8ceae496a4fb8fa"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-06_06-08-06_-0500_Fri",
+        "rev": "2-ea16bf50af0a93c987f79b92af2f7bff"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_12-47-49_-0500_Tue",
+        "rev": "2-3071f9906636ad8bd83df12601353b47"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-08_06-35-19_-0600_Wed",
+        "rev": "2-a8508f8b647acc4573dfa3da287bcc08"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-25_18-47-38_-0500_Wed",
+        "rev": "2-176344f669c4f667f31abceaccaf070f"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-11-23_-0600_Wed",
+        "rev": "2-c1774fec99cd1be3fa0a6c5bd4f350a3"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-23_06-24-24_-0500_Mon",
+        "rev": "2-9c96ab8e3166c12cdf5deaf47a37da6b"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-44-00_-0600_Tue",
+        "rev": "2-5fe77134e5afbaf2cf6f7ad405695742"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-30_06-33-27_-0500_Mon",
+        "rev": "2-671f2f98c56e6fd372e8bb744602cc07"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-02_08-46-08_-0500_Mon",
+        "rev": "2-b36ca66b34f3b88a4a80f1e0d1f3a786"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-11_07-25-34_-0600_Sat",
+        "rev": "2-f51423626c22aa58d7cbe5472fe8dd54"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-23_06-29-25_-0500_Mon",
+        "rev": "2-3ac4975abc39bd5fedebc7363a90fc00"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-13_19-00-40_-0500_Fri",
+        "rev": "2-abcfb67a6439609f5dfa636204ec1e68"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-21_17-40-59_-0500_Sat",
+        "rev": "2-540a338f28ab56cf5daaae14b610bbeb"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-20_18-21-06_-0500_Fri",
+        "rev": "2-f1fa24e9542bed775655ef517046220e"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-20_18-23-11_-0500_Fri",
+        "rev": "2-8e4f2b3f0a8bdf8d78146ab946bb2a4f"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-59-42_-0500_Wed",
+        "rev": "2-498d2d1470d9d30d64d04cb3b75c42d7"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_07-55-16_-0500_Wed",
+        "rev": "2-7973696626e6a35d8403d65fba31ce7d"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-14-36_-0500_Wed",
+        "rev": "2-9968b7f195a05ae19d56c404ae0308da"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-09_07-26-32_-0500_Mon",
+        "rev": "2-c854e5916bebcc53a1a9475a495ef42e"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-44-32_-0500_Wed",
+        "rev": "2-90ff8619665a05d119bdd02d28d64ecb"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-27_06-33-36_-0500_Fri",
+        "rev": "2-98b57bac413dbe3f9db981621a4282cb"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-06_07-54-09_-0600_Mon",
+        "rev": "2-abb3c170d7ebae90d4eca69eaf0fe575"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_07-51-44_-0500_Wed",
+        "rev": "2-ce43b358f939fd1a8a414d90f1168ee3"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_12-49-11_-0500_Tue",
+        "rev": "2-5ae8f5b88bd7627b84216c1323370eca"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-22-07_-0500_Tue",
+        "rev": "2-cdee9e34aae579a6ab5c53f65e02a32a"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-17-18_-0500_Wed",
+        "rev": "2-0d4b485dd8848fb2f31cd1d01dbc0d47"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-21_06-38-01_-0500_Sat",
+        "rev": "2-d42ad2cc5ae02398898392d70c66e11f"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-04_18-44-51_-0500_Wed",
+        "rev": "2-8fb206db4ce8c3c8dbe70519f9c1f7bb"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_08-05-41_-0500_Wed",
+        "rev": "2-14f26e7548d33e35704dca0875628440"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-01_21-13-26_-0500_Sun",
+        "rev": "2-3af7729ad43d8876dea3f2c67804e22c"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-06-30_-0500_Mon",
+        "rev": "2-a05ec1de8da7e863f4e7b99d77c57825"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-07_18-42-54_-0500_Sat",
+        "rev": "2-3b3fe4de2cb8d195e9d0867ded7e17d4"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_15-55-39_-0500_Tue",
+        "rev": "2-2002bc08cfecef43ff49dbe82a931043"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-13-59_-0500_Wed",
+        "rev": "2-7ece78537f5c676437b247fb07e272e6"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-03_07-08-17_-0500_Tue",
+        "rev": "2-eb0e8363dfaef741ac99661439c86e28"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_15-56-30_-0500_Tue",
+        "rev": "2-cc0afe3d3523934ee662d8279fd17a23"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-11-03_18-56-12_-0500_Fri",
+        "rev": "2-b9252657555716d4eb70141bcc1e3c53"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-24_10-13-08_-0500_Tue",
+        "rev": "2-6ce5b8753b24eaa1b3fe7f81ec9a6356"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-31_17-52-19_-0600_Tue",
+        "rev": "2-9a0858d554872a4e6c3f6e10674e4bed"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_19-05-57_-0600_Tue",
+        "rev": "2-cf6cf0388ad6d5e50d111456c2a17587"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-17-34_-0500_Tue",
+        "rev": "2-7d8cc1139ea710fdcf21905b4ce3b112"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-02_08-50-35_-0500_Mon",
+        "rev": "2-1bcf5ab07b81090b75dff7c6b28a9a90"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-11-01_19-03-26_-0500_Wed",
+        "rev": "2-11bedcc1f3e9d025b520cd6c2da48a0e"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-09_18-44-31_-0500_Mon",
+        "rev": "2-4cf5f9285b9e5321f04415e01bd39e0a"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-04_10-01-28_-0500_Wed",
+        "rev": "2-7fcf8eabc43a895be14d268ff7c83001"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-11-01_07-12-18_-0500_Wed",
+        "rev": "2-fa15bbd3c14f320a6c59083b2308feca"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-23_06-23-40_-0500_Mon",
+        "rev": "2-822d4c3bc67a766f20729a7be6b84651"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-15_18-57-34_-0500_Sun",
+        "rev": "2-43ec81ab7f5dfa45733e455dcb5b415a"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-11_19-02-56_-0500_Wed",
+        "rev": "2-bfa2ff227df8d12b89625bf23c8ce27b"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-30_17-46-58_-0500_Mon",
+        "rev": "2-b866788c4132177ef00b40777bc2d51f"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_18-09-42_-0500_Tue",
+        "rev": "2-0839f45a3e7e285ac73f19659b9530fa"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-01-17_-0500_Mon",
+        "rev": "2-8cc8fdba9cb157c7d98d8dde76b1c750"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-31_18-25-11_-0500_Tue",
+        "rev": "2-40fc5e2ec86ccc907fbf41945540f881"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-10_18-41-03_-0500_Tue",
+        "rev": "2-eb8aeaeca9578c2597a36dbfd021e015"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-08-31_-0500_Wed",
+        "rev": "2-f045588dd24b980a58d1dc24a362fc85"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_18-41-26_-0500_Tue",
+        "rev": "2-b835210908592fc97b365485c3af2e23"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-15-09_-0500_Wed",
+        "rev": "2-685e25a38a8a65aa05ccee68485f645b"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-29_17-55-21_-0500_Sun",
+        "rev": "2-91cc177382f770e26e83d37bc4e2b151"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-05_15-50-54_-0500_Thu",
+        "rev": "2-b4c4d405787046c9c4ca17c4274c118f"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-24_18-40-30_-0500_Tue",
+        "rev": "2-0b884a2f9eec24e3f58c0c7754710029"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-23_06-21-39_-0500_Mon",
+        "rev": "2-e187b173782bc61abb66b5a244b9fdfc"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-10_18-46-26_-0500_Tue",
+        "rev": "2-94da72b5958f26b81c466a7b2da4ec7a"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-11_22-16-34_-0600_Sat",
+        "rev": "2-0384780a5c730da811d68b5ee6e4c232"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-27_07-13-46_-0500_Fri",
+        "rev": "2-dfa12497843a2e51e2f55a435edaf104"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-04_06-38-59_-0500_Wed",
+        "rev": "2-9d09d71665703607c9dee2b51f4e173d"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-08_07-09-15_-0600_Wed",
+        "rev": "2-89e6f0e3575d970bafa9ce055b25c52c"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_07-50-37_-0500_Wed",
+        "rev": "2-af98383f8ade91000b8892ce21c7cba9"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-12-26_-0500_Wed",
+        "rev": "2-27e61e9a3942a0c82a67646e3eb83728"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-18_06-37-08_-0500_Wed",
+        "rev": "2-001f122d5fd6601f5153e56af32b9d0e"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-09_09-55-20_-0500_Mon",
+        "rev": "2-c0bbcc905dc2c084836ae3da24f17e28"
+    },
+    {
+        "ok": true,
+        "id": "ltovar_Wed19Jul2017073023",
+        "rev": "2-0d48952c4b1a57205c5ce166b7f2b165"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-55-07_-0600_Wed",
+        "rev": "2-d99478245efcf2d2d718925bd8f1db39"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-00-10_-0600_Wed",
+        "rev": "2-620e3ce3b1e88a2d5725d50ba0623d6b"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_16-05-45_-0500_Tue",
+        "rev": "2-6fcf0154c0f06ff57d417aed6a922209"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-11-12_06-04-05_-0600_Sun",
+        "rev": "2-c2b496f4b5a0c10c3fa42d0b6953f044"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-29_15-54-14_-0600_Sun",
+        "rev": "2-59e6175417cef082b58fcc70e7aa5f69"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-43-00_-0600_Tue",
+        "rev": "2-e0184c5cbbc3366f7ff1b24c717f0a46"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-18_07-03-01_-0500_Wed",
+        "rev": "2-eb8a9a8802327bd2d84dd562a8d14a21"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-11-22_-0500_Wed",
+        "rev": "2-e7e261715fab09962576ec6fdb08c0dc"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-08-41_-0500_Tue",
+        "rev": "2-cbacd7d2e825d7127771a19235aa2a2a"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-14-46_-0500_Wed",
+        "rev": "2-47819778ee251d80bd504c8da65ebe1c"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-27_07-10-36_-0500_Fri",
+        "rev": "2-f88e567f90296a78cb29550a37207868"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-22-03_-0500_Tue",
+        "rev": "2-0fe556f1149477fff8917255619b57af"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_10-11-16_-0500_Tue",
+        "rev": "2-95fb52e2cb5adae6ea58b23226ee41eb"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-10-10_-0500_Wed",
+        "rev": "2-41104396c0cbf90f40fa87ec3a7418fe"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-16-00_-0600_Wed",
+        "rev": "2-b52f65e680f3694e9cae61e8cb1f56a2"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-11-07_06-25-58_-0600_Tue",
+        "rev": "2-808d56c7b464cbf36d37bc6db9da9ade"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-10-40_-0500_Wed",
+        "rev": "2-e2c5e60b5108639f9a02ed345d0eac48"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-11-11_06-05-32_-0600_Sat",
+        "rev": "2-8e0f86edbeeed43cdb54a15de2991fef"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-20-57_-0500_Wed",
+        "rev": "2-be2e6ac0863af4999702dbc81c52e25f"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-26-59_-0500_Tue",
+        "rev": "2-ecb2511e324d958480f47a9fe2d7b59d"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-24_10-09-59_-0500_Tue",
+        "rev": "2-b9d0d6d81d6fb715a9358f825d8e3823"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-09_20-40-41_-0500_Mon",
+        "rev": "2-06f62cf551b506c08671fc56c33ebd25"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-08_07-04-49_-0600_Wed",
+        "rev": "2-d837f3916580183d05799018db6627c0"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-08_06-36-19_-0600_Wed",
+        "rev": "2-378809e0ef25616ab09355d17de5b887"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-25_18-07-10_-0500_Wed",
+        "rev": "2-e67b9fefacc268372df7f2ac631018aa"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-24_14-30-54_-0500_Tue",
+        "rev": "2-4625f15bd7e5aa54650efd895aa377dd"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-22_17-12-38_-0500_Sun",
+        "rev": "2-ab2e89e2d8e740ec75bc1d152bb08f6b"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-17_16-07-39_-0500_Tue",
+        "rev": "2-ce86f2e228f11ccb76c0393dace18098"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-29-22_-0500_Wed",
+        "rev": "2-aeda9352599bb64c09601417d2786842"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-20_18-19-51_-0500_Fri",
+        "rev": "2-ffbbd3b2435a84ba40b03086de7f0f98"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-30_07-29-49_-0500_Mon",
+        "rev": "2-9911eaf3c413f77aaac151f1f5fb59d2"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-08_09-53-03_-0600_Wed",
+        "rev": "2-1f5cb56ed5b1fa2550c0d6d3905f776e"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-11_18-48-23_-0600_Sat",
+        "rev": "2-8dcbf09c312627da8e5d1b03580f63a4"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-29_06-45-36_-0500_Sun",
+        "rev": "2-f3b96ba98e21a30c92fee43d4df5563a"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_12-11-00_-0500_Tue",
+        "rev": "2-7e2080e5fb3e6c6ed343adb777bd406f"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-04_06-36-13_-0500_Wed",
+        "rev": "2-4cbe68c358d4d2b58f81daa7a6841e8f"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-02_19-03-54_-0500_Mon",
+        "rev": "2-d6e22a3dbafa5a1605b6a5124388c9fd"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-30_17-46-16_-0500_Mon",
+        "rev": "2-d84373d26f108198a08842a15304ecd3"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_19-01-02_-0600_Tue",
+        "rev": "2-2bcceb906a3eb57c995912d049d0500a"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-24_10-07-58_-0500_Tue",
+        "rev": "2-1f10c53219cf0f2fb382a857c76c91b4"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-12_19-05-08_-0500_Thu",
+        "rev": "2-fa3f1f2db8e06e9796934577be804d24"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_18-56-36_-0600_Tue",
+        "rev": "2-2b267d177ec089c156b831815c3e8c8b"
+    },
+    {
+        "ok": true,
+        "id": "ltovar_Thu20Jul2017062431",
+        "rev": "2-0cca097e9c7edba8ce436d710cc339a6"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-22_06-25-09_-0500_Sun",
+        "rev": "2-4f4ea0ccf93101a9024549272c99ddaa"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-24_18-38-34_-0500_Tue",
+        "rev": "2-246c9ec2b1a5409c63bb2487785734d3"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-19_06-55-22_-0500_Thu",
+        "rev": "2-3ef6a599d3e01c1e2190055a049e4a22"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_16-06-22_-0500_Tue",
+        "rev": "2-6d16fd468b16a2ffd147b58305bdf89d"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_15-32-28_-0500_Tue",
+        "rev": "2-cc61f1282601f93a260cf44b0d0e741d"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-16_19-00-13_-0500_Mon",
+        "rev": "2-7a1e59c2eb58dfc737ecc192d3281c16"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-21_06-40-11_-0500_Sat",
+        "rev": "2-50933ee02441490ab10129277069aa84"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-31_17-49-28_-0600_Tue",
+        "rev": "2-f5f9899db909a14de30269c558eed509"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-31_17-40-08_-0500_Tue",
+        "rev": "2-6f59ecf2af272e0041e2192fa92138f1"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-22_19-02-24_-0500_Sun",
+        "rev": "2-3c90fe21e2aba7dc7a1352a6de311d39"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-19-13_-0600_Wed",
+        "rev": "2-7f9f89b4f13ef488b329d81dcbd166da"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-12_19-01-13_-0500_Thu",
+        "rev": "2-6113e56df392a95f024e054db1953eed"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-12-41_-0500_Mon",
+        "rev": "2-93ce05485a716683107406272f4214af"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_06-49-58_-0500_Wed",
+        "rev": "2-27721290cef94523f1a3ff8c80e0a2d8"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_07-58-00_-0500_Wed",
+        "rev": "2-f4bc02262db67c6f6fdaa52e9ec3aedb"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-39-35_-0600_Tue",
+        "rev": "2-7d33086f6cbe359ca1c3853175c2bae6"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-07_18-38-24_-0500_Sat",
+        "rev": "2-3f0ce93cd68f6f3cbe402881e87faa4c"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_07-53-09_-0500_Wed",
+        "rev": "2-a4b1a1c7fe4acf908d6b25433dee2849"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-10_18-47-29_-0500_Tue",
+        "rev": "2-e2cc3a708577d82f63c9ba86c68d7c3f"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-11-10_06-43-01_-0600_Fri",
+        "rev": "2-c134e934b9de8e1f31da5b783008a497"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-30_16-46-53_-0600_Mon",
+        "rev": "2-64f35858f24a03d155ce7e595eae4f85"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-16_18-32-49_-0500_Mon",
+        "rev": "2-9d39c0159b3454b5591a42faa520cc31"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-10_18-42-12_-0500_Tue",
+        "rev": "2-e573707ea0b1f77ebe643abc59861242"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-06_07-49-26_-0500_Fri",
+        "rev": "2-d30b3edf18573e1385cc14bcd4630d7d"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-18_07-02-39_-0500_Wed",
+        "rev": "2-cd08649707b55c904ade91f45a33a51c"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-24_19-18-47_-0500_Tue",
+        "rev": "2-7594ef714d62ce9ecb0610aa6c59acde"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_12-10-04_-0500_Tue",
+        "rev": "2-94851c3e549cfef92aedf5285fea2cc6"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_16-00-37_-0500_Tue",
+        "rev": "2-1ac55e302a1b74d118177327e988f21c"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-26_07-03-34_-0500_Thu",
+        "rev": "2-474aff6382964a417ac44740cfcae2fc"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-24-20_-0500_Wed",
+        "rev": "2-deb380f1bd6203e7aa894ef981c1ee5a"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-37-36_-0500_Wed",
+        "rev": "2-bede553330e748929a9edff7205ddfc9"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-03_18-11-59_-0500_Tue",
+        "rev": "2-3ce79fae1f40abea72bc1ef2242524ed"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_16-02-34_-0500_Tue",
+        "rev": "2-564a6f54342fb9b7f4dd6160ca0390aa"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-23_06-30-16_-0500_Mon",
+        "rev": "2-6bc2915cadcd45b734299b730051d1a8"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-13_19-01-51_-0500_Fri",
+        "rev": "2-2e93121523e170d8ceed025ef2ecb53e"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-22_06-09-01_-0500_Sun",
+        "rev": "2-c4b5a540305cb96beb0cf8487e743179"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-04_06-33-47_-0500_Wed",
+        "rev": "2-3e28fbc747c2d00230835091197357fc"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-20-44_-0500_Tue",
+        "rev": "2-24460ca46cfdc45a1561298b8ca205f4"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_07-56-04_-0500_Wed",
+        "rev": "2-ae9817f8c72b6584737ed0958bb056b2"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-07_07-15-24_-0600_Tue",
+        "rev": "2-c7515ee6b3540c5d97539e5e14684323"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-11-14_-0500_Tue",
+        "rev": "2-060d434158ff0459cad861f7b819f959"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-31_18-26-36_-0500_Tue",
+        "rev": "2-74c5612bbc6374aeda5d8662b8e1e405"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-06_08-17-22_-0500_Fri",
+        "rev": "2-16d8d04a2ac6e2342e842e9f76a5ff7f"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-10-16_19-02-48_-0500_Mon",
+        "rev": "2-2d20b98b4d92d15ff064a3c31ebdf939"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-15-21_-0500_Wed",
+        "rev": "2-715cdab1ce204a4a7c488aacd41d5ef1"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-21_16-33-01_-0500_Sat",
+        "rev": "2-4c0b29ad4904dbaf60322d29da36dbc4"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-04_18-49-01_-0500_Wed",
+        "rev": "2-8d173d9e4d6866cb0dd66e1aa5198cd7"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-11-01_07-13-34_-0500_Wed",
+        "rev": "2-bd409c55c7ae2228b17814e874d76ee9"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-24_17-46-42_-0500_Tue",
+        "rev": "2-ef73300c6f20f8ec203891424ce48683"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-11-11_06-06-38_-0600_Sat",
+        "rev": "2-a8996145c2f7af166eb83f6295c85dbf"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-27-37_-0500_Tue",
+        "rev": "2-8c84bad4fd91c92241bd7800313c389a"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-06-52_-0500_Wed",
+        "rev": "2-a8d00af23ee61ed50db4a7ae4cf64f8e"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-20-08_-0500_Wed",
+        "rev": "2-2b225f3a071452546c41621b3c8321e7"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_07-49-12_-0500_Wed",
+        "rev": "2-1d7ac90370b7b842e314aba1418ba4f1"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-15-57_-0500_Tue",
+        "rev": "2-6b3e65403ef3cec7f456a82a65ff3fa1"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_16-03-52_-0500_Tue",
+        "rev": "2-947d258ac06c25246e9d5789c28dd0b4"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-10_18-44-47_-0500_Tue",
+        "rev": "2-98e13193d89b86452063b9e23d920b2d"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-12-19_-0500_Wed",
+        "rev": "2-1e2a26ca5fe3079e62b06aa927b3e740"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-08_05-05-23_-0600_Wed",
+        "rev": "2-6f9f9c275c12d1ebd5f1dea14e0d1ae1"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-02_19-06-22_-0500_Mon",
+        "rev": "2-58bd8fe505cd7024e73769f1432206b5"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-21_06-32-36_-0500_Sat",
+        "rev": "2-a056505f25725065839bcb4922cfe632"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-17-44_-0500_Wed",
+        "rev": "2-310bb9bfe67f616fc3d26d51be3a44c5"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-17_08-05-35_-0500_Tue",
+        "rev": "2-a34f51f802cf410c2a8bbf8ad6c12c09"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-12_07-13-13_-0600_Sun",
+        "rev": "2-d2af827330f580d0657c908dd8c1d584"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-04_06-40-41_-0500_Wed",
+        "rev": "2-21e2d0082015ca6670cff79820c9abad"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-09_18-49-14_-0600_Thu",
+        "rev": "2-43d0831ea78ceb6a9d7cf41c1ec8f6af"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-11-09_05-56-00_-0600_Thu",
+        "rev": "2-1378220d4075d322a9b02a8088f2ec48"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-06_20-30-47_-0500_Fri",
+        "rev": "2-13fd27eaf04a5a18df513b28f13addbc"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-17_08-24-34_-0500_Tue",
+        "rev": "2-e62b9380c6268f783cf44abb40fedbd4"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_12-50-37_-0500_Tue",
+        "rev": "2-bc21da4070a9c5aeb1e9ad72fb3ee83c"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-11_08-14-06_-0500_Wed",
+        "rev": "2-e956b7c5c795d9bec00e00f0b8543a53"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_12-06-41_-0500_Tue",
+        "rev": "2-98ea03c1f85be9876f378e4c6a85544f"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-23_06-26-11_-0500_Mon",
+        "rev": "2-8ef074265f340de36425255a7d664bed"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-09_15-43-02_-0500_Mon",
+        "rev": "2-8f70c7fe9731d3d483aef7001a47b32c"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-10-31_19-12-56_-0500_Tue",
+        "rev": "2-819667767248b4b04b99a65af6478022"
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-12_18-04-36_-0500_Thu",
+        "rev": "2-e4702a27a1a5e193be67f7ecdbb575b2"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-11-01_06-18-34_-0600_Wed",
+        "rev": "2-4a0d9f1b2f9bc5a4dd45f51e3283d207"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-18_07-12-47_-0500_Wed",
+        "rev": "2-751aae13ea4432dec980d5382f8cbb7d"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-03_18-51-44_-0500_Tue",
+        "rev": "2-76e9df77a72e1bb953ca7dfb49213ef1"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-11-01_07-55-56_-0500_Wed",
+        "rev": "2-228c110e29908d44a1647a3e036e4202"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_10-14-22_-0500_Tue",
+        "rev": "2-91049f84744ab16b580cb2da9e2b592a"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-22_06-22-42_-0500_Sun",
+        "rev": "2-8f7c6e0b6403e41ac018cba47ebfdd8e"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-42-11_-0600_Tue",
+        "rev": "2-0c378ae9833fb84c8b8d199099bb6fa4"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-51-36_-0500_Wed",
+        "rev": "2-311be85a658d9f5cae698306837dfaec"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-21_16-31-04_-0500_Sat",
+        "rev": "2-65c893f43b1f8ac63235b6193de9cfd5"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-04_06-38-22_-0500_Wed",
+        "rev": "2-8ba754c4b6dac7ef4578f32f60591fe6"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-27_08-18-58_-0500_Fri",
+        "rev": "2-faf5a0ba939c6d5c1db7382ac4e06e9b"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-47-12_-0600_Tue",
+        "rev": "2-9b80029c5b80bc3714a3aefe01b26285"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-10_07-12-09_-0600_Fri",
+        "rev": "2-1a133be39477c6e416edfb1819cfcf60"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-11-07_18-58-44_-0600_Tue",
+        "rev": "2-31c7b636ef45f9989a936557843e44fd"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-11_18-37-45_-0600_Sat",
+        "rev": "2-001cbaabde7719121d19845b6aec590f"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-11-11_19-03-29_-0600_Sat",
+        "rev": "2-bda1a1167fe8982a6d5b85a00776a351"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-24_17-44-56_-0500_Tue",
+        "rev": "2-413f1c3cca8484b82e24fc96f63055c4"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-30_06-36-12_-0500_Mon",
+        "rev": "2-71b1944951eb95ad41b6980ee563b207"
+    },
+    {
+        "ok": true,
+        "id": "hmarce_2017-10-24_10-14-12_-0500_Tue",
+        "rev": "2-3c144b5a8b7dc57150a98e21d617e42e"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-24_10-15-09_-0500_Tue",
+        "rev": "2-1826bc8f8c1a958631ed43c12997a6dd"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-11-07_00-41-38_-0600_Tue",
+        "rev": "2-8fa02e13bd7b9e2ad8532fe5ff18b6c1"
+    },
+    {
+        "ok": true,
+        "id": "eduardovela_2017-11-01_07-35-17_-0500_Wed",
+        "rev": "2-9961608d5f6440a152e6b075be0dffa5"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-24_14-24-01_-0500_Tue",
+        "rev": "2-0a52cfd1849c46cbbd75b596d476f0f1"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-11-09_18-47-05_-0600_Thu",
+        "rev": "2-257a81c7e0940515481972d3104bf944"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-11-01_06-22-56_-0600_Wed",
+        "rev": "2-dda3f3e1b27bdced9d359a0a5c202ee4"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-21_06-57-24_-0500_Sat",
+        "rev": "2-cf5eeffcfe1cfec369a3a2225ecca982"
+    },
+    {
+        "ok": true,
+        "id": "blozano_2017-10-16_19-10-53_-0500_Mon",
+        "rev": "2-b2d863924508be7314efa2ed067cb8fd"
+    },
+    {
+        "ok": true,
+        "id": "evela_2017-10-11_08-01-09_-0500_Wed",
+        "rev": "2-d6d0c7602d1e974410d6e5d676297f2a"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-31_19-19-37_-0500_Tue",
+        "rev": "2-14fce12f8d63fc0f196f7f57f9f99f9a"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-21_06-54-15_-0500_Sat",
+        "rev": "2-0f8d7abd24b95c3be1dc2024f6e5e39e"
+    },
+    {
+        "ok": true,
+        "id": "ltovar_Thu20Jul2017062526",
+        "rev": "2-3539042fe915478c3c8d0756dd384e0f"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-30_07-31-51_-0500_Mon",
+        "rev": "2-aeadf6ad093e5319ee3a50394afdd4f3"
+    },
+    {
+        "ok": true,
+        "id": "ltovar_Tue18Jul2017151421",
+        "rev": "2-376ca4a88ed0d7ad51044531ba73b307"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-09_18-43-08_-0500_Mon",
+        "rev": "2-ca13d01ba1c71de6b602648f0b211f1f"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-31_17-37-22_-0600_Tue",
+        "rev": "2-e058c8620b2441b91afc6e38820359af"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-31_17-39-21_-0500_Tue",
+        "rev": "2-b80c24dc5d16aa45297ad4e72c839bdb"
+    },
+    {
+        "ok": true,
+        "id": "miguelmartinez_2017-11-12_08-23-27_-0600_Sun",
+        "rev": "2-6842a57b35ab5f5b3b85f62dc313c450"
+    },
+    {
+        "ok": true,
+        "id": "lcareaga_2017-10-19_17-42-49_-0500_Thu",
+        "rev": "2-da1489682ffe2f64a407c1a2d4eebc69"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-10-30_-0500_Wed",
+        "rev": "2-79b1fb8d15c8504f1475c779e27c1ee2"
+    },
+    {
+        "ok": true,
+        "id": "treyes_2017-10-28_18-47-41_-0500_Sat",
+        "rev": "2-2fadcb7d4ee4707f0d3cb87f65cbf116"
+    },
+    {
+        "ok": true,
+        "id": "omega_2017-10-24_18-44-21_-0500_Tue",
+        "rev": "2-82c35fcb79722e63157e960d9eb34e8e"
+    },
+    {
+        "ok": true,
+        "id": "arrow_2017-10-11_07-31-23_-0500_Wed",
+        "rev": "2-03f89f0d2f27f7a1f706f4c2be2ee0ae"
+    },
+    {
+        "ok": true,
+        "id": "scabrera_2017-10-17_15-58-13_-0500_Tue",
+        "rev": "2-c3c510e5286f69d2b05c2e2e54f118bd"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-27_06-56-27_-0500_Fri01",
+        "rev": "1-09efa14f22bf0e3657d038dfac52a494"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-27_06-56-27_-0500_Fri02",
+        "rev": "1-92a8d92191f831a229cf27f4280651e4"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-05_18-03-26_-0500_Thu01",
+        "rev": "1-5edc6a641abf9053d0d35109bdfd64a5"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-08_05-53-51_-0500_Sun01",
+        "rev": "1-d73b9de9e0b06e8fc0df2720c857c714"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-08_05-58-50_-0500_Sun01",
+        "rev": "1-530f24c1de2d8d5a0780e58b5a14d35e"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-08_18-04-36_-0500_Sun01",
+        "rev": "1-53b42acf373651b292390f1d54cd7bde"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-10_19-07-25_-0500_Tue01",
+        "rev": "1-15171cb096357274c551103e53d2df2b"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-19_17-12-53_-0500_Thu01",
+        "rev": "1-487ab475dce57990419d696680b37ab6"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-02_21-33-41_-0500_Mon01",
+        "rev": "1-eaee696af802f776b614d2f38c3e113e"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-04_21-14-05_-0500_Wed01",
+        "rev": "1-09737cd9f6d545f6392f0583fcdf835f"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-10_19-15-40_-0500_Tue01",
+        "rev": "1-e1f7def2e36576eef8d9db2a5aadf6d1"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-02_21-24-59_-0500_Mon01",
+        "rev": "1-0c4581d424e7a2fcfc38b9b2edc4315a"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-05_18-03-26_-0500_Thu02",
+        "rev": "1-ec0945d01ead4be28d5d17956eae09ed"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-08_05-58-50_-0500_Sun02",
+        "rev": "1-515e49e5c185a127f45bd94deac76474"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-08_18-04-36_-0500_Sun02",
+        "rev": "1-800c76d2712b9e925cf6e4cccc5bebcc"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-10_19-07-25_-0500_Tue02",
+        "rev": "1-c58e74d349aae2b9abba4cfb2d47f144"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-02_21-33-41_-0500_Mon02",
+        "rev": "1-c87db3f484b5f45d8c915bf3fdf62c21"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-04_21-14-05_-0500_Wed02",
+        "rev": "1-b913ad8c90cdcde211e6c1f96f6e2205"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-10_19-15-40_-0500_Tue02",
+        "rev": "1-eb1586eac985ad8e66738b9a7c121d44"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-08_05-53-51_-0500_Sun02",
+        "rev": "1-79a69735b3a1c097082d995cd958aa5f"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-19_17-12-53_-0500_Thu02",
+        "rev": "1-bd1b1833525c751617412351538d97e3"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-02_21-24-59_-0500_Mon02",
+        "rev": "1-6073502857f931b2413f15b390d4abd9"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-05_18-03-26_-0500_Thu03",
+        "rev": "1-a6dc713b580cb5a1745ce08cceed00e6"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-08_05-58-50_-0500_Sun03",
+        "rev": "1-26a6fe0c7cdb92a96bd97f4cc801f3e3"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-08_18-04-36_-0500_Sun03",
+        "rev": "1-952796a0507203252d31f90af3f79822"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-02_21-33-41_-0500_Mon03",
+        "rev": "1-8f99c2f331feb09c87c1243674b46213"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-04_21-14-05_-0500_Wed03",
+        "rev": "1-cc5a1120ff011cf55eecacfc4fb827ae"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-10_19-07-25_-0500_Tue03",
+        "rev": "1-493757f19b8534f571b3c02ce3523c31"
+    },
+    {
+        "ok": true,
+        "id": "marodriguez_2017-10-10_19-15-40_-0500_Tue03",
+        "rev": "1-fd01a74445a02a82847e05e6c9894fd7"
+    },
+    {
+        "id": "marodriguez_2017-10-02_21-33-41_-0500_Mon01",
+        "error": "conflict",
+        "reason": "Document update conflict."
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-25_18-49-28_-0500_Wed01",
+        "rev": "1-fe207a06e1eee0453fd762dac28ff6a5"
+    },
+    {
+        "id": "marodriguez_2017-10-02_21-33-41_-0500_Mon02",
+        "error": "conflict",
+        "reason": "Document update conflict."
+    },
+    {
+        "id": "marodriguez_2017-10-02_21-33-41_-0500_Mon03",
+        "error": "conflict",
+        "reason": "Document update conflict."
+    },
+    {
+        "ok": true,
+        "id": "storrestrejo_2017-10-25_18-49-28_-0500_Wed02",
+        "rev": "1-4fb391d3af454663d8c93ac2077285ad"
+    }
+]

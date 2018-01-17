@@ -1,0 +1,3 @@
+npm uninstall @types/pouchdb-adapter-http @types/pouchdb-adapter-idb @types/pouchdb-adapter-websql @types/pouchdb-browser @types/pouchdb-upsert 
+
+npm install @types/pouchdb-adapter-http @types/pouchdb-adapter-idb @types/pouchdb-adapter-websql @types/pouchdb-browser @types/pouchdb-upsert 

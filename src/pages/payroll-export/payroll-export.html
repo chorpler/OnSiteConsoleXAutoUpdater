@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{title}}</ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only (tap)="copyTable()">
+        <ion-icon class="period-reports-add-other-report-button-icon" name="copy"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <p *ngIf="!dataReady">Get ready to be slapped around by a big floppy data dump.</p>
+  <div #printArea id="print-area" class="payroll-export-table-wrapper" *ngIf="dataReady">
+    <table>
+      <thead>
+        <tr>
+          <th *ngFor="let head of grid.header">{{head}}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of grid.rows">
+          <td *ngFor="let col of row">{{col}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</ion-content>

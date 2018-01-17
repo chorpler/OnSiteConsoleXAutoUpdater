@@ -1,0 +1,676 @@
+// page-scheduling {
+//   user-select: text;
+//   div.fixed-content {
+//     margin: 0;
+//     padding: 0;
+//     left: 0;
+//   }
+//   ion-content#Schedule.content.content-md {
+//     padding: 56px 0 16px 0;
+//   }
+//   #Schedule>div.scroll-content,
+//   ion-app.md [padding],
+//   ion-app.md [padding] .scroll-content,
+//   ion-app.md [padding],
+//   ion-app.md [padding] div.scroll-content {
+//     padding: 16px 0;
+//   }
+//   div.scroll-content {
+//     overflow: hidden;
+//     padding: 0;
+//     div.schedule-main-columns-wrapper {
+//       position: fixed;
+//       height: auto;
+//     }
+
+//     ::-webkit-scrollbar {
+//       width: 12px;
+//     }
+//      ::-webkit-scrollbar-track {
+//       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+//       -webkit-border-radius: 10px;
+//       border-radius: 10px;
+//     }
+//     /* Handle */
+//      ::-webkit-scrollbar-thumb {
+//       -webkit-border-radius: 10px;
+//       border-radius: 10px;
+//       background: rgba(0, 52, 171, 0.3);
+//       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+//     }
+//      ::-webkit-scrollbar-thumb:window-inactive {
+//       background: rgba(0, 0, 0, 0.4);
+//     }
+
+//   }
+//   div.container-col,
+//   div.tech {
+//     line-height: 14px;
+//     height: 20px;
+//     padding: 0;
+//     margin: 0;
+//   }
+//   div.tech button.tech-button.button.button-md.button-default.button-default-md,
+//   button.tech-button {
+//     position: relative;
+//     font-size: 14px;
+//     font-family: "Roboto Condensed";
+//     font-weight: 200;
+//     background-color: transparent;
+//     text-transform: none;
+//     color: rgba(50, 50, 50, .95);
+//     padding: 0px, 5px;
+//     margin: 0;
+//     border: none;
+//     box-shadow: none;
+//     max-height:36px;
+//     height: auto;;
+//     align-self: flex-start;
+//     top: -2.5px;
+//     white-space: unset;
+//     // max-width: 220px;
+//   }
+//   div.tech button.tech-button.button.button-md.button-default.button-default-md span.button-inner {
+//     height: 18px;
+//     position: relative;
+//     margin: 0;
+//     padding: 0;
+//     top: 0;
+//     // overflow-wrap: break-word;
+//   }
+//   #Schedule>div.scroll-content>div,
+//   .schedule-main-columns-wrapper {
+//     // background-color: rgba(50,50,60,0.3);
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: nowrap;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     align-content: flex-start;
+//     width: 98vw;
+//     margin: 0 1vw;
+//     top: 66px;
+//     bottom: 1vh;
+//   }
+//   .schedulehypercontainer {
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: nowrap;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     align-content: flex-start;
+//     scroll-behavior: smooth;
+//     ::-webkit-scrollbar {
+//       width: 12px;
+//     }
+//     ::-webkit-scrollbar-track {
+//       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+//       -webkit-border-radius: 10px;
+//       border-radius: 10px;
+//     }
+//     /* Handle */
+//     ::-webkit-scrollbar-thumb {
+//       -webkit-border-radius: 10px;
+//       border-radius: 10px;
+//       background: rgba(0, 52, 171, 0.3);
+//       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+//     }
+//     ::-webkit-scrollbar-thumb:window-inactive {
+//       background: rgba(0, 0, 0, 0.4);
+//     }
+//   }
+//   .jobsiteheadergrid {
+//     padding-bottom: 0;
+//     margin-bottom: 0;
+//   }
+//   .schedulecontainer {
+//     // background-color: rgba(255,255,255,0.25);
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: nowrap;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     align-content: flex-start;
+//     overflow-y: auto;
+//     min-width: 1400px;
+//     width: 80%;
+//     margin: 0;
+//     padding: 0;
+//     max-height: 90vh; // border: 1px solid grey;
+//     scroll-behavior: smooth;
+//     ::-webkit-scrollbar {
+//       width: 12px;
+//     }
+//     ::-webkit-scrollbar-track {
+//       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+//       -webkit-border-radius: 10px;
+//       border-radius: 10px;
+//     }
+//     /* Handle */
+//     ::-webkit-scrollbar-thumb {
+//       -webkit-border-radius: 10px;
+//       border-radius: 10px;
+//       background: rgba(0, 52, 171, 0.3);
+//       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+//     }
+//     ::-webkit-scrollbar-thumb:window-inactive {
+//       background: rgba(0, 0, 0, 0.4);
+//     }
+//   }
+//   .shiftnames.col {
+//     min-width: 200px;
+//   }
+//   .employeecontainer,
+//   .stats {
+//     // background-color: rgba(100,255,255,0.25);
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: nowrap;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     align-content: flex-start;
+//     min-width: 240px;
+//     max-width: 300px;
+//     min-height: 500px; // width          : 20%       ;
+//     margin: 0;
+//   }
+//   div.employeerow.row,
+//   .ion-row {
+//     // background-color: rgba(255,255,100,0.25);
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: nowrap;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     align-content: flex-start;
+//     min-height: 100vh;
+//   }
+//   .employeecol {
+//     flex: 0 1 auto;
+//     padding: 0;
+//   }
+//   ion-scroll.employeescroller.scroll-y {
+//     // background-color: rgba(255,100,255,0.25);
+//     display: flex;
+//     flex-direction: column;
+//     flex-wrap: nowrap;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     align-content: flex-start;
+//     min-height: 83vh;
+//     width: 235px;
+//     scroll-behavior: smooth;
+//     ::-webkit-scrollbar {
+//       width: 12px;
+//     }
+//      ::-webkit-scrollbar-track {
+//       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+//       -webkit-border-radius: 10px;
+//       border-radius: 10px;
+//     }
+//     /* Handle */
+//      ::-webkit-scrollbar-thumb {
+//       -webkit-border-radius: 10px;
+//       border-radius: 10px;
+//       background: rgba(0, 52, 171, 0.3);
+//       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+//     }
+//      ::-webkit-scrollbar-thumb:window-inactive {
+//       background: rgba(0, 0, 0, 0.4);
+//     }
+//   }
+//   div.wrapper.slot_row.row {
+//     min-height: 30px;
+//   }
+//   div.wrapper.slot_row.row> :nth-child(3),
+//   div.wrapper.slot_row.row> :nth-child(5),
+//   div.wrapper.slot_row.row> :nth-child(7) {
+//     background-color: rgba(249, 250, 255, 0.8);
+//   }
+//   div.sitenames.col,
+//   #Schedule>div.scroll-content>div>div.schedulecontainer>div>div.header_row.row>div.emptycell.col {
+//     flex: 0 0 10px;
+//     width: 10px;
+//     text-align: left;
+//     overflow: visible;
+//     white-space: nowrap;
+//   }
+//   div.sitenames.col {
+//     z-index: 60;
+//     background-image: url('../../assets/images/row-padding.png');
+//     background-position: left top;
+//     background-repeat: repeat-x;
+//   }
+
+//   .hidden {
+//     display: none;
+//   }
+//   .slot-container {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     padding-top: 25px;
+//     padding-left: 25px;
+//     // max-width: 225px;
+//     overflow-x: hidden;
+//     background-image: url('../../assets/images/row-padding.png');
+//     background-position: left top;
+//     background-repeat: repeat-x;
+//   }
+//   .slot {
+//     flex: 0 1 auto;
+//   }
+//   .shiftnames {
+//     text-align: center;
+//     font-weight: bold;
+//     background-color: rgba(50, 50, 50, 0.15);
+//   }
+//   #Schedule>div.scroll-content>div>div.schedulecontainer>div>div.header_row.row>div.emptycell.col {
+//     background-color: rgba(50, 50, 50, 0.15);
+//   }
+//     #Schedule>div.scroll-content>div>div.schedulecontainer>div {
+//     border: thin solid rgba(50, 50, 50, .95);
+//   }
+//   .tech-shift-symbol {
+//     font-size: 18px;
+//   }
+//   .day {
+//     color: rgba(255, 192, 0, 1.0);
+//   }
+//   .night {
+//     color: rgba(31, 78, 120, 1.0);
+//   }
+//   .button-inner {
+//     text-align: left;
+//   }
+//   .button-tech-name {
+//     text-align: left;
+//   }
+//   .tech-button .button-inner {
+//     align-items: baseline;
+//   }
+//   .header_row {
+//     // position: fixed;
+//   }
+//   .unassigned-techs-header {
+//     text-align: center;
+//     font-weight: bold;
+//     background-color: rgba(50, 50, 50, 0.15);
+//   }
+
+//   .employeescroller>.scroll-content {
+//     padding: 0 !important;
+//   }
+
+//   .container {
+//     min-height: 80vh;
+//   }
+
+//   .unassigned-grid {
+//     border: 1px solid black;
+//     max-width: 16%;
+//   }
+
+//   .unassigned-row {
+//     height: 100%;
+//     border: 1px dotted grey;
+//   }
+
+//   .unassigned_container {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     // padding-top: 25px;
+//     // padding-left: 25px;
+//     max-width: 225px;
+//     overflow-x: hidden;
+//     // background-image: url('../../assets/images/row-padding.png');
+//     // background-position: left top;
+//     // background-repeat: repeat-x;
+
+//   }
+
+//   .unassigned-col {
+//     border: 1px solid darkred;
+//     height: 100%;
+//   }
+
+//   .unassigned-slot-container {
+//     border: 1px solid brown;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     padding-top: 25px;
+//     padding-left: 25px;
+//     height: 100%;
+//     min-height: 500px;
+//     overflow-x: hidden;
+//   }
+
+//   .unassigned-slot {
+//     border: 1px solid green;
+//     height: 100%;
+//     min-height: 30px;
+//     min-width: 200px;
+//   }
+
+//   .unassigned-tech {
+//     border: 1px solid blue;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: flex-start;
+//     align-items: flex-start;
+//     padding-top: 25px;
+//     padding-left: 25px;
+//     height: 100%;
+//     min-height: 500px;
+//     // max-width: 225px;
+//     overflow-x: hidden;
+//   }
+
+//   .jobsite_header_grid_row {
+//     padding-bottom: 0px;
+//     margin-bottom: 0px;
+//   }
+
+//   .jobsitegrid {
+//     // width: 84%;
+//     margin-top: 1px;
+//     padding-top: 0;
+//     padding-right: 0;
+//     // border-right: 1px solid lightgrey;
+//   }
+
+//   .unassigned_grid {
+//     border: 1px solid red;
+//     max-width: 16%;
+//     flex: 1 0 auto;
+//     height: 100%;
+//   }
+
+//   .unassigned_employeerow {
+//     border: 2px solid orange;
+//     margin: 1px;
+//     min-height: 30px;
+//   }
+
+//   .unassigned_employeecol {
+//     border: 3px solid yellow;
+//     margin: 1px;
+//     min-height: 30px;
+//   }
+
+//   .unassigned_wrapper {
+//     border: 4px solid green;
+//     margin: 1px;
+//     min-height: 30px;
+//   }
+
+//   .unassigned_container {
+//     border: 2px solid blue;
+//     margin: 1px;
+//     min-height: 300px;
+//     height: 300px;
+//   }
+
+//   .unassigned_tech {
+//     border: 1px solid purple;
+//     margin: 1px;
+//   }
+
+//   .schedule-date-range {
+//     display: flex;
+//     text-align: center;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 0;
+//   }
+
+//   .schedule-date-item {
+//     padding: 0;
+//     flex: 1 0 auto;
+//     display: flex;
+//     height: 36px;
+//     font-size: 14px;
+//     line-height: 15px;
+//     min-height: 20px;
+//     .item-inner {
+//       padding: 0;
+//       padding-right: 0 !important;
+//       flex: 1 0 auto;
+//       border-bottom: 0 !important;
+//       width: 100%;
+//       min-height: 20px;
+//     }
+//   }
+//   .schedule-date, .schedule-start-date {
+//     color: white;
+//     background: linear-gradient(to right, rgba(255,255,255,0.9) -50%, rgba(51,63,79, 1.0) 50%, rgba(255,255,255,0.9) 150%);
+//     flex: 1 0 auto;
+//     display: flex;
+//     justify-content: center;
+//     align-content: flex-start;
+//     min-width: 200px;
+//     // max-width: 200px;
+//     width: 240px;
+//     padding: 5px 0px;
+//     margin: 0;
+//     text-align: center;
+//     // height: 20px;
+//     // max-height: 20px;
+//     // line-height: 16px;
+//     button {
+//       width: 220px;
+//       padding: 0;
+//       margin: 0;
+//       .button-inner {
+//         display: flex;
+//         flex: 1 0 auto;
+//         padding: 2px 0px !important;
+//         margin: 0 !important;
+//       }
+//     }
+//     .ng-tns-c0-ui-calendar {
+//       color: white;
+//       padding: 2px 0px !important;
+//       margin: 0 !important;
+//     }
+//     input {
+//       color: white;
+//       border: 0;
+//       background: transparent;
+//       text-align: center;
+//       flex: 1 0 auto;
+//       margin: 0;
+//     }
+//   }
+//   .schedule-start-date {
+//     height: 26px;
+//   }
+//   .datetime-text {
+//     text-align: center;
+//     width: 250px;
+//     line-height: 14px;
+//     font-size: 14px;
+//     margin: 0 !important;
+//     padding: 0 !important;
+//   }
+
+//   .schedule-date-divider {
+//     margin: 0;
+//     line-height: 14px;
+//     font-size: 14px;
+//     padding: 0 !important;
+//   }
+
+//   .client-totals {
+//     margin-top: 1px;
+//     margin-bottom: 1px;
+//     border-bottom: 1px solid grey;
+//     background-color: rgba(240, 240, 240, 0.8);
+//   }
+
+//   .client-totals-header, .client-totals-header-col {
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     text-align: right;
+//     padding-right: 30%;
+//     border-top: 1px solid black;
+//     border-bottom: 1px solid black;
+//     margin-top: 2px;
+//     width: 240px;
+//     font-size: larger;
+//   }
+
+//   .halliburton {
+//     background-color: rgb(217, 225, 242);
+//   }
+
+//   .keane {
+//     background-color: rgb(226, 239, 218);
+//   }
+
+//   .basic {
+//     background-color: rgb(248, 203, 173);
+//   }
+
+//   .site-totals-grid {
+//     padding-right: 0;
+//   }
+//   .site-totals-row {
+
+//   }
+//   .site-totals-col {
+//     padding-top: 1px;
+//     padding-bottom: 1px;
+//   }
+//   .site-totals-col-label {
+//     font-weight: bold;
+//     text-transform: uppercase;
+//     text-align: right;
+//     font-size: small;
+//     padding: 0;
+//     width: 80%;
+//     flex: 1 0 auto;
+//   }
+//   .site-totals-col-data {
+//     text-align: right;
+//     font-size: small;
+//     width: 20%;
+//     padding-right: 10%;
+//     flex: 1 1 auto;
+//   }
+
+//   .client-totals-grid {
+//     padding-right: 0;
+//   }
+
+//   .client-totals-row {
+//   }
+
+//   .client-col {
+//     padding-top: 1px;
+//     padding-bottom: 1px;
+//   }
+
+//   .client-totals-col-label {
+//     font-weight: bold;
+//     text-transform: uppercase;
+//     text-align: right;
+//     font-size: smaller;
+//     padding: 0;
+//     width: 80%;
+//     flex: 1 0 auto;
+//   }
+
+//   .client-totals-col-data {
+//     text-align: right;
+//     font-size: smaller;
+//     width: 20%;
+//     padding-right: 10%;
+//     flex: 1 1 auto;
+//   }
+
+//   .hb-sites {
+//     color: rgba(32, 55, 100, 1.0);
+//   }
+
+//   .kn-sites {
+//     color: rgba(198, 89, 17, 1.0);
+//   }
+
+//   .be-sites {
+//     color: rgba(55, 86, 35, 1.0);
+//   }
+
+//   .tech-totals-grid {
+
+//   }
+//   .tech-totals-row {
+
+//   }
+//   .tech-totals-col {
+//     padding-top: 1px;
+//     padding-bottom: 1px;
+
+//   }
+//   .tech-totals-col-label {
+//     font-weight: bold;
+//     text-transform: uppercase;
+//     text-align: right;
+//     font-size: smaller;
+//     padding: 0;
+//     width: 75%;
+//     flex: 1 0 auto;
+//   }
+//   .tech-totals-col-data {
+//     text-align: right;
+//     font-size: smaller;
+//     width: 25%;
+//     padding-right: 10%;
+//     flex: 1 1 auto;
+//   }
+
+//   .sesa-totals-row {
+//     margin-top: 5px;
+//     color: rgb(204, 0, 153);
+//   }
+
+//   .techs-unassigned-row {
+//     margin-top: 5px;
+//     color: blue;
+//   }
+
+//   .schedule-button-persist,
+//   .schedule-button-increment,
+//   .schedule-button-dab {
+//     width: 100%;
+//   }
+
+//   .schedule-needs-horizontal-scrolling {
+//     overflow-x: auto;
+//   }
+
+//   .schedule-clear-button {
+//     color: black;
+//   }
+//   .bar-button-md ion-icon, .bar-button-md[icon-only] ion-icon {
+//     color: grey !important;
+//     // background: transparent !important;
+//   }
+//   .site-button {
+//     height: auto !important;
+//     vertical-align: top !important;
+//     margin: 0 !important;
+//     padding: 0 !important;
+//     color: black !important;
+//     // background-color: #488aff !important;
+//     background-color: transparent !important;
+//     box-shadow: none !important;
+//   }
+
+// }

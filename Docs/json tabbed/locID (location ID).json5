@@ -1,0 +1,12 @@
+{
+  "locIDs": [
+            { "id"    : 80, "capsName": "ELECTRONIC DIAGNOSTICS SHOP"    , "fullName": "Electronic Diagnostics Shop"    , "code": "E-TECH", "name": "E-TECH", "techClass": "E-TECH"},
+            { "id"    : 81, "capsName": "FLUID SERVICES FIELD TECHNICIAN", "fullName": "Fluid Services Field Technician", "code": "TOPPER", "name": "TOPPER", "techClass": "F-TECH"},
+            { "id"    : 85, "capsName": "MANUFACTURING CENTER"           , "fullName": "Manufacturing Center"           , "code": "MFGCTR", "name": "MFGCTR", "techClass": "G-TECH"},
+            { "id"    : 87, "capsName": "MAINTENANCE SHOP"               , "fullName": "Maintenance Shop"               , "code": "MNSHOP", "name": "MNSHOP", "techClass": "M-TECH"},
+            { "id"    : 88, "capsName": "PUMP SHOP"                      , "fullName": "Pump Shop"                      , "code": "PMPSHP", "name": "PMPSHP", "techClass": "P-TECH"},
+            { "id"    : 89, "capsName": "TEST CENTER"                    , "fullName": "Test Center"                    , "code": "TESTER", "name": "TESTER", "techClass": "T-TECH"},
+            { "id"    : 98, "capsName": "OFFICE"                         , "fullName": "Office"                         , "code": "OFFICE", "name": "OFFICE", "techClass": "OFFICE"},
+            { "id"    : 99, "capsName": "UNASSIGNED"                     , "fullName": "Unassigned"                     , "code": "UNASGN", "name": "UNASGN", "techClass": "UNASGN"},
+          ]
+}

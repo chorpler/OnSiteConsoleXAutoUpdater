@@ -1,0 +1,24 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>ScheduleSummary</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <p *ngIf="!dataReady">Tain't no output data here 'tawl.</p>
+  <table *ngIf="dataReady">
+    <thead>
+      <tr>
+        <th *ngFor="let head of data.header">{{head}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let row of data.rows">
+        <td *ngFor="let col of row">{{col}}</td>
+      </tr>
+    </tbody>
+  </table>
+</ion-content>

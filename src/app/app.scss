@@ -1,0 +1,334 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+@import '../assets/fonts/onsitex_fonts';
+
+.electron-in-page-search-window {
+  z-index: 100101;
+  position: fixed;
+  top: 57px;
+  right: 0;
+}
+
+ion-header {
+  &.header-md {
+    &::after {
+      content: unset;
+    }
+  }
+}
+ion-navbar {
+  box-shadow: 1px 1px 5px rgba(190, 190, 190, 0.8);
+  user-select: none;
+}
+ion-menu {
+  ion-toolbar {
+    box-shadow: 1px 1px 5px rgba(190, 190, 190, 0.8);
+    user-select: none;
+  }
+}
+@mixin button-like-block {
+  cursor: pointer;
+  &:hover {
+    background-color: rgba(0, 0, 220, 0.7);
+    i {
+      color: white;
+    }
+  }
+  &:active {
+    background-color: rgba(0, 0, 220, 0.9);
+    i {
+      color: white;
+    }
+  }
+}
+@mixin button-like-icon {
+  cursor: pointer;
+  &:hover {
+    color: rgba(0, 0, 220, 1.0);
+  }
+  &:active {
+    color: rgba(220, 0, 220, 1.0);
+  }
+}
+
+@mixin button-like-menu {
+  cursor: pointer;
+}
+
+.block-button-like {
+  @include button-like-block;
+}
+.icon-button-like {
+  @include button-like-icon;
+}
+.menu-button-like {
+  @include button-like-menu;
+}
+
+
+.blocked-for-login {
+  background-color: #666;
+  opacity: 0.2;
+  pointer-events: none;
+}
+.logout-confirmation-dialog {
+
+}
+
+.login-dialog-box {
+  width: 20vw;
+  min-width: 300px;
+}
+.onsitex-login-overlay-target {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  // border: 1px solid black;
+  left: calc(40vw - 25px);
+  top: 70px;
+}
+.menu-list {
+  padding: 0;
+}
+.menu-list-item {
+  padding-left: 0;
+}
+.menu-list-item-text {
+  padding-left: 16px;
+}
+.ion-item-button-like {
+  cursor:pointer;
+  &:hover {
+    background-color: rgba(0, 0, 128, 0.2);
+  }
+  &:active {
+    background-color: rgba(0, 0, 255, 0.5);
+  }
+}
+.app-growl, .app-notification {
+  width: 500px;
+  height: 300px;
+}
+.notifications-component {
+  width: 50px;
+  min-height: 300px;
+  background-color: blue;
+}
+.menu-sublist {
+  max-height: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 32px;
+  margin: 0;
+  background-color: transparent;
+  * {
+    background-color: transparent;
+  }
+  // transition: all 0.3s ease-in-out 0s;
+  // position: absolute;
+  z-index: 1001;
+  // top: 100%;
+  // left: 0;
+  transition: max-height 0.3s;
+  &.show {
+    max-height: 1000px;
+    // padding-left: 32px;
+    transition: max-height 0.3s;
+  }
+  &:not(.show) {
+    max-height: 0px;
+    transition: max-height 0.3s;
+  }
+}
+.show {
+}
+.menu-icon {
+  // color: red;
+}
+
+.fake-button {
+  cursor: pointer;
+}
+
+.gu-mirror {
+  position: fixed !important;
+  margin: 0 !important;
+  z-index: 9999 !important;
+  opacity: 0.8;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter: alpha(opacity=80);
+}
+.gu-hide {
+  display: none !important;
+}
+.gu-unselectable {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+.gu-transit {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  filter: alpha(opacity=20);
+}
+.onsite-main-content {
+  // background-image: url('../assets/images/Cover.png');
+  background-image: url('../assets/images/Consolebkg.jpg');
+  background-repeat:no-repeat;
+  background-size:auto 150%;
+  background-position: center;
+  background-color: rgba(255,240,220,1);
+// background-image: url('../assets/images/OnSiteX_57.png');
+  // background-repeat: repeat;
+  // filter: blur('3px');
+}
+.scheduling-schedule-exists-confirm {
+  .alert-wrapper {
+    min-width: 500px;
+    .alert-head {
+      // width: 50%;
+    }
+    .alert-wrapper {
+      // width: 50%;
+    }
+  }
+}
+.menu-side-content {
+  .scroll-content {
+    overflow: auto;
+  }
+}
+.fontawesome-icon {
+  font-family: "FontAwesome";
+}
+.ionicons-icon {
+  font-family: "Ionicons";
+}
+ion-content {
+  .scroll-content {
+    overflow-y: auto;
+  }
+}
+spinner {
+  transition: linear 2s all;
+}
+.spin-me {
+  animation: spinner 3s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media print {
+  $margin: 0.5in;
+  * {
+    overflow: visible !important;
+    contain: none !important;
+  }
+  body {
+    position: unset !important;
+    height: unset;
+    max-height: unset;
+  }
+  ion-header, ion-menu {
+    display: none;
+  }
+  ion-content {
+    margin: 0 !important;
+    padding: 0 !important;
+    -webkit-print-color-adjust: exact;
+  }
+  ion-content > .scroll-content, ion-content > .fixed-content {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .scroll-content, ion-content, ion-nav, .nav-viewport, .ion-page {
+    contain: none !important;
+    overflow: visible !important;
+  }
+  .scroll-content {
+    overflow: visible !important;
+  }
+  body * {
+    visibility: hidden;
+  }
+  #print-area,.print-area {
+    -webkit-print-color-adjust: exact;
+    visibility: visible;
+    // position: absolute;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    left: 0;
+    // top: 0;
+    width: 7.5in;
+    width: calc(8.5in - 2*$margin);
+    // margin: $margin;
+    // height: 11in;
+    * {
+      visibility: visible;
+    }
+  }
+}
+
+.onsiteicon-split:before {
+  content: "\e900";
+}
+
+.menu-button-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  font-size: 36px;
+  // height: 50px;
+  border-bottom: 1px solid lightgrey;
+  padding-bottom:5px;
+  padding-top:15px;
+}
+
+.side-menu-icon {
+  @include button-like-block;
+  border-radius:5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  flex: 0 1 auto;
+  &.first {
+    // font-size: 28px;
+    // margin-left: 5px;
+    position: relative;
+    bottom: -4px;
+  }
+  &.right {
+    // font-size: 22px;
+    // margin-left: 5px;
+  }
+}
+.developer-icon {
+  color: red;
+}
+

@@ -1,0 +1,10 @@
+<div class="search-text-box search-bar" [class.visible]="isSearchVisible">
+  <input #searchInput class="search-text-input" type="text" [(ngModel)]="searchText" (ngModelChange)="stringChanged()" (keyup)="checkKey($event)"/>
+  <span *ngIf="searchText && searchText.length > 0; then searchHasResults; else noSearchResults"></span>
+  <span class="search-close-button"><i class="fa fa-times search-button icon-button-like" (click)="close($event)"></i></span>
+  <ng-template #searchHasResults>
+    <span #searchCount class="search-text-count">{{searchResultCount-1}} result<span *ngIf="searchText.length === 0 || searchText.length > 1">s</span></span>
+  </ng-template>
+  <ng-template #noSearchResults>
+  </ng-template>
+</div>

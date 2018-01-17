@@ -1,0 +1,207 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{title}} ({{siteIndex}} / {{siteCount}})</ion-title>
+    <ion-buttons right>
+      <button ion-button (tap)="addJobSite()" title="Add work site">
+        <ion-icon class="icon-normal" name="ios-add-circle-outline"></ion-icon>
+      </button>
+      <button ion-button (tap)="saveNoExit()" title="Save but don't exit page">
+        <ion-icon class="icon-normal" name="checkmark-circle-outline"></ion-icon>
+      </button>
+      <button *ngIf="siteIndex > 1" ion-button (tap)="sitePrevious()" title="Previous work site">
+        <ion-icon class="icon-normal" name="arrow-dropleft"></ion-icon>
+      </button>
+      <button *ngIf="!(siteIndex > 1)" ion-button disabled="true" title="(No previous work site)">
+        <ion-icon class="icon-greyedout" name="arrow-dropleft"></ion-icon>
+      </button>
+      <button *ngIf="siteIndex < siteCount" ion-button (tap)="siteNext()" title="Next work site">
+        <ion-icon class="icon-normal" name="arrow-dropright"></ion-icon>
+      </button>
+      <button *ngIf="!(siteIndex < siteCount)" ion-button disabled="true" title="(No next work site)">
+        <ion-icon class="icon-greyedout" name="arrow-dropright"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="window" *ngIf="dataReady && data.ready()">
+    <div class="main-content-container">
+      <div class="main-content">
+        <form [formGroup]="jobSiteForm" (ngSubmit)="onSubmit()">
+          <!-- WorkSite DB Location Keys -->
+          <ion-grid class="worksite-primary-info-container">
+            <ion-row>
+              <ion-item class="worksite-primary-info">
+                <ion-label fixed id="client">Client</ion-label>
+                <!-- <p-dropdown [options]="clientList" [(ngModel)]="client" (onChange)="updateClient(client)"></p-dropdown> -->
+                <ion-select id="client-select" formControlName="client">
+                  <ion-option *ngFor="let client of clientList" [value]="client">{{client.fullName}}</ion-option>
+                </ion-select>
+              </ion-item>
+              <ion-item class="worksite-primary-info">
+                <ion-label fixed id="loc">Work-Site Location</ion-label>
+                <!-- <p-dropdown [options]="locationList" [(ngModel)]="location" (onChange)="updateLocation(location)"></p-dropdown> -->
+                <ion-select id="loc-select" formControlName="location">
+                  <ion-option *ngFor="let location of locationList" [value]="location">{{location.fullName}}</ion-option>
+                </ion-select>
+              </ion-item>
+              <ion-item id="item-loc-id">
+                <ion-label fixed id="loc-id">Tech Class Identifier</ion-label>
+                <!-- <p-dropdown [options]="locIDList" [(ngModel)]="locID" (onChange)="updatelocID(locID)"></p-dropdown> -->
+                <ion-select id="loc-id-select" formControlName="locID">
+                  <ion-option *ngFor="let locID of locIDList" [value]="locID">{{locID.fullName}}</ion-option>
+                </ion-select>
+              </ion-item>
+            </ion-row>
+          </ion-grid>
+          <ion-grid class="worksite-primary-info-container">
+            <ion-row>
+              <ion-item class="worksite-primary-info">
+                <ion-label fixed id="label-name">Schedule Name</ion-label>
+                <ion-input id="input-name" formControlName="schedule_name"></ion-input>
+              </ion-item>
+              <ion-item class="worksite-primary-info">
+                <ion-label fixed id="label-number">Permanent Site Number</ion-label>
+                <ion-input id="input-number" type="number" step="1" min="1001" formControlName="site_number"></ion-input>
+              </ion-item>
+              <ion-item class="worksite-primary-info">
+                <ion-label fixed id="label-sort">Sort Number</ion-label>
+                <ion-input id="input-sort" type="number" step="1" min="0" formControlName="sort_number"></ion-input>
+              </ion-item>
+            </ion-row>
+          </ion-grid>
+            <!-- WorkSite Details -->
+          <ion-item-group formGroupName="address">
+            <ion-item-divider color="light">
+              <span class="ion-item-divider-contents">
+                <span class="ion-item-divider-label">Address</span>
+                <button type="button" class="ion-item-divider-button" ion-button (tap)="addressCopy('down')" title="Copy to Billing Address">
+                  <ion-icon class="icon-normal" name="ios-arrow-dropdown"></ion-icon>
+                </button>
+              </span>
+            </ion-item-divider>
+            <ion-item formGroupName="street">
+              <ion-label>Address</ion-label>
+              <ion-input type="text" formControlName="street1"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>City</ion-label>
+              <ion-input type="text" formControlName="city"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>State</ion-label>
+              <ion-input type="text" formControlName="state"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>ZIP</ion-label>
+              <ion-input type="text" formControlName="zip"></ion-input>
+            </ion-item>
+          </ion-item-group>
+          <ion-item-group formGroupName="billing_address">
+            <ion-item-divider color="light">
+              <span class="ion-item-divider-contents">
+                <span class="ion-item-divider-label">Billing Address</span>
+                <button type="button" class="ion-item-divider-button" ion-button (tap)="addressCopy('up')" title="Copy to Site Address">
+                  <ion-icon class="icon-normal" name="ios-arrow-dropup"></ion-icon>
+                </button>
+              </span>
+            </ion-item-divider>
+            <ion-item formGroupName="street">
+              <ion-label>Billing Address</ion-label>
+              <ion-input type="text" formControlName="street1"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Billing City</ion-label>
+              <ion-input type="text" formControlName="city"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Billing State</ion-label>
+              <ion-input type="text" formControlName="state"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Billing ZIP</ion-label>
+              <ion-input type="text" formControlName="zip"></ion-input>
+            </ion-item>
+          </ion-item-group>
+
+          <ion-item-group>
+            <ion-item-divider color="light">Site Location Details</ion-item-divider>
+            <ion-item>
+              <ion-label>Latitude</ion-label>
+              <ion-input type="text" formControlName="latitude"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Longitude</ion-label>
+              <ion-input type="text" formControlName="longitude"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Geofence Radius (meters)</ion-label>
+              <ion-input type="text" formControlName="within"></ion-input>
+            </ion-item>
+          </ion-item-group>
+          <ion-item-group>
+            <ion-item-divider color="light"></ion-item-divider>
+            <ion-item>
+              <ion-label>Account No.</ion-label>
+              <ion-input type="text" formControlName="account_number"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Travel Time</ion-label>
+              <ion-input type="text" formControlName="travel_time"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Per Diem Rate</ion-label>
+              <ion-input type="text" formControlName="per_diem_rate"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Lodging Rate</ion-label>
+              <ion-input type="text" formControlName="lodging_rate"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Requires Preauth</ion-label>
+              <ion-toggle formControlName="requires_preauth"></ion-toggle>
+            </ion-item>
+            <ion-item>
+              <ion-label>Requires Work Order Reports</ion-label>
+              <ion-toggle formControlName="requires_invoice_woreports"></ion-toggle>
+            </ion-item>
+            <ion-item>
+              <ion-label>Account or Contract</ion-label>
+              <ion-input type="text" formControlName="account_or_contract"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label>Billing Rate</ion-label>
+              <ion-input type="number" formControlName="billing_rate"></ion-input>
+            </ion-item>
+          </ion-item-group>
+
+          <ion-item class="item ion-item ion-item-button-like" (click)="editSiteHours()">
+            <ion-label>Site Hours</ion-label>
+            <ion-icon item-right class="add-site-hours-button-icon" name="arrow-dropdown"></ion-icon>
+          </ion-item>
+          <ion-item>
+            <ion-label>Site Active</ion-label>
+            <ion-toggle formControlName="site_active"></ion-toggle>
+          </ion-item>
+          <button type="button" ion-button (tap)="cancel()">Cancel</button>
+          <button type="submit" ion-button color="favorite">Save</button>
+          <button type="button" ion-button color="favorite" (tap)="saveNoExit()">Save, Don't Exit</button>
+        </form>
+      </div>
+    </div>
+    <div class="add-site-right-column">
+      <div class="map-col">
+        <agm-map [latitude]="jobsite.latitude" [longitude]="jobsite.longitude" [mapTypeId]="mapMode" [(zoom)]="mapZoom">
+          <agm-marker [latitude]="lat" [longitude]="lon"></agm-marker>
+          <agm-circle [latitude]="jobsite.latitude" [longitude]="jobsite.longitude" [radius]="jobsite.within" [(fillColor)]="radiusColor"></agm-circle>
+        </agm-map>
+      </div>
+    </div>
+  </div>
+</ion-content>

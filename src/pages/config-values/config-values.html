@@ -1,0 +1,65 @@
+<ion-header *ngIf="dataReady && data.isAppReady()">
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{title}}</ion-title>
+    <!-- <ion-buttons right>
+      <button ion-button icon-only (tap)="copyTable()">
+        <ion-icon class="dps-calc-button-copy" name="copy"></ion-icon>
+      </button>
+    </ion-buttons> -->
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding *ngIf="dataReady && data.isAppReady()">
+  <div class="config-wrapper">
+    <div class="config-tables-wrapper">
+      <div class="config-table-wrapper">
+        <div class="table-title-wrapper">
+          <div class="table-title">Report Types</div>
+          <div class="table-title-buttons">
+            <i class="fa fa-plus-circle icon-button-like config-button" (click)="addConfig('report_type', $event)"></i>
+          </div>
+        </div>
+        <p-dataTable #dtrt [value]="report_types" [editable]="true" [globalFilter]="globalSearch" sortMode="multiple" reorderableColumns="true" [rows]="20" [paginator]="true" [pageLinks]="3" [rowsPerPageOptions]="[5,10,15,20,25,30,35,40,45,50]">
+          <p-column field="_id" header="#" [style]="numberColumnStyle">
+            <ng-template pTemplate="body" let-col let-ri="rowIndex">{{ri+1}}</ng-template>
+          </p-column>
+          <p-column *ngFor="let item of rt_fields" [editable]="true" [field]="item.field" [header]="item.header" [sortable]="true"></p-column>
+        </p-dataTable>
+      </div>
+      <div class="config-table-wrapper">
+        <div class="table-title-wrapper">
+          <div class="table-title">Training Types</div>
+          <div class="table-title-buttons">
+            <i class="fa fa-plus-circle icon-button-like config-button" (click)="addConfig('training', $event)"></i>
+          </div>
+        </div>
+        <p-dataTable #dttt [value]="training_types" [editable]="true" [globalFilter]="globalSearch" sortMode="multiple" reorderableColumns="true" [rows]="20" [paginator]="true" [pageLinks]="3" [rowsPerPageOptions]="[5,10,15,20,25,30,35,40,45,50]">
+          <p-column field="_id" header="#" [style]="numberColumnStyle">
+            <ng-template pTemplate="body" let-col let-ri="rowIndex">{{ri+1}}</ng-template>
+          </p-column>
+          <p-column *ngFor="let item of tt_fields" [editable]="true" [field]="item.field" [header]="item.header" [sortable]="true"></p-column>
+        </p-dataTable>
+      </div>
+      <div class="config-table-wrapper">
+        <div class="table-title-wrapper">
+          <div class="table-title">Location IDs</div>
+          <div class="table-title-buttons">
+            <i class="fa fa-plus-circle icon-button-like config-button" (click)="addConfig('locID', $event)"></i>
+          </div>
+        </div>
+        <p-dataTable #dtlocids [value]="locIDs" [editable]="true" [globalFilter]="globalSearch" sortMode="multiple" [rows]="20" [paginator]="true" [pageLinks]="3" [rowsPerPageOptions]="[5,10,15,20,25,30,35,40,45,50]">
+          <p-column field="_id" header="#" [style]="numberColumnStyle">
+            <ng-template pTemplate="body" let-col let-ri="rowIndex">{{ri+1}}</ng-template>
+          </p-column>
+          <p-column field="name" header="Code" [editable]="true" [sortable]="true">
+            <ng-template pTemplate="body" let-col let-locid="rowData"><span class="locid-code">{{locid['name']}}</span></ng-template>
+          </p-column>
+          <p-column *ngFor="let item of locID_fields; let i=index" [editable]="true" [field]="item.field" [header]="item.header" [sortable]="true"></p-column>
+        </p-dataTable>
+      </div>
+    </div>
+  </div>
+</ion-content>

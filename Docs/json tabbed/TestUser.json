@@ -1,0 +1,128 @@
+[
+{
+  "_id": "org.couchdb.user:0Testudyne",
+  "name": "0Testudyne",
+  "roles": [
+    "TECHNICIAN"
+  ],
+  "type": "user",
+  "firstName": "Test1",
+  "lastName": "Testudyne",
+  "username": "0Testudyne",
+  "avatarName": "0Testudyne",
+  "avtrNameAsUser": true,
+  "userClass": "M-TECH",
+  "client": "SESA",
+  "location": "WESLACO",
+  "locID": "MNSHOP",
+  "loc2nd": "NA",
+  "shift": "AM",
+  "shiftLength": 11,
+  "shiftStartTime": 8,
+  "email": "test2@sesa.us",
+  "phone": "999-999-9999",
+  "cell": "999-999-9999",
+  "docID": "org.couchdb.user:0Testudyne",
+  "password_scheme": "pbkdf2",
+  "iterations": 10,
+  "derived_key": "964cf4eefccb49c53b613aaa69833ba2d0f80253",
+  "salt": "4523f4c8dcb8a0504d2dfc91506fa141"
+}
+
+,
+
+{
+  "_id": "org.couchdb.user:1Testudyne",
+  "name": "1Testudyne",
+  "roles": [
+    "TECHNICIAN"
+  ],
+  "type": "user",
+  "firstName": "Test2",
+  "lastName": "Testudyne",
+  "username": "1Testudyne",
+  "avatarName": "1Testudyne",
+  "avtrNameAsUser": true,
+  "userClass": "M-TECH",
+  "client": "SESA",
+  "location": "WESLACO",
+  "locID": "MNSHOP",
+  "loc2nd": "NA",
+  "shift": "AM",
+  "shiftLength": 11,
+  "shiftStartTime": 8,
+  "email": "test2@sesa.us",
+  "phone": "999-999-9999",
+  "cell": "999-999-9999",
+  "docID": "org.couchdb.user:1Testudyne",
+  "password_scheme": "pbkdf2",
+  "iterations": 10,
+  "derived_key": "964cf4eefccb49c53b613aaa69833ba2d0f80253",
+  "salt": "4523f4c8dcb8a0504d2dfc91506fa141"
+}
+
+,
+
+
+{
+  "_id": "org.couchdb.user:2Testudyne",
+  "name": "2Testudyne",
+  "roles": [
+    "TECHNICIAN"
+  ],
+  "type": "user",
+  "firstName": "Test3",
+  "lastName": "Testudyne",
+  "username": "2Testudyne",
+  "avatarName": "2Testudyne",
+  "avtrNameAsUser": true,
+  "userClass": "M-TECH",
+  "client": "SESA",
+  "location": "WESLACO",
+  "locID": "MNSHOP",
+  "loc2nd": "NA",
+  "shift": "AM",
+  "shiftLength": 11,
+  "shiftStartTime": 8,
+  "email": "test2@sesa.us",
+  "phone": "999-999-9999",
+  "cell": "999-999-9999",
+  "docID": "org.couchdb.user:2Testudyne",
+  "password_scheme": "pbkdf2",
+  "iterations": 10,
+  "derived_key": "964cf4eefccb49c53b613aaa69833ba2d0f80253",
+  "salt": "4523f4c8dcb8a0504d2dfc91506fa141"
+}
+,
+
+
+{
+  "_id": "org.couchdb.user:3Testudyne",
+  "name": "3Testudyne",
+  "roles": [
+    "TECHNICIAN"
+  ],
+  "type": "user",
+  "firstName": "Test4",
+  "lastName": "Testudyne",
+  "username": "3Testudyne",
+  "avatarName": "3Testudyne",
+  "avtrNameAsUser": true,
+  "userClass": "M-TECH",
+  "client": "SESA",
+  "location": "WESLACO",
+  "locID": "MNSHOP",
+  "loc2nd": "NA",
+  "shift": "AM",
+  "shiftLength": 11,
+  "shiftStartTime": 8,
+  "email": "test2@sesa.us",
+  "phone": "999-999-9999",
+  "cell": "999-999-9999",
+  "docID": "org.couchdb.user:3Testudyne",
+  "password_scheme": "pbkdf2",
+  "iterations": 10,
+  "derived_key": "964cf4eefccb49c53b613aaa69833ba2d0f80253",
+  "salt": "4523f4c8dcb8a0504d2dfc91506fa141"
+}
+]

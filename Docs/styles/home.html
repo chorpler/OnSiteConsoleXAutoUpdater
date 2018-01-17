@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <button [disabled]="!currentlyLoggedIn" ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title *ngIf="!currentlyLoggedIn">OnSiteX Console (<button ion-button (click)="presentLoginModal()">not logged in</button>)</ion-title>
+    <ion-title *ngIf="currentlyLoggedIn">OnSiteX Console ({{username}})</ion-title>
+    <ion-buttons end *ngIf="currentlyLoggedIn">
+      <button ion-button primary (click)="logoutOfApp()">Logout</button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="console-home-page-content">
+  <div class="console-home-bg-text">
+    <div class="console-home-page">
+      <div class="console-home-bg">
+        <div class="console-home-bg-large">
+          <div class="element-animation">OnSiteX</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

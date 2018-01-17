@@ -1,0 +1,95 @@
+page-reports-alpha {
+  .background-spinner {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    min-width: 200px;
+    min-height: 250px;
+    position: absolute;
+    top: calc(50vh - 200px);
+    left: calc(50vw - 150px);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px #888888;
+    padding: 10px;
+  }
+  .spinner-graphic {
+    width: 100%;
+    height: 80%;
+    min-height: 200px;
+    background-image: url('../assets/images/spinner01.gif');
+    background-repeat:no-repeat;
+    background-size: contain;
+    // background-size:auto 150%;
+    background-position: center;
+  }
+  .spinner-caption {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .report-view-target {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    // border: 1px solid black;
+    left: calc(25vw - 25px);
+    top: calc(25vh - 25px);
+  }
+  ion-content > .scroll-content {
+    margin-top: 56px;
+  }
+  .report-datagrid-wrapper {
+    .ui-panel {
+      margin-top: 75px;
+    }
+    width: 95vw;
+    height: 42vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    border: 1px solid lightgrey;
+  }
+  .report-datagrid-panel {
+    .ui-panel {
+      margin-top: 75px;
+      width: 95vw;
+      height: 42vh;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 75px;
+      border: 1px solid lightgrey;
+
+    }
+  }
+  .other-datagrid-wrapper {
+    width: 95vw;
+    height: 42vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    border: 1px solid lightgrey;
+  }
+  .other-datagrid-panel {
+    .ui-panel {
+      width: 95vw;
+      height: 42vh;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 75px;
+      border: 1px solid lightgrey;
+
+    }
+  }
+  .report-view-dialog {
+    .ui-dialog-content {
+      overflow: visible;
+    }
+  }
+}

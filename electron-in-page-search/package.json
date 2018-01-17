@@ -1,0 +1,69 @@
+{
+  "_from": "electron-in-page-search",
+  "_id": "electron-in-page-search@1.2.4",
+  "_inBundle": false,
+  "_integrity": "sha512-2Okl1INsxTjJ6FT5OOC/I/SX53vh3H1o0Gs0tPJavVNcVu3Zm32Cv5VsX7AUMPBJzgNgDc47pdgMZY4V5BCAJA==",
+  "_location": "/electron-in-page-search",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "electron-in-page-search",
+    "name": "electron-in-page-search",
+    "escapedName": "electron-in-page-search",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/electron-in-page-search/-/electron-in-page-search-1.2.4.tgz",
+  "_shasum": "f341fed3f3fb06ac5d65c1ad21d30e9455d893db",
+  "_spec": "electron-in-page-search",
+  "_where": "C:\\code\\tron\\OnSiteConsoleX",
+  "author": {
+    "name": "rhysd",
+    "email": "lin90162@yahoo.co.jp"
+  },
+  "bugs": {
+    "url": "https://github.com/rhysd/electron-in-page-search/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Electron module to provide in-page search feature",
+  "devDependencies": {
+    "@types/mocha": "^2.2.32",
+    "@types/sinon": "^1.16.31",
+    "electron": "^1.7.9",
+    "electron-mocha": "^3.1.1",
+    "sinon": "^1.17.6",
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.8"
+  },
+  "homepage": "https://github.com/rhysd/electron-in-page-search#readme",
+  "keywords": [
+    "electron",
+    "module",
+    "in-page",
+    "search"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "electron-in-page-search",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhysd/electron-in-page-search.git"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "example": "npm install && npm run build && cd example/browser-window && npm start",
+    "gen-dts": "tsc -d src/index.ts && mv src/index.d.ts .",
+    "lint": "tslint $(git ls-files | grep -E \"\\.ts$\")",
+    "preversion": "npm run lint && npm run build",
+    "test": "electron-mocha --timeout 10000 --renderer test/*.js",
+    "watch": "guard --watchdir src test"
+  },
+  "version": "1.2.4"
+}

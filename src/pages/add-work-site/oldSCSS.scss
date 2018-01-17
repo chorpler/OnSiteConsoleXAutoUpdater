@@ -1,0 +1,333 @@
+// * {
+//   position: relative;
+//   box-sizing: border-box; // border: thin solid rgba(50, 255, 65, 0.3);
+//   clear: both;
+// }
+// .worksite-primary-info-container,
+// .worksite-primary-info-container ion-row.row,
+// .address-container,
+// .address-container ion-row.row,
+// .address-container ion-row.row>div,
+
+// .billing-address-container,
+// .billing-address-container ion-row.row,
+// .billing-address-container ion-row.row>div,
+
+// .site-loc-details-container,
+// .site-loc-details-container ion-row.row,
+// .site-loc-details-container ion-row.row>div {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: nowrap;
+//   justify-content: space-between;
+//   align-items: flex-start;
+//   align-content: flex-start;
+//   margin: 0;
+//   padding: 0;
+//   height: 100%;
+//   width: 100%;
+//   font-family: "Roboto Condensed";
+//   font-weight: 200;
+//   background-color: rgba(50, 50, 50, 0.2);
+// }
+// ion-item.worksite-primary-info {
+//   flex: 1 1 auto;
+//   min-width: 150px;
+//   margin: auto 0;
+//   padding: 0;
+// }
+// ion-item#item-loc-id {
+//   flex: 2 1 350px;
+//   min-width: 350px !important;
+// }
+// ion-label#client {
+//   flex: 0 1 60px;
+//   margin: auto 0;
+//   max-width: 60px;
+//   padding-right: 20px;
+//   padding-left: 16px;
+// }
+// ion-select#client-select {
+//   flex: 3 1 180px;
+//   min-width: 150px;
+//   #client-select>div.select-text {
+//     width: 90%;
+//   }
+//   #client-select>div.select-icon {
+//     width: 10%;
+//   }
+// }
+// ion-label#loc {
+//   flex: 1 1 125px;
+//   max-width: 125px !important;
+// }
+// ion-select#loc-select {
+//   flex: 1 1 100px;
+//   min-width: 100px !important;
+// }
+// ion-label#loc2nd {
+//   flex: 1 1 150px;
+//   max-width: 150px;
+// }
+// ion-select#loc2nd-select {
+//   flex: 1 1 100px;
+//   max-width: 100px;
+// }
+// ion-label#loc-id {
+//   flex: 1 1 175px;
+//   max-width: 175px;
+// }
+// ion-select#loc-id-select {
+//   flex: 1 1 175px;
+//   min-width: 175px !important;
+// } // This selector is inside the file's page-home{} selector, so the commented
+// // out portion of the selector couldn't match anything, so this wasn't being
+// // applied to the div.window container.
+// // body>ion-app>ng-component>ion-nav>page-home>
+// ion-content>div.scroll-content>div.window {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: nowrap;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+//   align-content: flex-start;
+//   height: 100%;
+//   width: 100%;
+//   min-width: 1000px;
+//   min-height: 550px;
+//   font-family: "Roboto Condensed";
+//   font-weight: 200;
+//   background-color: rgba(50, 50, 50, 0.2);
+// }
+// ion-list {
+//   display: flex;
+//   width: 100%;
+//   flex-wrap: wrap;
+// }
+// ion-item {
+//   flex: 0 0 100%;
+// }
+// .img-placeholder {
+//   height: 250px;
+//   width: 250px;
+// }
+// .main-content-container {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+//   align-content: flex-start;
+//   height: 100%;
+//   width: 70%;
+//   min-width: 700px;
+//   min-height: 500px;
+//   padding: 0;
+//   margin: 0;
+//   font-family: "Roboto Condensed";
+//   font-weight: 200;
+//   background-color: rgba(50, 50, 50, 0.2);
+// }
+// .main-content {
+//   flex: 0 0 100%;
+//   min-width: 700px;
+//   width: 100%;
+//   height: 100%;
+//   min-height: 500px;
+//   padding: 0;
+//   margin: 0;
+// }
+// .add-site-right-column {
+//   display: flex;
+//   flex-direction: column;
+//   flex-wrap: nowrap;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+//   align-content: flex-start;
+//   height: 100%;
+//   width: 30%;
+//   min-width: 300px;
+//   min-height: 800px;
+//   padding: 0;
+//   margin: 0;
+//   font-family: "Roboto Condensed";
+//   font-weight: 200;
+//   background-color: rgba(50, 50, 80, 0.2);
+// }
+
+// .map-col-container {
+//   display: flex;
+//   flex: 0 0 100%;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+//   align-content: flex-start;
+//   height: 50%;
+//   width: 100%;
+//   padding: 0;
+//   margin: 0;
+//   font-family: "Roboto Condensed";
+//   font-weight: 200;
+//   background-color: rgba(50, 50, 80, 0.2);
+// }
+// .map-col {
+//   flex: 0 0 100%;
+//   min-width: 300px;
+//   width: 100%;
+//   height: 100%;
+//   min-height: 500px;
+//   padding: 0;
+//   margin: 0;
+// }
+// .hours-col {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+//   align-content: flex-start;
+//   flex: 1 0 100%;
+//   min-width: 500px;
+//   width: 100%;
+//   height: 100%;
+//   min-height: 500px;
+//   padding: 0;
+//   margin: 0;
+// }
+// .hours-start-times-group {
+//   flex: 1 0 100%;
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: nowrap;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+//   align-content: flex-start;
+//   height: 50px;
+//   width: 48%;
+//   min-width: 150px;
+//   max-width: 240px;
+//   // min-width: 300px;
+//   // :nth-child(2) {
+//   //   margin-left: 20px;
+//   // }
+// }
+
+// .hours-start-times-select-group {
+//   flex: 0 0 100%;
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+//   align-content: flex-start;
+//   height: 50px;
+//   width: 45%;
+//   // min-width: 175px;
+// }
+// .hours-datetime-icon-group {
+//   flex: 0 0 100%;
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: nowrap;
+//   justify-content: flex-start;
+//   align-items: flex-start;
+//   align-content: flex-start;
+//   // height: 50px;
+//   // width: 50px;
+//   max-width: 55px;
+//   border: thin solid lightgrey;
+//   padding: 0 0 0 0;
+//   margin: 2px 0 0 2px;
+//   height: 20px;
+// }
+// .hours-header-group-label {
+//   margin-top: 5px;
+//   margin-right: 0px;
+//   font-weight: bold;
+// }
+// .hours-datetime-display {
+//   // height: 50px;
+//   // width: 75px;
+//   margin-top: 2px;
+//   margin-left: 0;
+//   // text-align: right;
+//   padding: 0px 8px 0px 2px;
+//   button {
+//     width: 140%;
+//   }
+//   // text-align: right;
+//   // border: thin solid lightgrey;
+//   // width: 75px;
+//   // min-width: 50px;
+//   // width: 100%;
+//   // min-width: 75px;
+// }
+// .hours-start-times-select-group ion-select {
+//   // height: 50px;
+//   // width: 75px;
+//   margin-top: 5px;
+//   margin-left: 10px;
+//   text-align: right;
+//   padding: 0px 8px 0px 2px;
+//   text-align: right;
+//   // border: thin solid lightgrey;
+//   width: 75px;
+//   min-width: 50px;
+//   // width: 100%;
+//   // min-width: 75px;
+// }
+// .datetime-icon-dropdown {
+//   color: grey;
+//   padding-top: 2px;
+//   right: 6px;
+//   z-index: -1;
+// }
+
+// .ion-item-button-like {
+//   cursor:pointer;
+//   &:hover {
+//     background-color: rgba(0, 0, 128, 0.02);
+//   }
+//    &:active {
+//     background-color: rgba(0, 0, 255, 0.3);
+//   }
+// }
+
+// .add-site-hours-button {
+
+// }
+
+// .add-site-hours-button-icon {
+
+// }
+
+// .worksite-ion-item-group {
+//   background-color: white;
+// }
+
+// .worksite-item-group {
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: flex-start;
+//   align-items: center;
+//   align-content: flex-start;
+// }
+
+// .worksite-item-label {
+//   display: inline-block;
+//   flex: 1 0 auto;
+//   width: 70px;
+//   max-width: 70px;
+// }
+
+// .worksite-item-input {
+//   display: inline-block;
+//   flex: 1 0 auto;
+//   width: 36px;
+//   max-width: 36px;
+// }
+
+// agm-map {
+//   height: 100%;
+// }

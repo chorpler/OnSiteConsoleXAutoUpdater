@@ -1,0 +1,77 @@
+<!-- <notices #noticesElement *ngIf="showNoticesComponent" class="notices-component" [(value)]="notices"></notices> -->
+<!-- <notification  #notificationElement  *ngIf="showNotificationComp"  class="app-notification"        [(value)]="notices" [immutable]="immutableNotify" [life]="3000"></notification> -->
+<notification #notificationElement class="app-notification" [(value)]="notices" [immutable]="immutableNotify" [life]="3000"></notification>
+
+<p-dialog #loginDialog [class.login-dialog-box]="true" header="Login" [(visible)]="requireLogin" [draggable]="true" [resizable]="true" [closable]="false" [modal]="false" [appendTo]="loginTarget">
+  <login #loginComponent (loginAttempt)="receiveLoginAttempt($event)"></login>
+</p-dialog>
+<p-dialog #optionsDialog *ngIf="optionsVisible" [class.options-dialog-box]="true" header="Options" [(visible)]="optionsVisible" [draggable]="true" [resizable]="true" [closable]="false" [modal]="false" [appendTo]="loginTarget" [contentStyle]="{'overflow':'visible'}">
+  <options #optionsComponent [type]="optionsType" (onCancel)="optionsClosed($event)" (onSave)="optionsSaved($event)"></options>
+</p-dialog>
+
+<div #confirmTarget></div>
+<div #loginTarget class="onsitex-login-overlay-target"></div>
+
+<ion-menu [content]="content" (ionClose)="menuClosed()">
+  <ion-header>
+    <ion-toolbar>
+      <!-- <ion-title>{{title}}<span [class.side-menu-icon]="true" [class.developer-icon]="data.status.role==='dev'" *ngIf="data.isDeveloper"><i class="fa fa-github fake-button" (click)="data.toggleDeveloperMode()"></i></span></ion-title> -->
+      <ion-title>{{title}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content class="menu-side-content">
+    <ion-list class="menu-list">
+      <span class="menu-button-container">
+        <span class="side-menu-icon first" title="Toggle developer mode" [class.developer-icon]="data.status.role==='dev'" *ngIf="data.isDeveloper">
+          <i class="icomoon-developer fake-button button-like-icon" (click)="data.toggleDeveloperMode($event)"></i>
+        </span>
+        <span class="side-menu-icon second" title="Re-authenticate to server (in case app has not been used for more than 15 minutes)">
+          <i class="icomoon-authenticate fake-button button-like-icon" (click)="reauthenticate($event)"></i>
+        </span>
+        <span class="side-menu-icon third" title="Refresh data (generally for reports)">
+          <i class="icomoon-data-refresh fake-button button-like-icon" (click)="reauthenticate($event)"></i>
+        </span>
+      </span>
+      <span *ngFor="let p of pages">
+        <div *ngIf="p.role==='usr'; then menuItem; else possibleMenuItem"></div>
+        <ng-template #menuItem>
+          <ion-item class="menu-list-item ion-item-button-like" ion-item (click)="openPage(p)" [title]="p.tooltip">
+            <div class="menu-list-item-text" *ngIf="!p.icon">{{p.title}}</div>
+            <div class="menu-list-item-text" *ngIf="p.icon && p.icon.type === 'fontawesome'"><span class="fontawesome-icon menu-icon"><i  [ngStyle]="p.icon.style" class="fa {{p.icon.name}}" aria-hidden="true"></i></span> {{p.title}}</div>
+            <div class="menu-list-item-text" *ngIf="p.icon && p.icon.type === 'ionicons'"><span class="ionicons-icon menu-icon"><ion-icon [ngStyle]="p.icon.style" name="{{p.icon.name}}"></ion-icon></span> {{p.title}}</div>
+            <ion-list class="menu-sublist" [class.show]="p.showSubMenu && p.submenu.length">
+              <ion-item class="menu-sublist-item ion-item-button-like" *ngFor="let sub of p.submenu" (click)="openPage(sub)" [title]="sub.tooltip">
+                <div class="menu-sublist-item-text" *ngIf="!sub.icon">{{sub.title}}</div>
+                <div class="menu-sublist-item-text" *ngIf="sub.icon && sub.icon.type === 'fontawesome'"><span class="fontawesome-icon menu-icon"><i  [ngStyle]="sub.icon.style" class="fa {{sub.icon.name}}" aria-hidden="true"></i></span> {{sub.title}}</div>
+                <div class="menu-sublist-item-text" *ngIf="sub.icon && sub.icon.type === 'ionicons'"><span class="ionicons-icon menu-icon"><ion-icon [ngStyle]="sub.icon.style" name="{{sub.icon.name}}"></ion-icon></span> {{sub.title}}</div>
+              </ion-item>
+            </ion-list>
+          </ion-item>
+        </ng-template>
+        <ng-template #possibleMenuItem>
+          <div *ngIf="data.status.role==='dev'; then devMenuItem; else noMenuItem"></div>
+          <ng-template #devMenuItem>
+            <ion-item class="menu-list-item ion-item-button-like" ion-item (click)="openPage(p)" [title]="p.tooltip">
+              <div class="menu-list-item-text" *ngIf="!p.icon">{{p.title}}</div>
+              <div class="menu-list-item-text" *ngIf="p.icon && p.icon.type === 'fontawesome'"><span class="fontawesome-icon menu-icon"><i  [ngStyle]="p.icon.style" class="fa {{p.icon.name}}" aria-hidden="true"></i></span> {{p.title}}</div>
+              <div class="menu-list-item-text" *ngIf="p.icon && p.icon.type === 'ionicons'"><span class="ionicons-icon menu-icon"><ion-icon [ngStyle]="p.icon.style" name="{{p.icon.name}}"></ion-icon></span> {{p.title}}</div>
+              <ion-list class="menu-sublist" [class.show]="p.showSubMenu && p.submenu.length">
+                <ion-item class="menu-sublist-item ion-item-button-like" *ngFor="let sub of p.submenu" (click)="openPage(sub)" [title]="sub.tooltip">
+                  <div class="menu-sublist-item-text" *ngIf="!sub.icon">{{sub.title}}</div>
+                  <div class="menu-sublist-item-text" *ngIf="sub.icon && sub.icon.type === 'fontawesome'"><span class="fontawesome-icon menu-icon"><i  [ngStyle]="sub.icon.style" class="fa {{sub.icon.name}}" aria-hidden="true"></i></span> {{sub.title}}</div>
+                  <div class="menu-sublist-item-text" *ngIf="sub.icon && sub.icon.type === 'ionicons'"><span class="ionicons-icon menu-icon"><ion-icon [ngStyle]="sub.icon.style" name="{{sub.icon.name}}"></ion-icon></span> {{sub.title}}</div>
+                </ion-item>
+              </ion-list>
+            </ion-item>
+          </ng-template>
+          <ng-template #noMenuItem></ng-template>
+        </ng-template>
+      </span>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav [class.blocked-for-login]="requireLogin" [root]="rootPage" #content swipeBackEnabled="false" class="onsite-main-content"></ion-nav>
+<spinner *ngIf="spinnerService.visible"></spinner>
+<ng-template #spinnerTemplate></ng-template>

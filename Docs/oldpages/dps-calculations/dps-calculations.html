@@ -1,0 +1,94 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{title}}</ion-title>
+    <ion-buttons right>
+      <button ion-button icon-only (tap)="copyTable()">
+        <ion-icon class="dps-calc-button-copy" name="copy"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="dps-calc-select-period-wrapper" *ngIf="periodSelectReady">
+    <ion-select class="dps-calc-select-period" [(ngModel)]="period" (ngModelChange)="updatePeriod(period)">
+      <ion-option *ngFor="let period of periods" [value]="period">{{period.getPeriodName("DD MMM")}}</ion-option>
+    </ion-select>
+  </div>
+  <div class="dps-calc-wrapper" *ngIf="!dataReady">Performing calculations...</div>
+  <div #printArea id="print-area" class="dps-calc-wrapper" *ngIf="dataReady">
+    <table #DPSCalcTable id="dps-calc-table" class="dps-calc-table">
+      <thead class="dps-calc-table-head">
+        <tr class="dps-calc-table-head-row">
+          <th class="dps-calc-table-th col-00">Emp#</th>
+          <th class="dps-calc-table-th col-01">Day#</th>
+          <th class="dps-calc-table-th col-02">Day</th>
+          <th class="dps-calc-table-th col-03">Rate</th>
+          <th class="dps-calc-table-th col-04">Company</th>
+          <th class="dps-calc-table-th col-05">CLI</th>
+          <th class="dps-calc-table-th col-06">LOC</th>
+          <th class="dps-calc-table-th col-07">LID</th>
+          <th class="dps-calc-table-th col-08">TECHNICIAN</th>
+          <th class="dps-calc-table-th col-09">LocID</th>
+          <th class="dps-calc-table-th col-10">Client</th>
+          <th class="dps-calc-table-th col-11">Date</th>
+          <th class="dps-calc-table-th col-11-5">Seq</th>
+          <th class="dps-calc-table-th col-12">Billable</th>
+          <th class="dps-calc-table-th col-13">Payroll</th>
+          <th class="dps-calc-table-th col-14">Lodging</th>
+          <th class="dps-calc-table-th col-15">PerDiem</th>
+          <th class="dps-calc-table-th col-16">Expenses</th>
+          <th class="dps-calc-table-th col-17">VAC</th>
+          <th class="dps-calc-table-th col-18">TRV</th>
+          <th class="dps-calc-table-th col-19">TRN</th>
+          <th class="dps-calc-table-th col-20">SBY</th>
+          <th class="dps-calc-table-th col-21">Trans</th>
+          <th class="dps-calc-table-th col-22">Fuel</th>
+          <th class="dps-calc-table-th col-23">Ins</th>
+          <th class="dps-calc-table-th col-24">IntPay</th>
+          <th class="dps-calc-table-th col-25">Costs</th>
+          <th class="dps-calc-table-th col-26">Revenue</th>
+          <th class="dps-calc-table-th col-27">GP</th>
+          <th class="dps-calc-table-th col-28">%GP</th>
+        </tr>
+      </thead>
+      <tbody class="dps-calc-table-body">
+        <tr class="dps-calc-table-body-row" *ngFor="let row of dataGrid; let i=index">
+          <td class="dps-calc-table-td col-00">{{row[0]}}</td>
+          <td class="dps-calc-table-td col-01">{{row[1]}}</td>
+          <td class="dps-calc-table-td col-02">{{row[2]}}</td>
+          <td class="dps-calc-table-td col-03">{{row[3]}}</td>
+          <td class="dps-calc-table-td col-04">{{row[4]}}</td>
+          <td class="dps-calc-table-td col-05">{{row[5]}}</td>
+          <td class="dps-calc-table-td col-06">{{row[6]}}</td>
+          <td class="dps-calc-table-td col-07">{{row[7]}}</td>
+          <td class="dps-calc-table-td col-08">{{row[8]}}</td>
+          <td class="dps-calc-table-td col-09">{{row[9]}}</td>
+          <td class="dps-calc-table-td col-10">{{row[10]}}</td>
+          <td class="dps-calc-table-td col-11">{{row[11]}}</td>
+          <td class="dps-calc-table-td col-11-5">{{row[12]}}</td>
+          <td class="dps-calc-table-td col-12"><span *ngIf="row[13] == 0">-</span><span *ngIf="row[13] != 0">{{row[13]}}</span></td>
+          <td class="dps-calc-table-td col-13"><span *ngIf="row[14].equals(0)"> </span><span *ngIf="!row[14].equals(0)">${{row[14].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-14"><span *ngIf="row[15].equals(0)"> </span><span *ngIf="!row[15].equals(0)">${{row[15].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-15"><span *ngIf="row[16].equals(0)"> </span><span *ngIf="!row[16].equals(0)">${{row[16].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-16"><ion-input class="dps-calc-input-expenses" type="number" step="0.01" [(ngModel)]="row[17]"></ion-input></td>
+          <td class="dps-calc-table-td col-17"><span *ngIf="row[18].equals(0)"> </span><span *ngIf="!row[18].equals(0)">${{row[18].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-18"><span *ngIf="row[19].equals(0)"> </span><span *ngIf="!row[19].equals(0)">${{row[19].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-19"><span *ngIf="row[20].equals(0)"> </span><span *ngIf="!row[20].equals(0)">${{row[20].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-20"><span *ngIf="row[21].equals(0)"> </span><span *ngIf="!row[21].equals(0)">${{row[21].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-21"><span *ngIf="row[22].equals(0)"> </span><span *ngIf="!row[22].equals(0)">${{row[22].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-22"><span *ngIf="row[23].equals(0)"> </span><span *ngIf="!row[23].equals(0)">${{row[23].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-23"><span *ngIf="row[24].equals(0)"> </span><span *ngIf="!row[24].equals(0)">${{row[24].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-24"><span *ngIf="row[25].equals(0)"> </span><span *ngIf="!row[25].equals(0)">${{row[25].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-25"><span *ngIf="row[26].equals(0)"> </span><span *ngIf="!row[26].equals(0)">${{row[26].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-26"><span *ngIf="row[27].equals(0)"> </span><span *ngIf="!row[27].equals(0)">${{row[27].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-27"><span *ngIf="row[28].equals(0)"> </span><span *ngIf="!row[28].equals(0)">${{row[28].toFixed(2)}}</span></td>
+          <td class="dps-calc-table-td col-28"><span *ngIf="row[29].equals(0)"> </span><span *ngIf="!row[29].equals(0)">{{row[29].toFixed(2)}}%</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</ion-content>

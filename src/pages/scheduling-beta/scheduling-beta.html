@@ -1,0 +1,206 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{title}}</ion-title>
+    <ion-buttons right>
+      <button class="menubar-button" ion-button icon-only (click)="convertOldSchedule(schedule)" title="Convert old schedule">
+        <i class="fa fa-arrow-up"></i>
+        <i class="fa fa-calendar"></i>
+      </button>
+      <button class="menubar-button" ion-button icon-only (click)="newSchedule($event)" title="New Schedule">
+        <!-- <ion-icon class="schedule-options-button" name="ios-add-circle-outline"></ion-icon> -->
+        <i class="fa fa-plus-square-o"></i>
+      </button>
+      <button class="menubar-button" ion-button icon-only (click)="openSchedule($event)" title="Open Schedule">
+        <i class="fa fa-folder-open-o"></i>
+      </button>
+      <button class="menubar-button" ion-button icon-only (click)="persistSchedule($event)" title="Save Schedule">
+        <i class="fa fa-floppy-o"></i>
+      </button>
+      <button class="menubar-button" ion-button icon-only (click)="printSchedule($event)" title="Print Schedule">
+        <i class="fa fa-print"></i>
+      </button>
+      <button class="menubar-button" ion-button icon-only (click)="incrementRotation($event)" title="Increment Rotation">
+        <i class="fa fa-angle-double-right menubar-button-circled"></i>
+      </button>
+      <button class="menubar-button" ion-button icon-only (click)="addTech($event)" title="Add Tech">
+        <i class="fa fa-user-plus"></i>
+      </button>
+      <button class="menubar-button" ion-button icon-only (click)="showOptions($event)" title="Options">
+        <!-- <ion-icon class="schedule-options-button" name="ios-settings-outline"></ion-icon> -->
+        <i class="fa fa-cog"></i>
+      </button>
+      <button class="menubar-button" ion-button icon-only (click)="clearCurrentSchedule($event)" title="Clear Schedule">
+        <!-- <ion-icon class="schedule-clear-button" name="ios-trash-outline"></ion-icon> -->
+        <i class="fa fa-trash-o"></i>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content id="Schedule" padding>
+  <div class="schedule-main-columns-wrapper" *ngIf="scheduleReady && data.ready()">
+    <!-- Schedule statistics and buttons -->
+    <div class="stats">
+      <div class="schedule-date-range">
+          <div class="schedule-date-item schedule-start-date-item">
+            <span class="schedule-date schedule-start-date">{{schedulebeta.start.format("DD MMM YYYY")}}</span>
+          </div>
+          <p class="schedule-date-divider">through</p>
+          <div class="schedule-date-item schedule-start-date-item">
+            <span class="schedule-date schedule-start-date schedule-end-date-div">{{schedulebeta.end.format("DD MMM YYYY")}}</span>
+        </div>
+      </div>
+      <div class="client-totals" *ngFor="let client of clients; let i01 = index">
+        <div class="client-totals-header" *ngIf="client.name!=='SE' && client.name!=='XX' && client.name!=='AA'" [class.halliburton]="client.name==='HB'" [class.keane]="client.name==='KN'" [class.basic]="client.name==='BE'">{{client.fullName}}</div>
+        <div ion-grid class="client-totals-grid" *ngIf="client.name!=='SE' && client.name!=='XX' && client.name!=='AA'">
+          <div ion-row class="client-totals-row" *ngFor="let key of keys(stats.CLIENTS[client.name]); let i02=index">
+            <div ion-col class="client-col client-totals-col-label">{{key}}</div>
+            <div ion-col class="client-col client-totals-col-data">{{stats.CLIENTS[client.name][key]}}</div>
+          </div>
+        </div>
+      </div>
+        <div ion-grid class="site-totals-grid">
+          <!-- <div ion-row class="site-totals-row" *ngFor="let site of sites" [class.hidden]="site.client.name==='SE'" [class.hb-sites]="site.client.name==='HB'" [class.kn-sites]="site.client.name==='KN'" [class.be-sites]="site.client.name==='BE'"> -->
+          <div ion-row class="site-totals-row" *ngFor="let site of sites" [class.hb-sites]="site.client.name==='HB'" [class.kn-sites]="site.client.name==='KN'" [class.be-sites]="site.client.name==='BE'" [class.se-sites]="site.client.name==='SE'">
+            <div ion-col class="site-totals-col site-totals-col-label" [class.hidden]="(stats.SITES[site.schedule_name].total < 1 && !prefs.CONSOLE.scheduling.showAllSites) || (site.locID.name === 'OFFICE' && !prefs.CONSOLE.scheduling.showOffice)">{{site.schedule_name}}</div>
+            <div ion-col class="site-totals-col site-totals-col-data" [class.hidden]="(stats.SITES[site.schedule_name].total < 1 && !prefs.CONSOLE.scheduling.showAllSites) || (site.locID.name === 'OFFICE' && !prefs.CONSOLE.scheduling.showOffice)">{{stats.SITES[site.schedule_name].total}}</div>
+          </div>
+        </div>
+      <div ion-grid class="tech-totals-grid">
+        <div ion-row class="tech-totals-row">
+          <div ion-col class="tech-totals-col tech-totals-col-label">Total Techs</div>
+          <div ion-col class="tech-totals-col tech-totals-col-data">{{stats.TECHS.total}}</div>
+        </div>
+        <div ion-row class="tech-totals-row">
+          <div ion-col class="tech-totals-col tech-totals-col-label">Techs Working</div>
+          <div ion-col class="tech-totals-col tech-totals-col-data">{{stats.TECHS.working}}</div>
+        </div>
+        <div ion-row class="tech-totals-row">
+          <div ion-col class="tech-totals-col tech-totals-col-label">Techs Days Off</div>
+          <div ion-col class="tech-totals-col tech-totals-col-data">{{stats.TECHS.off}}</div>
+        </div>
+        <div ion-row class="tech-totals-row techs-unassigned-row">
+          <div ion-col class="tech-totals-col tech-totals-col-label">Techs Unassigned</div>
+          <div ion-col class="tech-totals-col tech-totals-col-data">{{stats.SITES['UNASSIGNED'].total}}</div>
+        </div>
+      </div>
+      <div class="scheduling-buttons-container" [class.bordered]="buttonLocation !== 1" dnd-droppable dropZones="['container-buttons']" (onDropSuccess)="setButtonLocation(1)">
+        <div class="scheduling-buttons" dnd-draggable [dragEnabled]="true" dropZones="['container-buttons']" *ngIf="buttonLocation === 1">
+          <button ion-button block class="schedule-button-block schedule-button-new"  (click)="newSchedule($event)">New Schedule</button>
+          <button ion-button block class="schedule-button-block schedule-button-open" (click)="openSchedule($event)">Open Schedule</button>
+          <button ion-button block class="schedule-button-block schedule-button-persist" (click)="persistSchedule($event)">Save Schedule</button>
+          <button ion-button block class="schedule-button-block schedule-button-print" (click)="printSchedule($event)">Print Schedule</button>
+          <button ion-button block class="schedule-button-block schedule-button-increment" (click)="incrementSchedule($event)">Increment Rotation</button>
+          <button ion-button block class="schedule-button-block schedule-button-addtech" (click)="addTech($event)">Add Technician</button>
+          <button ion-button block class="schedule-button-block schedule-button-dab" (click)="createPDF($event)">Create PDF Summary</button>
+          <button ion-button block class="schedule-button-block schedule-button-dab" (click)="mikePayrollData($event)">Mike Payroll Data</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Schedule grid -->
+    <div class="schedulehypercontainer">
+      <div ion-grid class="jobsiteheadergrid">
+        <div ion-row class="jobsite_header_grid_row">
+          <div ion-col class="shiftnames" *ngFor="let header of shiftHeaders">{{header.name}} ({{stats.ROTATIONS[header.name].total}})</div>
+        </div>
+      </div>
+      <div class="schedulecontainer">
+        <div ion-grid class="jobsitegrid" id="print-area">
+          <div ion-grid class="jobsiteheaderprintgrid">
+            <div ion-row class="jobsite_header_grid_row">
+              <div ion-col class="shiftnames" *ngFor="let header of shiftHeaders">{{header.name}} ({{stats.ROTATIONS[header.name].total}})</div>
+            </div>
+          </div>
+          <div ion-row class='wrapper slot_row' [class.hidden]="(stats.SITES[site.schedule_name].total < 1 && !prefs.CONSOLE.scheduling.showAllSites) || (site.locID.name === 'OFFICE' && !prefs.CONSOLE.scheduling.showOffice)" *ngFor="let site of sites; let idx=index;" [attr.id]="'DestRow' + idx">
+          <!-- <div ion-col class="sitenames" *ngIf="site.client.name!=='SE'"> -->
+            <div ion-col class="sitenames">
+              <button ion-button class="site-button" (click)="editSite(site)">{{site.schedule_name}} ({{stats.SITES[site.schedule_name].total}})</button>
+            </div>
+            <!-- <div ion-col class="slot-container" dnd-sortable-container [sortableData]="shiftsData[site.schedule_name][shft.name]" draggable="true" [dropZones]="['container-techs']" *ngFor="let shft of shiftTypes; let idx2=index" [attr.id]="'DestCol' + idx + '_' + idx2" (onDropInto)="techDroppedInto($event)"> -->
+            <div ion-col class="slot-container" dnd-sortable-container [sortableData]="schedule.schedule[site.schedule_name][shft.name]" draggable="true" [dropZones]="['container-techs']" *ngFor="let shft of shiftTypes; let idx2=index" [attr.id]="'DestCol' + idx + '_' + idx2" (onDropInto)="techDroppedInto($event)">
+              <!-- <div class="slot" *ngFor="let tech of shiftsData[site.schedule_name][shft.name]; let idx4 = index" dnd-sortable [sortableIndex]="idx4" [dragData]="tech" (onDropSuccess)="techDropped($event)"> -->
+              <div class="slot" *ngFor="let tech of schedulebeta.schedule[site.schedule_name][shft.name]; let idx4 = index" dnd-sortable [sortableIndex]="idx4" [dragData]="tech" (onDropSuccess)="techDropped($event)">
+                <button ion-button class="tech-button" (click)="editTech(tech, $event)">
+                  <!-- <span class="tech-shift-symbol" [class.night]="tech.shift==='PM'" [class.day]="tech.shift==='AM'">{{getShiftSymbol(tech)}}</span>&nbsp; -->
+                  <!-- <span class="tech-shift-symbol" [class.night]="schedulebeta.scheduleDoc[tech.username].shift==='PM'" [class.day]="schedulebeta.scheduleDoc[tech.username].shift==='AM'"> </span>&nbsp; -->
+                  <span class="tech-shift-symbol" [class.night]="schedulebeta.scheduleDoc[tech.username].shift==='PM'" [class.day]="schedulebeta.scheduleDoc[tech.username].shift==='AM'"> </span>&nbsp;
+                  <span class="button-tech-name">{{tech.toString()}}</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- List of unassigned techs -->
+    <div class="employeecontainer">
+      <div ion-grid class="employeegrid" *ngIf="scheduleReady">
+        <div ion-row>
+          <div ion-col class="employeenameslabel unassigned-techs-header">UNASSIGNED ({{stats.SITES['UNASSIGNED'].total}})</div>
+        </div>
+        <!-- <div ion-row class="employeerow">
+          <div ion-col class="employeecol">
+            <ion-scroll scrollY="true" class="employeescroller">
+              <div class="wrapper">
+                <div class="container" dnd-sortable-container [sortableData]="techs" draggable="true" [dropZones]="['container-techs']" (onDropInto)="techDroppedInto($event)">
+                  <div class="slot" *ngFor="let site of sites; let y = index" dnd-sortable [dragData]="tech" [sortableIndex]="y" (onDropSuccess)="techDropped($event)">
+                    <ng-template #unassignedSite>
+                      <button ion-button class="tech-button" (click)="editTech(tech)">
+                        <span class="tech-shift-symbol" [class.night]="tech.shift==='PM'" [class.day]="tech.shift==='AM'">&nbsp;</span>&nbsp;
+                        <span class="button-tech-name">{{tech.toString()}}</span>
+                      </button>
+                    </ng-template>
+                  </div>
+                </div>
+              </div>
+            </ion-scroll>
+          </div>
+        </div> -->
+        <div ion-row class="employeerow">
+          <div ion-col class="employeecol">
+            <ion-scroll scrollY="true" class="employeescroller">
+              <div class="wrapper">
+                <div class="container" dnd-sortable-container [sortableData]="schedulebeta.unassigned" draggable="true" [dropZones]="['container-techs']" (onDropInto)="techDroppedInto($event)">
+                  <div class="slot" *ngFor="let tech of schedulebeta.unassigned; let y = index" dnd-sortable [dragData]="tech" [sortableIndex]="y" (onDropSuccess)="techDropped($event)">
+                    <button ion-button class="tech-button" (click)="editTech(tech, $event)">
+                      <!-- <span class="tech-shift-symbol" [class.night]="tech.shift==='PM'" [class.day]="tech.shift==='AM'">{{getShiftSymbol(tech)}}</span>&nbsp; -->
+                      <span class="tech-shift-symbol" [class.night]="tech.shift==='PM'" [class.day]="tech.shift==='AM'">&nbsp;</span>&nbsp;
+                      <span class="button-tech-name">{{tech.toString()}}</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </ion-scroll>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="possiblebuttoncontainer" [class.bordered]="buttonLocation !== 2" dnd-droppable dropZones="['container-buttons']" (onDropSuccess)="setButtonLocation(2)">
+      <div class="scheduling-buttons" dnd-draggable [dragEnabled]="true" dropZones="['container-buttons']" *ngIf="buttonLocation === 2">
+        <button ion-button block class="schedule-button-block schedule-button-new"  (click)="newSchedule()">New Schedule</button>
+        <button ion-button block class="schedule-button-block schedule-button-open" (click)="openSchedule()">Open Schedule</button>
+        <button ion-button block class="schedule-button-block schedule-button-persist" (click)="persistSchedule(moment(start).format('YYYY-MM-DD'))">Save Schedule</button>
+        <button ion-button block class="schedule-button-block schedule-button-print" (click)="printSchedule()">Print Schedule</button>
+        <button ion-button block class="schedule-button-block schedule-button-increment" (click)="incrementSchedule()">Increment Rotation</button>
+        <button ion-button block class="schedule-button-block schedule-button-addtech" (click)="addTech()">Add Technician</button>
+        <button ion-button block class="schedule-button-block schedule-button-dab" (click)="createPDF()">Create PDF Summary</button>
+        <!-- <button ion-button block class="schedule-button-block schedule-button-dab" (click)="mikePayrollData()">Mike Payroll Data</button> -->
+      </div>
+    </div>
+  </div>
+</ion-content>
+<p-dialog #optionsDialog *ngIf="optionsVisible" [class.options-dialog-box]="true" header="Options" [(visible)]="optionsVisible" [draggable]="true" [resizable]="true" [closable]="false" [modal]="false" [appendTo]="optionsTarget">
+  <options-generic #optionsComponent [type]="optionsType" (onCancel)="optionsClosed($event)" (onSave)="optionsSaved($event)"></options-generic>
+</p-dialog>
+<p-dialog #videoDialog *ngIf="videoVisible" [class.video-dialog-box]="true" [(visible)]="videoVisible" [draggable]="true" [resizable]="true" [closable]="true" [modal]="false" [appendTo]="optionsTarget">
+  <video-play (onEnd)="videoEnded($event)"></video-play>
+</p-dialog>
+<div #optionsTarget class="options-target"></div>
+<employee-view *ngIf="employeeViewVisible" #employeeView [mode]="mode" [employee]="employee" [employees]="editEmployees" (onUpdate)="employeeUpdated($event)" (onCancel)="employeeCanceled($event)" (onDelete)="employeeDeleted($event)"></employee-view>

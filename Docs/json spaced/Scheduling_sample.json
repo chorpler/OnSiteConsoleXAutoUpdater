@@ -1,0 +1,284 @@
+{
+  "_id": "current",
+  "_rev": "57-34938c519ac622207ad2fd0adb82bd70",
+  "schedule": {
+    "ARTESIA PUMPSHOP": {
+      "CONTN WEEK": [],
+      "DAYS OFF": [],
+      "FINAL WEEK": [],
+      "FIRST WEEK": [],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "BASIC ENERGY MIDLAND": {
+      "CONTN WEEK": [
+        "Zaragoza, Juan"
+      ],
+      "DAYS OFF": [
+        "Salinas, Aaron",
+        "Teniente, Juan"
+      ],
+      "FINAL WEEK": [
+        "Elizondo, Andres",
+        "Medina, Miguel"
+      ],
+      "FIRST WEEK": [
+        "Reyes, Gabino"
+      ],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "BROWNFIELD": {
+      "CONTN WEEK": [],
+      "DAYS OFF": [
+        "Gutiérrez, Enrique",
+        "Hernandez, Cesar",
+        "Martinez, Humberto",
+        "Saldaña, Jorge",
+        "Yunes, Juan Pablo"
+      ],
+      "FINAL WEEK": [
+        "Estrada, Erick",
+        "Estrada, Iovani",
+        "Marroquin, José Luis",
+        "Rodriguez, Antonio"
+      ],
+      "FIRST WEEK": [
+        "Benavides, Jesus",
+        "Camarillo, Marco",
+        "Careaga, Luis",
+        "Contreras Sr., Oscar",
+        "Garcia, Gerardo",
+        "Garza, Jesus"
+      ],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "BROWNFIELD E-TECH": {
+      "CONTN WEEK": [],
+      "DAYS OFF": [
+        "Verduzco, Javier"
+      ],
+      "FINAL WEEK": [],
+      "FIRST WEEK": [],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "BROWNFIELD PUMP SHOP": {
+      "CONTN WEEK": [],
+      "DAYS OFF": [
+        "Alaniz, Juan",
+        "Andrade, Jesus",
+        "Rivera, Raul",
+        "Rivera, Raul Jr."
+      ],
+      "FINAL WEEK": [
+        "Garza, Sergio",
+        "Marquez, Xavier Dominique",
+        "Montoya, Mauricio"
+      ],
+      "FIRST WEEK": [
+        "Ochoa, Armando",
+        "Perales, Juan",
+        "Rico, José"
+      ],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "DUNCAN MAINTENANCE": {
+      "CONTN WEEK": [
+        "Martinez, Kevin",
+        "Medina, Calixto",
+        "Salinas, Saul"
+      ],
+      "DAYS OFF": [
+        "Chavez, Javier",
+        "Iracheta, Eduardo",
+        "Martinez, Gabriel",
+        "Rodriguez, Julio"
+      ],
+      "FINAL WEEK": [
+        "Johnson, Andrew",
+        "Medina, Daniel"
+      ],
+      "FIRST WEEK": [
+        "De La Rosa, Irvin",
+        "Segura, Roberto"
+      ],
+      "UNASSIGNED": [
+        "De León, Ricardo",
+        "Leal, Sergio"
+      ],
+      "VACATION": []
+    },
+    "DUNCAN PUMP SHOP": {
+      "CONTN WEEK": [
+        "González, Justin",
+        "Palacios, Edwin",
+        "Salinas, Jesus"
+      ],
+      "DAYS OFF": [
+        "González, Kevin",
+        "Ramirez, Ovidio",
+        "Piñon, Lauro",
+        "Oyervides, Arturo",
+        "Ochoa, Adrian"
+      ],
+      "FINAL WEEK": [
+        "Venegas, Gerardo"
+      ],
+      "FIRST WEEK": [
+        "De La Garza, Oscar",
+        "Retana, José"
+      ],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "KEANE MILL HALL": {
+      "CONTN WEEK": [
+        "Hisiquio, Isai",
+        "Hisiquio, Sixto",
+        "Klimp, Billy",
+        "Sanchez, Daniel"
+      ],
+      "DAYS OFF": [],
+      "FINAL WEEK": [],
+      "FIRST WEEK": [],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "KEANE SHAWNEE": {
+      "CONTN WEEK": [],
+      "DAYS OFF": [
+        "Ocañas, Elias"
+      ],
+      "FINAL WEEK": [
+        "Herrera, Abraham"
+      ],
+      "FIRST WEEK": [],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "KEANE SPRINGTOWN": {
+      "CONTN WEEK": [
+        "Tijerina, René",
+        "Villareal, Leonel"
+      ],
+      "DAYS OFF": [
+        "Martinez, Vicente",
+        "Montes, Carlos"
+      ],
+      "FINAL WEEK": [
+        "Gaona, Daniel",
+        "Herrera, Edgar",
+        "Tovar, David",
+        "Tovar, Eduardo",
+        "Tovar, Roel"
+      ],
+      "FIRST WEEK": [
+        "Cabrera, Sergio",
+        "Cepeda, René",
+        "Tovar, Luis",
+        "Vela, Ediberto"
+      ],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "KEANE SPRINGTOWN E-TECH": {
+      "CONTN WEEK": [],
+      "DAYS OFF": [
+        "Garcia, Louis"
+      ],
+      "FINAL WEEK": [],
+      "FIRST WEEK": [],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "ODESSA": {
+      "CONTN WEEK": [],
+      "DAYS OFF": [
+        "Flores, Eric",
+        "Martinez, Julio"
+      ],
+      "FINAL WEEK": [
+        "Escobar, Horacio",
+        "Galvan, Juan",
+        "Galvan, Rogelio",
+        "González, Irving"
+      ],
+      "FIRST WEEK": [
+        "Garcia, Fernando",
+        "Guerrero, Miguel",
+        "Osuna, José",
+        "Serna, Gonzalo"
+      ],
+      "UNASSIGNED": [
+        "Segura, Roberto ",
+        "Carrion, José",
+        "Martinez, Pedro"
+      ],
+      "VACATION": []
+    },
+    "ODESSA E-TECH": {
+      "CONTN WEEK": [],
+      "DAYS OFF": [],
+      "FINAL WEEK": [
+        "Treviño, Pete"
+      ],
+      "FIRST WEEK": [],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "PERSONNEL AT HQ SHOP": {
+      "CONTN WEEK": [
+        "Medina, Adan",
+        "Medina, Francisco",
+        "Mendez, José Luis",
+        "Ochoa, Joel"
+      ],
+      "DAYS OFF": [],
+      "FINAL WEEK": [],
+      "FIRST WEEK": [],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "ROCK SPRINGS WY": {
+      "CONTN WEEK": [],
+      "DAYS OFF": [
+        "Hernandez, Ivan",
+        "Torres, Alex"
+      ],
+      "FINAL WEEK": [],
+      "FIRST WEEK": [],
+      "UNASSIGNED": [],
+      "VACATION": []
+    },
+    "SAN ANTONIO": {
+      "CONTN WEEK": [
+        "Vela, José F."
+      ],
+      "DAYS OFF": [
+        "Cantu, Daniel",
+        "Gutierrez, Noel",
+        "Reyes, Juan Manuel",
+        "Zuñiga, José Luis"
+      ],
+      "FINAL WEEK": [
+        "Flores, Javier",
+        "Lopez, Raul",
+        "Marquez, Lucio"
+      ],
+      "FIRST WEEK": [
+        "Escobedo, Arnoldo",
+        "Pedroza, Cristobal",
+        "Peña, Advento",
+        "Rodriguez, Max"
+      ],
+      "UNASSIGNED": [
+        "Martinez, Juan Carlos",
+        "Rodriguez, John"
+      ],
+      "VACATION": []
+    }
+  }
+}

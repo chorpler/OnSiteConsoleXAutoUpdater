@@ -1,0 +1,99 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle *ngIf="mode !== 'modal'">
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>{{title}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label floating class="dps-settings-label">Days in Month</ion-label>
+      <ion-input class="dps-settings-input" type="number" step="1" [(ngModel)]="data.dps.days_in_month"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating class="dps-settings-label">Working Tech Count</ion-label>
+      <ion-input class="dps-settings-input" type="number" step="1" [(ngModel)]="data.dps.working_techs"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating class="dps-settings-label">Tech Multiplier</ion-label>
+      <ion-input class="dps-settings-input" type="number" step="0.00001" [(ngModel)]="multiplier"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating class="dps-settings-label">Cost Modifier</ion-label>
+      <ion-input class="dps-settings-input" type="number" [(ngModel)]="cost_modifier"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label floating class="dps-settings-label">Internal Salaries</ion-label>
+      <ion-input class="dps-settings-input" type="number" step="0.01" [(ngModel)]="internal_salaries"></ion-input>
+    </ion-item>
+    <ion-item-group>
+      <ion-item-divider color="light">Monthly Costs</ion-item-divider>
+      <ion-item>
+        <ion-label floating class="dps-settings-label">Fuel</ion-label>
+        <ion-input currencyMask class="dps-settings-input" type="number" step="0.01" [(ngModel)]="data.dps.monthly.fuel"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label floating class="dps-settings-label">Transportation</ion-label>
+        <ion-input class="dps-settings-input" type="number" step="0.01" [(ngModel)]="data.dps.monthly.transportation"></ion-input>
+      </ion-item>
+      <ion-item-group>
+        <ion-item-divider color="light">Insurance</ion-item-divider>
+        <ion-item>
+          <ion-label floating class="dps-settings-label">Travelers</ion-label>
+          <ion-input class="dps-settings-input" type="number" step="0.01" [(ngModel)]="data.dps.monthly.insurance.travelers"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating class="dps-settings-label">Imperial</ion-label>
+          <ion-input class="dps-settings-input" type="number" step="0.01" [(ngModel)]="data.dps.monthly.insurance.imperial"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating class="dps-settings-label">TX Mutual</ion-label>
+          <ion-input class="dps-settings-input" type="number" step="0.01" [(ngModel)]="data.dps.monthly.insurance.tx_mutual"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating class="dps-settings-label">Blue Cross</ion-label>
+          <ion-input class="dps-settings-input" type="number" step="0.01" [(ngModel)]="data.dps.monthly.insurance.blue_cross"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label floating class="dps-settings-label">Property</ion-label>
+          <ion-input class="dps-settings-input" type="number" step="0.01" [(ngModel)]="data.dps.monthly.insurance.property"></ion-input>
+        </ion-item>
+      </ion-item-group>
+    </ion-item-group>
+  </ion-list>
+</ion-content>
+
+  <!--
+    working_techs: 76,
+    multiplier: new dec(0.00075),
+    cost_modifier: 'blah',
+    monthly: {
+    fuel: new dec(18899.16),
+    transportation: new dec(15706.04),
+    insurance: {
+      travelers: new dec(14149),
+      imperial: new dec(466.69),
+      tx_mutual: new dec(10729.15),
+      blue_cross: new dec(19500),
+      property: new dec(325.85)
+    }
+  } -->
+
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons left>
+      <button type="button" ion-button icon-only color="royal" (click)="cancel()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-buttons right>
+      <button type="submit" ion-button icon-only color="favorite" (click)="save()">
+        <ion-icon name="checkmark"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

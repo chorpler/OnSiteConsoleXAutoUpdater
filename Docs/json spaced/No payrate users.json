@@ -1,0 +1,84 @@
+{
+  "users": [
+    {
+      "username": "Aj",
+      "name": "Alvarez, Alejandro"
+    },
+    {
+      "username": "aadiaz",
+      "name": "Diaz, Alexis"
+    },
+    {
+      "username": "adiaz",
+      "name": "Diaz, Argenis"
+    },
+    {
+      "username": "cmarroquin",
+      "name": "Marroquin, Christopher"
+    },
+    {
+      "username": "esairodriguez",
+      "name": "Rodriguez, Esai"
+    },
+    {
+      "username": "etellez",
+      "name": "Tellez, Erick"
+    },
+    {
+      "username": "franky",
+      "name": "Hernandez, Frank"
+    },
+    {
+      "username": "georgio",
+      "name": "Elizondo, George"
+    },
+    {
+      "username": "javiersaldana",
+      "name": "Saldaña, Javier"
+    },
+    {
+      "username": "jballi",
+      "name": "Balli, Joe"
+    },
+    {
+      "username": "jchaman",
+      "name": "Chaman, Juan"
+    },
+    {
+      "username": "jsaldana",
+      "name": "Saldaña, Jorge"
+    },
+    {
+      "username": "lsaldana",
+      "name": "Saldaña, Lucio"
+    },
+    {
+      "username": "marodriguez",
+      "name": "Rodriguez, Marco"
+    },
+    {
+      "username": "nhernandez",
+      "name": "Hernandez, Noe"
+    },
+    {
+      "username": "rbriones",
+      "name": "Briones, Refugio"
+    },
+    {
+      "username": "rortiz",
+      "name": "Ortiz, Reynaldo"
+    },
+    {
+      "username": "sasalinas",
+      "name": "Salinas, Santiago"
+    },
+    {
+      "username": "tdube",
+      "name": "Dube, Trey"
+    },
+    {
+      "username": "treyes",
+      "name": "Reyes, Tommy"
+    }
+  ]
+}

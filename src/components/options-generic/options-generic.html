@@ -1,0 +1,24 @@
+<div class="options-wrapper">
+  <div class="options-main" *ngIf="type==='scheduling'">
+    <div class="options-item">
+      <p-checkbox [class.options-checkbox]="true" [(ngModel)]="prefs.CONSOLE.scheduling.persistTechChanges" binary="true"></p-checkbox>
+      <span class="label">Persist Tech Changes</span>
+    </div>
+    <div class="options-item">
+      <p-checkbox [class.options-checkbox]="true" [(ngModel)]="prefs.CONSOLE.scheduling.showOffice" binary="true"></p-checkbox>
+      <span class="label">Show Office</span>
+    </div>
+    <div class="options-item">
+      <p-checkbox [class.options-checkbox]="true" [(ngModel)]="prefs.CONSOLE.scheduling.showAllSites" binary="true"></p-checkbox>
+      <span class="label">Show Empty Sites</span>
+    </div>
+    <div class="options-item">
+      <p-checkbox [class.options-checkbox]="true" [(ngModel)]="prefs.CONSOLE.scheduling.allDatesAvailable" binary="true"></p-checkbox>
+      <span class="label">Enable Custom Schedule Dates</span>
+    </div>
+  </div>
+  <div class="options-buttons">
+    <button class="ui-button-danger  cancel" pButton type="button" (click)="cancel($event)"   label="Cancel"></button>
+    <button class="ui-button-success save  " pButton type="button" (click)="save($event)"     label="Save"  ></button>
+  </div>
+</div>

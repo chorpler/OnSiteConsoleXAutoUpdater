@@ -1,0 +1,102 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{title}}</ion-title>
+        <!-- <ion-select class="payroll-select-period" [(ngModel)]="period" (ngModelChange)="updatePeriod(period)">
+          <ion-option class="payroll-select-period-option" *ngFor="let period of periods; let i=index" [value]="period">{{period.getPeriodName("DD MMM")}}</ion-option>
+        </ion-select> -->
+    <ion-buttons right>
+      <span class="payroll-select-wrapper" *ngIf="dataReady && data.ready()">
+        <span class="payroll-select-flexbox">
+          <span class="payroll-select-period-label">Payroll Period</span>
+          <span class="payroll-select-period-menu">
+            <p-dropdown #menubarDropdown [class.payroll-dropdown-menubar]="true" [options]="periodList" [(ngModel)]="period" (onChange)="updatePeriod(period)"></p-dropdown>
+          </span>
+        </span>
+      </span>
+      <button class="payroll-header-button" ion-button icon-only (click)="refreshData()" title="Refresh data and recalculate" >
+        <i class="fa fa-refresh" aria-hidden="true"></i>        <!-- <ion-icon class="payroll-options-button" name="md-grid"></ion-icon> -->
+      </button>
+      <button class="payroll-header-button" ion-button icon-only (click)="showOptions()" title="Options" >
+        <ion-icon class="payroll-options-button" name="ios-settings-outline"></ion-icon>
+      </button>
+      <button class="payroll-header-button" ion-button icon-only (click)="exportForInvoicing()" title="Export for Invoices" >
+        <i class="fa fa-file-text-o" aria-hidden="true"></i>
+        <!-- <ion-icon class="payroll-options-button" name="md-grid"></ion-icon> -->
+      </button>
+      <button class="payroll-header-button" ion-button icon-only (click)="exportForPayroll()" title="Export for Payroll" >
+        <ion-icon class="payroll-options-button" name="ios-contact"></ion-icon>
+        <!-- <ion-icon class="payroll-options-button" name="md-grid"></ion-icon> -->
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="payroll-page-content" #ionContent>
+  <div class="payroll-wrapper" *ngIf="!(dataReady && data.ready())">Loading...</div>
+  <div class="payroll-wrapper" *ngIf="dataReady && data.ready()">
+    <span class="payroll-select-wrapper">
+      <span class="payroll-select-period-label">Payroll Period</span>
+      <span class="payroll-select-period">
+        <p-dropdown #payrollDropdown [class.payroll-dropdown-body]="true" [options]="periodList" [(ngModel)]="period" (onChange)="updatePeriod(period)"></p-dropdown>
+      </span>
+    </span>
+    <ion-grid class="payroll-grid-fixed">
+      <span class="payroll-grid-header">
+        <ion-row class="payroll-row-header">
+          <ion-col class="payroll-column-client   payroll-column-00">#</ion-col>
+          <ion-col class="payroll-column-client   payroll-column-01">CLNT</ion-col>
+          <ion-col class="payroll-column-location payroll-column-02">LOC</ion-col>
+          <ion-col class="payroll-column-locid    payroll-column-03">LocID</ion-col>
+          <ion-col class="payroll-column-user     payroll-column-03-5">User</ion-col>
+          <ion-col class="payroll-column-tech     payroll-column-04">Tech</ion-col>
+          <ion-col class="payroll-column-hours    payroll-column-{{sprintf('%02d',5+i2)}}" *ngFor="let shift of period.shifts; let i2=index">{{shift.getShiftDate().format("ddd DD")}}</ion-col>
+          <ion-col class="payroll-column-special-hours payroll-column-12">XPN$</ion-col>
+          <ion-col class="payroll-column-special-hours payroll-column-13">Hrs</ion-col>
+          <ion-col class="payroll-column-special-hours payroll-column-14">S</ion-col>
+          <ion-col class="payroll-column-special-hours payroll-column-15">T</ion-col>
+          <ion-col class="payroll-column-special-hours payroll-column-16">Q</ion-col>
+          <ion-col class="payroll-column-special-hours payroll-column-17">H</ion-col>
+          <ion-col class="payroll-column-special-hours payroll-column-18">V</ion-col>
+          <ion-col class="payroll-column-special-hours payroll-column-19">E</ion-col>
+        </ion-row>
+      </span>
+    </ion-grid>
+    <ion-scroll class="payroll-grid-scrollbag">
+      <ion-grid class="payroll-grid">
+        <span class="payroll-grid-body">
+          <ion-row class="payroll-row-data" *ngFor="let tech of employees; let i3=index">
+            <ion-col class="col-button payroll-column-client   payroll-column-00">{{eRot.get(tech)}} </ion-col>
+            <ion-col class="col-button payroll-column-client   payroll-column-01" (tap)="showTech(tech)">{{data.getFull('client', tech.client).name}}     </ion-col>
+            <ion-col class="col-button payroll-column-location payroll-column-02" (tap)="showTech(tech)">{{data.getFull('location', tech.location).name}} </ion-col>
+            <ion-col class="col-button payroll-column-locid    payroll-column-03" (tap)="showTech(tech)">{{data.getFull('locID', tech.locID).name}}       </ion-col>
+            <ion-col class="col-button payroll-column-user    payroll-column-03-5" (tap)="showTech(tech)">{{tech.getUsername()}}       </ion-col>
+            <ion-col class="col-button payroll-column-tech     payroll-column-04" (tap)="showTech(tech)" (press)="viewTechReports(ePeriod.get(tech), tech)">{{tech.getFullName()}}</ion-col>
+             <ion-col class="col-button payroll-column-hours payroll-column-numeric payroll-column-{{sprintf('%02d',5+i4)}} {{shift.getShiftStatus(prefs.CONSOLE.payroll.showColors)}}" *ngFor="let shift of ePeriod.get(tech).getPayrollShifts(); let i4=index" (click)="viewTechReports(ePeriod.get(tech), tech)">
+              <!-- <span *ngIf="eRot.get(tech) !== 'D'">{{shift.getShiftCode()}}</span> -->
+              <span *ngIf="eRot.get(tech) !== 'D'">{{shift.getShiftLength()}}</span>
+              <span *ngIf="eRot.get(tech) === 'D'">{{shift.getShiftLength()}}</span>
+              <span *ngIf="prefs.CONSOLE.payroll.showShiftLength"> /
+                <span *ngIf="eRot.get(tech) !== 'D'">{{shift.getShiftLength()}}</span>
+                <span *ngIf="eRot.get(tech) === 'D'">{{shift.getShiftLength()}}</span>
+              </span>
+            </ion-col>
+            <!-- <ion-col class="payroll-column-special-hours payroll-column-{{sprintf('%02d',14+i5)}}"></ion-col> -->
+            <ion-col class="payroll-column-special-hours payroll-column-12"></ion-col>
+            <ion-col class="payroll-column-special-hours payroll-column-13"></ion-col>
+            <ion-col class="col-button payroll-column-special-hours payroll-column-14" [class.zero]="ePeriod.get(tech).getPayrollPeriodTotal().Standby  === 0" (tap)="showPeriodOtherReports(tech, ePeriod.get(tech))">{{ePeriod.get(tech).getPayrollPeriodTotal().Standby }}</ion-col>
+            <ion-col class="col-button payroll-column-special-hours payroll-column-15" [class.zero]="ePeriod.get(tech).getPayrollPeriodTotal().Training === 0" (tap)="showPeriodOtherReports(tech, ePeriod.get(tech))">{{ePeriod.get(tech).getPayrollPeriodTotal().Training}}</ion-col>
+            <ion-col class="col-button payroll-column-special-hours payroll-column-16" [class.zero]="ePeriod.get(tech).getPayrollPeriodTotal().Travel   === 0" (tap)="showPeriodOtherReports(tech, ePeriod.get(tech))">{{ePeriod.get(tech).getPayrollPeriodTotal().Travel  }}</ion-col>
+            <ion-col class="col-button payroll-column-special-hours payroll-column-17" [class.zero]="ePeriod.get(tech).getPayrollPeriodTotal().Holiday  === 0" (tap)="showPeriodOtherReports(tech, ePeriod.get(tech))">{{ePeriod.get(tech).getPayrollPeriodTotal().Holiday }}</ion-col>
+            <ion-col class="col-button payroll-column-special-hours payroll-column-18" [class.zero]="ePeriod.get(tech).getPayrollPeriodTotal().Vacation === 0" (tap)="showPeriodOtherReports(tech, ePeriod.get(tech))">{{ePeriod.get(tech).getPayrollPeriodTotal().Vacation}}</ion-col>
+            <ion-col class="col-button payroll-column-special-hours payroll-column-19" [class.zero]="ePeriod.get(tech).getPayrollPeriodTotal().Sick     === 0" (tap)="showPeriodOtherReports(tech, ePeriod.get(tech))">{{ePeriod.get(tech).getPayrollPeriodTotal().Sick    }}</ion-col>
+          </ion-row>
+        </span>
+      </ion-grid>
+    </ion-scroll>
+  </div>
+</ion-content>

@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{title}}</ion-title>
+    <ion-buttons right>
+      <!-- <button ion-button icon-only (click)="toggleShowAllEmployees()" title="Toggle Show All Employees">
+        <ion-icon *ngIf="showAllEmployees" class="schedule-list-options-button" name="md-eye"></ion-icon>
+        <ion-icon *ngIf="!showAllEmployees" class="schedule-list-options-button" name="md-eye-off"></ion-icon>
+      </button>
+      <button class="employees-buttons employees-csv-export" [class.highlighted]="editMode" ion-button icon-only (click)="toggleEditMode()" title="Toggle Edit Mode">
+        <i class="fa fa-pencil" aria-hidden="true"></i>
+      </button>
+      <button class="employees-buttons employees-csv-export" ion-button icon-only (click)="dt.exportCSV()" title="Export CSV">
+        <i class="fa fa-table" aria-hidden="true"></i>
+      </button>
+      <button class="employees-buttons employees-add-button" ion-button icon-only (click)="addEmployee()" title="Add Employee">
+        <i class="fa fa-plus-square-o" aria-hidden="true"></i>
+      </button> -->
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content #ionContentElement padding class="test-ion-content">
+  <!-- <page-employees></page-employees> -->
+  <!-- <page-employees-beta></page-employees-beta> -->
+  <!-- <span class="payroll-icon">&#xf47d;<span class="payroll-icon-dollar">&#xf353;</span></span> -->
+  <!-- <span class="double-icon"><span class="payroll-icon">&#xf2c0;<span class="payroll-icon-dollar">&#xf155;</span></span></span> -->
+  <!-- <i class="fa fa-user-o" aria-hidden="true"></i>
+  <span class="double-icon"><span class="payroll-icon"></span><span class="payroll-icon-dollar"></span></span> -->
+
+  <div class="clock-container">
+    <spinner-clock class="test-spinner-clock" [style.zoom]="clockStyle.zoom"></spinner-clock>
+  </div>
+</ion-content>
+<!-- <div class="datagrid-test-wrapper" *ngIf="dataReady && data.ready()">
+  <fin-datagrid [grid]="gdata"></fin-datagrid>
+</div> -->

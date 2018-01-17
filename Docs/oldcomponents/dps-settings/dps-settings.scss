@@ -1,0 +1,52 @@
+dps-settings-component, .dps-settings-component {
+  .dps-settings-panel {
+    .ui-panel {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .dps-settings-label {
+    font-weight: bold;
+  }
+  .dps-settings-spinner {
+
+  }
+  .dps-settings-list-table {
+    table-layout: fixed;
+  }
+  .col-00 {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 5px;
+    width: 150px;
+    max-width: 150px;
+  }
+  .col-01 {
+    text-align: left;
+    width: 250px;
+    max-width: 250px;
+    font-family: "Roboto Mono", "Courier New", monospace;
+    .dps-settings-input {
+      width: 240px;
+      max-width: 240px;
+      font-family: "Roboto Mono", "Courier New", monospace;
+      input {
+        font-family: "Roboto Mono", "Courier New", monospace;
+        text-align: right;
+      }
+    }
+    input {
+      width: 240px;
+      max-width: 240px;
+    }
+    .dps-settings-spinner {
+      width: 240px;
+      max-width: 240px;
+      font-family: "Roboto Mono", "Courier New", monospace !important;
+      input {
+        font-family: "Roboto Mono", "Courier New", monospace !important;
+      }
+    }
+  }
+
+}

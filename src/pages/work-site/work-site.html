@@ -1,0 +1,222 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons left>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>{{title}} ({{siteIndex}} / {{siteCount}})</ion-title>
+    <ion-buttons right>
+      <button ion-button (click)="editSiteHours($event)" title="Edit site hours" >
+        <ion-icon class="icon-normal" name="ios-clock-outline"></ion-icon>
+      </button>
+      <button ion-button (click)="addJobSite()" title="Add work site" >
+        <ion-icon class="icon-normal" name="ios-add-circle-outline"></ion-icon>
+      </button>
+      <button ion-button (click)="saveNoExit()" title="Save but don't exit page" >
+        <ion-icon class="icon-normal" name="checkmark-circle-outline"></ion-icon>
+      </button>
+      <button *ngIf="siteIndex > 1" ion-button (click)="sitePrevious()" title="Previous work site" >
+        <ion-icon class="icon-normal" name="arrow-dropleft"></ion-icon>
+      </button>
+      <button *ngIf="!(siteIndex > 1)" ion-button disabled="true" title="(No previous work site)" >
+        <ion-icon class="icon-greyedout" name="arrow-dropleft"></ion-icon>
+      </button>
+      <button *ngIf="siteIndex < siteCount" ion-button (click)="siteNext()" title="Next work site" >
+        <ion-icon class="icon-normal" name="arrow-dropright"></ion-icon>
+      </button>
+      <button *ngIf="!(siteIndex < siteCount)" ion-button disabled="true" title="(No next work site)" >
+        <ion-icon class="icon-greyedout" name="arrow-dropright"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="window" *ngIf="dataReady && data.ready()">
+    <div class="main-content-container">
+      <div class="main-content">
+
+        <div class="main-content-list">
+          <div class="content-divider">Site Database Keys</div>
+
+          <!-- WorkSite DB Location Keys -->
+          <div class="main-content-list-item">
+            <table class="worksite-location-info-table">
+              <tr class="worksite-location-info-row row-01">
+                <td class="col-01 label">Client</td>
+                <td class="col-01 data">
+                  <p-dropdown id="client-select" [class.worksite-dropdown]="true" [class.data]="true" [scrollHeight]="dropdownHeight" [options]="clientMenu" [(ngModel)]="client" (onChange)="updateClient(client)"></p-dropdown>
+                </td>
+                <td class="col-02 label">Work-Site Location</td>
+                <td class="col-02 data">
+                  <p-dropdown id="loc-select" [class.worksite-dropdown]="true" [class.data]="true" [scrollHeight]="dropdownHeight" [options]="locationMenu" [(ngModel)]="location" (onChange)="updateLocation(location)"></p-dropdown>
+                </td>
+                <td class="col-03 label">Tech Class Identifier</td>
+                <td class="col-03 data">
+                  <p-dropdown id="loc-id-select" [class.worksite-dropdown]="true" [class.data]="true" [scrollHeight]="dropdownHeight" [options]="locIDMenu" [(ngModel)]="locID" (onChange)="updateLocID(locID)"></p-dropdown>
+                </td>
+              </tr>
+              <tr class="worksite-location-info-row row-02">
+                <td class="col-01 label">Schedule Name</td>
+                <td class="col-01 data">
+                  <ion-input class="data" id="input-name" [(ngModel)]="jobsite.schedule_name"></ion-input>
+                </td>
+                <td class="col-02 label">Permanent Site Number</td>
+                <td class="col-02 data">
+                  <ion-input class="data" id="input-number" type="number" step="1" min="1001" [(ngModel)]="jobsite.site_number"></ion-input>
+                </td>
+                <td class="col-03 label">Sort Number</td>
+                <td class="col-03 data">
+                  <ion-input class="data" id="input-sort" type="number" step="1" min="0" [(ngModel)]="jobsite.sort_number"></ion-input>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="content-divider">Site Location Details</div>
+          <!-- WorkSite Details -->
+          <div class="main-content-list-item">
+            <div class="worksite-table-address-wrapper">
+              <div class="worksite-address-single-table-wrapper">
+                <span class="table-title-button-wrapper">
+                  <span class="table-title">Site Address</span>
+                  <span class="table-title-button">
+                    <i class="fa fa-arrow-circle-o-right icon-button" aria-hidden="true" title="Copy to Billing Address"  (click)="addressCopy('down')"></i>
+                  </span>
+                </span>
+                <span class="worksite-address-table-container">
+                  <table class="worksite-table-address">
+                    <tr>
+                      <td class="label">Address</td>
+                      <td  class="data"><input type="text" [(ngModel)]="jobsite.address.street.street1" /></td>
+                    </tr>
+                    <tr>
+                      <td class="label">City</td>
+                      <td  class="data"><input type="text" [(ngModel)]="jobsite.address.city" /></td>
+                    </tr>
+                    <tr>
+                      <td class="label">State</td>
+                      <td  class="data"><input type="text" [(ngModel)]="jobsite.address.state" /></td>
+                    </tr>
+                    <tr>
+                      <td class="label">ZIP</td>
+                      <td  class="data"><input type="text" [(ngModel)]="jobsite.address.zip" /></td>
+                    </tr>
+                  </table>
+                </span>
+              </div>
+              <div class="worksite-address-single-table-wrapper">
+                <span class="table-title-button-wrapper">
+                  <span class="table-title-button">
+                    <i class="fa fa-arrow-circle-o-left icon-button" aria-hidden="true" title="Copy to Billing Address"  (click)="addressCopy('up')"></i>
+                  </span>
+                  <span class="table-title">Billing Address</span>
+                </span>
+                <span class="worksite-address-table-container">
+                  <table class="worksite-table-address">
+                    <tr>
+                      <td class="label">Address</td>
+                      <td  class="data"><input type="text" [(ngModel)]="jobsite.billing_address.street.street1" /></td>
+                    </tr>
+                    <tr>
+                      <td class="label">City</td>
+                      <td  class="data"><input type="text" [(ngModel)]="jobsite.billing_address.city" /></td>
+                    </tr>
+                    <tr>
+                      <td class="label">State</td>
+                      <td  class="data"><input type="text" [(ngModel)]="jobsite.billing_address.state" /></td>
+                    </tr>
+                    <tr>
+                      <td class="label">ZIP</td>
+                      <td  class="data"><input type="text" [(ngModel)]="jobsite.billing_address.zip" /></td>
+                    </tr>
+                  </table>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="content-divider">Site Geolocation Details</div>
+          <div class="main-content-list-item">
+            <table class="site-geolocation-table">
+              <tr class="site-geolocation-row">
+                <td class="label col-01">Latitude</td>
+                <td class="data  col-01"><ion-input type="text" [(ngModel)]="siteLat" debounce [delay]="750" (func)="updateLatLon()"></ion-input></td>
+                <td class="label col-02">Longitude</td>
+                <td class="data  col-02"><ion-input type="text" [(ngModel)]="siteLon" debounce [delay]="750" (func)="updateLatLon()"></ion-input></td>
+                <td class="label col-03">Geofence Radius (meters)</td>
+                <td class="data  col-03"><ion-input type="number" step="1" min="0" [(ngModel)]="siteRadius" debounce [delay]="750" (func)="updateRadius()"></ion-input></td>
+              </tr>
+            </table>
+            <!-- <ion-item-group>
+              <ion-item-divider color="light">Site Location Details</ion-item-divider>
+              <ion-item>
+                <ion-label>Latitude</ion-label>
+                <ion-input type="text" [(ngModel)]="siteLat" debounce [delay]="750" (func)="updateLatLon()"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-label>Longitude</ion-label>
+                <ion-input type="text" [(ngModel)]="siteLon" debounce [delay]="750" (func)="updateLatLon()"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-label>Geofence Radius (meters)</ion-label>
+                <ion-input type="number" step="1" min="0" [(ngModel)]="siteRadius" debounce [delay]="750" (func)="updateRadius()"></ion-input>
+              </ion-item>
+            </ion-item-group> -->
+          </div>
+          <div class="content-divider">Site Configuration</div>
+          <div class="main-content-list-item">
+            <table class="site-config-table">
+              <tr class="site-config-row">
+                <td class="label col-01">Account No.</td>
+                <td class="data  col-01"><ion-input type="text" [(ngModel)]="jobsite.account_number"></ion-input></td>
+                <td class="label col-02">Account or Contract</td>
+                <td class="data  col-02">
+                  <!-- <ion-input type="text" [(ngModel)]="jobsite.account_or_contract"></ion-input> -->
+                  <p-dropdown id="loc-id-select" [class.worksite-dropdown]="true" [class.data]="true" [scrollHeight]="dropdownHeight" [options]="accountMenu" [(ngModel)]="jobsite.account_or_contract"></p-dropdown>
+                </td>
+              </tr>
+              <tr class="site-config-row">
+                <td class="label col-01">Travel Time</td>
+                <td class="data  col-01"><ion-input type="text" [(ngModel)]="jobsite.travel_time"></ion-input></td>
+                <td class="label col-02">Per Diem Rate</td>
+                <td class="data  col-02"><ion-input type="text" [(ngModel)]="jobsite.per_diem_rate"></ion-input></td>
+                <td class="label col-03">Lodging Rate</td>
+                <td class="data  col-03"><ion-input type="text" [(ngModel)]="jobsite.lodging_rate"></ion-input></td>
+                <td class="label col-04">Billing Rate</td>
+                <td class="data  col-04"><ion-input type="text" [(ngModel)]="jobsite.billing_rate"></ion-input></td>
+              <tr class="site-config-row">
+                <td class="label col-01">Requires Preauth</td>
+                <td class="data  col-01"><p-checkbox [(ngModel)]="jobsite.requires_preauth" binary="true"></p-checkbox></td>
+              </tr>
+              <tr class="site-config-row">
+                <td class="label col-01">Requires Work Order Reports</td>
+                <td class="data  col-01"><p-checkbox [(ngModel)]="jobsite.requires_invoice_woreports" binary="true"></p-checkbox></td>
+                <td class="label col-01">Site Active</td>
+                <td class="data  col-01"><p-checkbox [(ngModel)]="jobsite.site_active" binary="true"></p-checkbox></td>
+              </tr>
+            </table>
+          </div>
+          <div class="main-content-list-item">
+            <button type="button" ion-button color="favorite" (click)="cancel()">Cancel</button>
+            <button type="button" ion-button color="favorite" (click)="onSubmit()">Save</button>
+            <button type="button" ion-button color="favorite" (click)="saveNoExit()">Save, Don't Exit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="add-site-right-column">
+      <div class="map-col">
+        <agm-map [latitude]="jobsite.latitude" [longitude]="jobsite.longitude" [mapTypeId]="mapMode" [(zoom)]="mapZoom">
+          <agm-marker [latitude]="jobsite.latitude" [longitude]="jobsite.longitude"></agm-marker>
+          <agm-circle [latitude]="jobsite.latitude" [longitude]="jobsite.longitude" [radius]="jobsite.within" [(fillColor)]="radiusColor"></agm-circle>
+        </agm-map>
+      </div>
+    </div>
+  </div>
+  <p-dialog #hoursDialog [class.login-dialog-box]="true" header="Work Site Hours" [(visible)]="hoursDialogVisible" [draggable]="true" [resizable]="true" [closable]="hoursClosable" [modal]="hoursModalMode" *ngIf="dataReady && data.ready()">
+    <work-site-hours #workSiteHours [jobsite]="jobsite" (jobsiteUpdated)="jobsiteUpdated($event)"></work-site-hours>
+  </p-dialog>
+  <div #overlayTarget class="overlay-target"></div>
+</ion-content>
